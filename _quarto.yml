@@ -1,0 +1,36 @@
+project:
+  type: book
+
+book:
+  title: "CCHIL Lab Manual"
+  author: "Jeff Stevens"
+  date: last-modified
+  date-format: iso
+  chapters:
+    - index.qmd
+    - part: "Lab policies"
+      chapters:
+        - roles.qmd
+        - behavior.qmd
+        - onboarding.qmd
+        - logistics.qmd
+        # - ethics.qmd
+    - part: "Lab projects"
+      chapters:
+        # - experiments.qmd
+        - project_data_management.qmd
+        - version_control.qmd
+    - part: "Resources"
+      chapters:
+        - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

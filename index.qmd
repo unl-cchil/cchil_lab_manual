@@ -1,0 +1,25 @@
+
+# About the lab  {-}
+![](media/cchil_logo_red_wide.png)
+
+Welcome to the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu)! 
+
+## Mission statement  {-}
+**The mission of CCHIL is to understand how dogs behave and process information in their world as well as how interacting with dogs influences human behavior and psychology.** 
+
+CCHIL is committed to robust, transparent, and open science in all of our research endeavors and to disseminating our work to the general public via outreach activities.
+
+## Lab priorities {-}
+
+* The safety, security, and well-being of lab personnel, human participants, and animal subjects.
+* An inclusive working environment that respects diverse perspectives; seeks empathic understanding of diverse experiences, including discrimination, bias, and privilege; and fosters opportunities for underrepresented students to participate in science.
+* The integrity and transparency of data and the replicability of data analyses.
+
+## This manual {-}
+This lab manual was inspired by several others and borrows heavily from them (e.g., [@Mehr.2020]; [lab manual](https://handbook-public.themusiclab.org/) and [this one](https://github.com/alylab/labmanual)). It’s also a work in progress. If you have ideas about things to add or what to clarify, talk to me (Jeff, the PI).
+
+When you join the lab, you’re expected to read this manual and are responsible for its content.
+
+This lab manual is licensed under a [Creative Commons Attribution - NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you’re a PI or a trainee in a different lab and want to write your own lab manual, feel free to take inspiration from this one (and cite us!).
+
+Stevens, J.R. (2023). Canine Cognition and Human Interaction Lab. https://github.com/unl-cchil/cchil_lab_manual.

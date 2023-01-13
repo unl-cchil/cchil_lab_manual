@@ -1,0 +1,125 @@
+# Roles and expectations {#roles}
+
+The lab is composed of Principal Investigator (PI) Jeff Stevens, graduate students, undergraduate research assistants, and lab technicians. We also interact with staff in the Department of Psychology, the Center for Brain, Biology & Behavior (CB3), the Institutional Animal Care Program (IACP), and the Institutional Review Board (IRB). All of these people have different roles and expectations about how they interact in the lab.
+
+## CCHIL personnel
+
+### Everyone
+* Do work that you are proud of. If you’re really passionate about your research and you work hard at it, that makes a huge difference.
+* Double (even triple!) check your work. Being a little obsessive is essential to good science. 
+    - Everyone makes mistakes... the difference between a novice and an expert is that an expert acknowledges this and is meticulous. 
+    - If you do find a mistake, always tell your collaborators as soon as you can (and simultaneously work to fix the mistake). This is important at any stage of a project – even if the paper has already been written, and even if it has already been submitted! 
+    - We admit our mistakes, we correct them, and we learn from them. And then we move on.
+* Be supportive of your labmates. We are a team.
+    - Offer help even if you aren’t on the project. Help others and you can expect others to help you when you need it. 
+* Work independently when you can; ask for help when you need it.
+* Share your knowledge. Mentorship can take many forms.
+* Respect each others' strengths, weaknesses, differences, and beliefs.
+* Science is a marathon, not a sprint. Take personal time/vacation when you need it, and cultivate a life outside of the lab. Respect that other lab members also have a life outside of lab.
+* Communicate openly and respectfully with other members of the lab.
+* If you’re struggling, tell someone (feel free to tell Jeff!). Your health and happiness are important. It’s OK to go through tough patches (we all do!), but don’t feel shy about asking for help or needing to vent.
+* If you have an issue with another lab member that cannot be solved by talking with them about it, please talk with Jeff. Tension and hostility in the lab are toxic for the group dynamic. Jeff is here to help with any and all of these issues, and the sooner, the better!
+* If you have an issue with Jeff and feel comfortable talking with him about it, please do! If you’re not comfortable with that, please reach out to another member of the psychology department who can intervene (this can be a grad student for smaller lab issues or another faculty member for more serious issues). [Mike Dodd](mdodd2@unl.edu) and [Maital Neta](maitalneta@unl.edu) have agreed to be resources for lab members to approach.
+* Stay up-to-date on the latest research, either by RSS feeds, getting journal table of contents, or following scientists on Twitter/Mastodon.
+* Academia may feel different from other types of jobs, but it is still a job. You should treat coming into lab with the same respect that you would treat any other position. There are going to be aspects about the job you like more than others, but all are required. 
+* Conduct with the PI and other faculty:
+    - You may notice that Jeff is often quite casual in speech/behavior. That said, please remember that he is a tenured faculty member and head of the lab, has extensive academic experience, and a Ph.D. In that way, he is ‘senior’ (meaning in experience and power), and a good general rule is to behave formally with senior folks until you have a good handle on the appropriate level of casualness. Jeff hopes to be friendly with everyone, but his specific role is Lab PI and this will always take priority and precedence over any friend role. 
+* Conduct with other trainees and students:
+    - It is important to maintain a professional, friendly environment. You may not like someone else, but it should not be apparent in the lab! Whether you are more junior, more senior, someone’s supervisor, someone’s supervisee, etc., you should make a continued and conscious effort to work with others in a productive and collegial way. If you notice someone seems “left out” or uncomfortable, please make an effort to include them. Respect your supervisors, whether they are faculty or a student. 
+    - A lab can be competitive, where people strive to outdo each other, or collaborative, where people strive to help each other do their best. Labs can be competitive or collaborative with other labs as well. Our lab is intentionally collaborative. Each of us has a finite skill/knowledge set, and working with others gives each of us access to more information and abilities. So, helping others is important in the lab, and Jeff considers this as an important part of your performance. Other peoples’ successes reflect upon you as yours will reflect upon them. 
+
+
+### PI
+
+All of the above, plus you can expect me to:
+
+* Maintain a vision of where the lab is going.
+* Provide the funding necessary to keep the lab going.
+* Meet with you regularly to discuss your research projects. The definition of "regularly" may change over time or over the course of a project.
+* Give you feedback on a timely basis, including feedback on project ideas, conference posters, talks, manuscripts, figures, grants.
+* Give you my perspective on academia and issues related to professional development, and generally help you prepare for the next step of your career, whether that’s grad school, postdoc, faculty job, or job outside of academia.
+* Support your career development by introducing you to other researchers in the field, writing recommendation letters for you, providing you with opportunities to attend conferences when finances permit, and promoting your work in talks.
+* Care about you as a person and not just a scientist.
+* There are going to be aspects of your work that are fun, some that are challenging, and others that are downright painful (e.g., getting a manuscript rejected). I will always do my best to help you weather the ups and downs (and celebrate the ups!), but I will never let you shy away from the hard stuff... that is where the most learning and growth happens. Expect that I will support you but push you.
+
+
+### Graduate students
+
+All of the _Everyone_ expectations above, plus you will be expected to:
+
+* Develop a line of dissertation research. Ideally, your dissertation research will consist of at least three related experiments that can be packaged into three chapters of one thesis document.
+* Help train and mentor others (lab managers, undergraduate and graduate students) on their research projects – either because they ask or because I ask you to.
+    - Work with a team of undergraduate students. This will speed up data collection and give you some experience with managing and mentoring a team.
+* Present your work at departmental events, at other labs (if invited), and at conferences.
+* Apply for external funding (e.g., NSF GRFP or NRSA). If nothing else, this is a valuable experience. Ask others who have received funding for successful examples.
+* Do some soul-searching as to what type of career you want to pursue, e.g., academic jobs that are research-focused or teaching-focused, non-academic jobs like data science or science writing. Research-focused academic jobs are hard. They require a lot of work to prepare for, are rare and competitive to get, and require a lot of work to be successful. You must be super passionate about doing research and willing to work a lot for a long time to have a successful career. If you have qualms about this, you should consider other careers. And you may or may not need a Ph.D. for these careers. Talk to Jeff for help brainstorming ways of making sure you are getting the training that you need.
+* Make sure you meet all departmental deadlines (e.g., for your exams and thesis) – even if your peers are missing these deadlines! And make sure Jeff is aware of them! And **you** are responsible for knowing about deadlines. Keep up-to-date with [the PhD path](https://psychology.unl.edu/phd-path).
+* Prioritize time for research. Coursework or TA-ing are important, but ultimately your research is what earns you your Ph.D. and prepares you for the next stage of your (even non-academic) career.
+    - Talk to Jeff about coursework you’re considering (if not required).
+* Attend all relevant lab meetings or let Jeff know if you can't.
+
+
+### Undergraduate researchers
+
+All of the _Everyone_ expectations above, plus you will be expected to:
+
+* Assist other lab members with data collection or analysis (typically you will be assigned to particular projects), unless you are working on your own independent project under the mentorship of Jeff or another lab member, in which case, you should work on that.
+* Work with your research mentor to determine your weekly schedule. If you are not able to come in during your normal scheduled time, you must let the lab manager know with as much advance notice as possible.
+* Attend and participate in all lab meetings. Let Jeff or a grad student know if you can't attend.
+* If you are earning course credit for research, you must additionally:
+    - Write a short essay on your research topic or experiences due by the end of dead week.
+* If you completing a UCARE project, you must additionally:
+    - Meet all UCARE deadlines.
+    - Present at one meeting during the semester.
+
+### Lab technicians
+
+All of the _Everyone_ expectations above, plus you will be expected to:
+
+* Fulfill your duties as a lab technician. 
+* Be in the lab as needed. You may need to work some irregular hours if participating in an outreach event.
+* Oversee training of undergraduate research assistants in your area.
+* Help new lab members adjust to the lab by answering whatever questions they have that you can answer. If you can’t answer, direct their questions to Jeff.
+* Maintain the lab paperwork (e.g., protocols, media waviers).
+* Maintain the lab calendars, manage the lab shared data folders and check the lab email address.
+* Give new lab members access to the lab calendar, lab Git repository, and add their experiments to the lab shared data folder. 
+* Help to maintain an atmosphere of professionalism within the lab.
+* Tell Jeff – as soon as it becomes even a minor issue – if there are any issues with undergraduates who are having trouble fulfilling their commitments to the lab.
+* Assist Jeff with the day-to-day running of lab operations, including responding to any requests that Jeff sends along (urgent requests as indicated by Jeff should be responded to immediately).
+* Develop with Jeff your own research project if applicable.
+
+## Other personnel
+
+### Department of Psychology staff
+
+* David DiLillo---Chair of Department of Psychology. Responsible for managing department personnel, finances, and research and teaching goals. *Responsible person* designee for Title IX issues. (contact at <ddilillo2@unl.edu>)
+* Mike Dodd---Graduate Committee Chair. Responsible for managing department graduate program. (contact at <mdodd2@unl.edu>)
+* Pam Waldvogel---office associate.  Responsible for managing non-student employee appointments, onboarding/offboarding, purchases, reimbursements, keycard access to 501 Building, etc. (contact at <pwaldvogel@unl.edu>)
+* Jamie Longwell---administrative technician. Responsible for managing graduate student appointments, onboarding/offboarding, purchases, reimbursements, etc. (contact at jamie.longwell@unl.edu>)
+* Melody Scholl-Miller---computer specialist. Responsible for purchase and maintenance of computer hardware and software. (contact at <melody.scholl@unl.edu> or submit support ticket at <psycpchelp@unl.edu>)
+
+### CB3 staff
+
+* Cary Savage---Director of CB3. Responsible for managing center personnel, finances, and research goals. *Responsible person* designee for Title IX issues. (contact at <csavage@unl.edu>)
+* Kerry Eddy---administrative coordinator. Responsible for facilitating research purchases, reimbursements, travel, copies, room reservations, etc. (contact at <kerry.eddy@unl.edu>)
+* Linda Lynch---office associate. Responsible for assisting CB3 visitors/participants and facilitating room reservations, etc. (contact at <linda.lynch@unl.edu>)
+* Noah Clayton---specialized technology manager. Responsible for managing and maintaining computer hardward and software in CB3 (contact at <nclayton3@unl.edu>)
+<!--* Joanne Murray---MRI technologist. Responsible for maintaining, running, and training for MRI (contact at <jmurray14@unl.edu>)
+* Jessica Calvi---research assistant professor. Responsible for training and processing saliva samples for Salivary Bioscience Laboratory and liason with Athletics Department (contact at <jcalvi2@unl.edu>)-->
+
+### IACP staff
+
+* Kelly Heath---Director of IACP and head veterinarian. Responsible for overseeing animal care program, ensuring animal welfare, ensuring compliance with regulations, facilitating IACUC protocol submissions, supporting IACUC. (contact at <kheath3@unl.edu>)
+* Katherine (Kathy) Pinkerton---IACUC Compliance Coordinator. Responsible for ensuring animal welfare, ensuring compliance with regulations, facilitating IACUC protocol submissions, supporting IACUC, implementing IACUC training. (contact at <katherine.pinkerton@unl.edu>)
+* Anna Fitzwater---clinical veterinarian. Responsible for ensuring animal welfare, attending to animal health issues (contact at <afitzwater3@unl.edu>)
+* Megan Ebbers---IACP specialist. Responsible for maintaining IACUC training records, managing keycard access to animal facilities, managing animal food orders (contact at <mebbers2@unl.edu>)
+<!-- * Bayliegh Bohn---IACP service center facility supervisor. Responsible for ensuring bird colony cleaned and maintained, ordering bird food, managing animal care staff (contact at <bmurphy3@unl.edu>) -->
+
+### Other staff
+
+* Nate Morris---501 Building Maintenance Reporter. Responsible for reporting facilities and management issues for 501 Building (contact at <nate.morris@nebraska.edu).
+* Rachel Wenzl---Associate Director of Research Compliance Services. Responsible for overseeing Institutional Review Board protocols (contact at <rwenzl2@unl.edu>)
+
+<!-- ### Collaborators -->
+
+<!-- ## Former lab members -->

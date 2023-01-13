@@ -1,0 +1,142 @@
+# Version control with Git {#git}
+
+Git is a version control system that tracks changes in computer files and stores multiple versions of those files. The lab uses Git to maintain version controlled documents, data, and code. For shared projects, the version controlled repositories are hosted on [GitHub](https://github.com) in private and public repositories.
+
+There are lots of Git resources including:
+
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+* [Dr. Bourke's tutorial](http://cse.unl.edu/~cbourke/gitTutorial.pdf)
+* [Git Guide](https://rogerdudler.github.io/git-guide/)
+* [Software Carpentry's Version Control with Git](https://swcarpentry.github.io/git-novice/)
+* [DataCamp's Intro to Git](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
+* [Pro Git](https://git-scm.com/book/en/v2)
+* [git/github guide](https://kbroman.org/github_tutorial/)
+
+
+## Installing Git
+You will install Git in different ways depending on your operating system.
+
+#### Linux (Ubuntu) {-}
+In a terminal, type `sudo apt install git`.
+
+#### MacOS {-}
+Go to https://git-scm.com/download/mac to download and install Git.
+
+#### Windows {-}
+Go to https://git-scm.com/download/win to download and install Git.
+
+
+## Ignoring files and directories
+Git will automatically use version control on all of the files that are in the repo. But you can give it a list of files or directories that you want it to ignore and not track.
+
+* Create a `.gitignore` file in your repository directory. 
+* Add directory names (e.g., `data`) and/or file types (e.g., `*.log`)---one per line.
+* Find default ignore files at <https://gitignore.io>.
+
+## Using to GitHub
+Using GitHub is fairly straightforward, and there are lots of help resources on GitHub's website.
+
+### Create a GitHub account {-}
+
+* Go to https://github.com and click on Sign up.
+* I **highly** recommend enabling two-factor authentication for your GitHub account.
+* Send me your username when you have created an account, and I will add you to the shared lab group.
+
+### Connect your repo to your account {-}
+There are two ways to connect securely to GitHub. The first (and easiest) is to use HTTPS. This requires no special work on your part, but you must create and use a GitHub personal access token that is stored on your computer. This is the preferred method for interfacing with GitHub. The second is to use SSH, but this is not recommended unless you really know what you are doing.<!--  For this, you don't have to enter your credentials each time, but you have to save an SSH key to each computer that you will be connecting to GitHub. -->
+
+This information is drawn from [GitHub's personal access token help page](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the GitHub API or the command line. Create a PAT by going to Settings > Developer settings > Personal access tokens. Generate a new token, name it, optionally set an expiration date and limit the scope. Save the generated token in your password manager (e.g., LastPass).
+
+When you log into the GitHub website, use your GitHub password. When you are interfacing with GitHub through GitHub Desktop, Git, RStudio, etc., use the PAT. Instead of having to log into GitHub with your PAT every time you push or pull, you can [store your GitHub credentials/PAT in Git](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) by using the GitHub CLI or Git Credential Manager. If you using Linux, you can [manage GitHub credentials from R](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
+
+
+<!-- #### Create an SSH key to connect your local computer to your GitHub account -->
+
+<!-- This information is drawn from [GitHub's SSH help page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). -->
+
+<!-- * Generate a new SSH key on your computer (https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) -->
+<!-- * Check if you have a key already (`cat ~/.ssh/id_rsa.pub`).  If you see a string starting with `ssh-rsa` you already have an SSH key pair and you can skip the generate portion of the next section and skip to the copy to clipboard step. If you don't see the string or would like to generate a SSH key pair with a custom name continue onto the next step. -->
+<!-- * Open a terminal (Mac/Linux) or Git Bash (Windows), and paste the following text, substituting in your GitHub email address: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` -->
+<!-- * When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location. -->
+<!-- * Once you have input a file path you will be prompted to input a password to secure your SSH key pair. It is a best practice to use a password for an SSH key pair, but it is not required and you can skip creating a password by pressing enter.  Note that every time you connect to the GitHub server, you will need to enter your password if you add one here.  Personally, I do not have a password.  If you don't want a password, hit enter twice. -->
+<!-- * Copy the SSH key to your clipboard by locating the hidden `.ssh` folder in your home directory, opening the file in your favorite text editor, and copying it to your clipboard. -->
+<!-- * Log into your GitHub account, click on your profile in the top right corner, select *Settings > SSH and GPG keys*. -->
+<!-- * Click on *New SSH key* and insert the title and key. Use an identifiable title like ‘Work Laptop - Windows 7’ or ‘Home MacBook Pro 15’. If you manually copied your public SSH key make sure you copied the entire key starting with `ssh-rsa` and ending with your email. -->
+
+
+## Using Git commands
+Git is command-line driven software, so it is useful to know how to use a command line for your operating system. To open a command line terminal in [Windows](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows), click *Start*, type `cmd`, and select *Command Prompt*. For [Macs](https://www.wikihow.com/Get-to-the-Command-Line-on-a-Mac), open *Spotlight*, type `terminal`, and select *Terminal*. For Linux, type `Ctrl-Alt-T`. Next, if you're not familiar, you need to learn about [working from the command line](https://swcarpentry.github.io/shell-novice/).
+
+
+### Create a local repository (repo) {-}
+
+* Open a terminal.
+* Change directories to the directory in which you want to create the directory (e.g., `cd projects/this_project`).
+* Type `git init`. This creates a hidden directory on your computer call `.git` that stores all of the Git files. You have to be able to view hidden files in your operating system ([Windows](https://www.howtogeek.com/howto/windows-vista/show-hidden-files-and-folders-in-windows-vista/) and [MacOS](https://www.wikihow.com/Show-Hidden-Files-and-Folders-on-a-Mac)) to see this folder.
+
+### Clone a remote (GitHub) repository locally {-}
+
+To clone a repo means to copy it from GitHub to your computer. Cloning will create a directory for you, so you don't need to create a project-specific directory before cloning. To clone the repo, change directories to the main directory where you want the new repo to be and type:
+
+`git clone [insert SSH/URL info from remote repository]`
+
+### Add a local repository to GitHub {-}
+
+If you have already created a repo locally and want to put it on GitHub, you first need to create a new, empty repo in GitHub. Then, copy the URL (either HTTPS or SSH) from GitHub and type:
+
+`git remote add origin [insert GitHub repo URL]`
+
+### Update GitHub from local repository {-}
+
+After you've put your repo on GitHub, you'll want to update it when you make changes locally. To do this, you need to `push` the local changes to the remote repo by typing:
+
+`git push -u origin main`
+
+The term `origin` refers to your local version, and the `main` refers to the remote branch.
+
+### Update local repository from the server {-}
+
+If changes are made on the remote repo, you'll want to download them to your local repo. For this, we `pull`.
+
+`git pull`
+
+### Preserve current state of local repository (commit) {-}
+
+Version control saves the current state of a project (or subset of files). To do this, you first need to 'stage' the changes, which just means select the files that you want to save. After staging, you must 'commit' the files to actually save the files that you've staged. For each commit, you should include a message that describes what that commit does.
+
+* Stage all changes with `git add .` and individual files with `git add [insert path/filename]`.
+* Commit changes with  `git commit -m "[Insert message here]"`.
+* There is no set rule on when/what to commit, but it is useful to commit fairly frequently, and different file changes can be added to different commits.
+* Commit messages should be active declarations of what changes are in the commit. They should almost always start with a present tense imperative verb (e.g., "Add Cronbach's alpha analysis", "Remove redundant plots", "Replace frequentist t-test with Bayesian t-test"). Additional details can be given if committing in RStudio or other GUIs, but command line commit messages should be short. It takes a bit of practice to learn [How to Write a Good Git Commit Message](https://chris.beams.io/posts/git-commit/).
+
+### View remote URL {-}
+
+To see the remote URL for a particular repo, type:
+
+`git remote -v`
+
+### Change remote URL {-}
+
+To change the remote URL for a repo, type:
+
+`git remote set-url origin [Insert URL here]`
+
+### Force pull to overwrite local changes {-}
+
+Sometimes, we fall behind in pulling from the remote repo or we make local changes that we don't want to keep. To overwrite the local changes with what is on the remote repo, type:
+
+`git fetch --all`
+
+`git reset --hard origin/main`
+
+### When things go wrong {-}
+
+When things go wrong, check out [Oh Shit, Git!?!](https://ohshitgit.com/).
+
+## Using Git via GUIs
+Though Git was developed as a command-line app, there are numerous graphical user interfaces (GUIs) that you can use to run Git commands. For Windows and MacOS, you can use [GitHub Desktop](https://desktop.github.com/), which obviously integrates well with GitHub (Linux users must install a [fork](https://github.com/shiftkey/desktop)). Also, some folks like [Git Tower](https://www.git-tower.com) or [GitKracken](https://gitkraken.com). In addition, RStudio has some core Git features baked in if you use RStudio Projects. It is fairly straightforward to stage, commit, push, pull, and view your history from RStudio. While you should be able to get by with GUIs 95% of the time, there will be times when you need to use the commands in a terminal, so it make sense to be familiar with using the commands.
+
+## Git sandbox
+The lab has a [Git sandbox](https://github.com/adaptive-decision-making-lab/git_sandbox) on its GitHub account. Feel free to go play around with Git there.

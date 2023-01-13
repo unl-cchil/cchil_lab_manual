@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>CCHIL Lab Manual - 6&nbsp; Version control with Git</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./project_data_management.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">CCHIL Lab Manual</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">About the lab</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Lab policies</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./roles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./behavior.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Lab projects</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Resources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#installing-git" id="toc-installing-git" class="nav-link active" data-scroll-target="#installing-git"><span class="toc-section-number">6.1</span>  Installing Git</a></li>
+  <li><a href="#ignoring-files-and-directories" id="toc-ignoring-files-and-directories" class="nav-link" data-scroll-target="#ignoring-files-and-directories"><span class="toc-section-number">6.2</span>  Ignoring files and directories</a></li>
+  <li><a href="#using-to-github" id="toc-using-to-github" class="nav-link" data-scroll-target="#using-to-github"><span class="toc-section-number">6.3</span>  Using to GitHub</a>
+  <ul class="collapse">
+  <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">Create a GitHub account</a></li>
+  <li><a href="#connect-your-repo-to-your-account" id="toc-connect-your-repo-to-your-account" class="nav-link" data-scroll-target="#connect-your-repo-to-your-account">Connect your repo to your account</a></li>
+  </ul></li>
+  <li><a href="#using-git-commands" id="toc-using-git-commands" class="nav-link" data-scroll-target="#using-git-commands"><span class="toc-section-number">6.4</span>  Using Git commands</a>
+  <ul class="collapse">
+  <li><a href="#create-a-local-repository-repo" id="toc-create-a-local-repository-repo" class="nav-link" data-scroll-target="#create-a-local-repository-repo">Create a local repository (repo)</a></li>
+  <li><a href="#clone-a-remote-github-repository-locally" id="toc-clone-a-remote-github-repository-locally" class="nav-link" data-scroll-target="#clone-a-remote-github-repository-locally">Clone a remote (GitHub) repository locally</a></li>
+  <li><a href="#add-a-local-repository-to-github" id="toc-add-a-local-repository-to-github" class="nav-link" data-scroll-target="#add-a-local-repository-to-github">Add a local repository to GitHub</a></li>
+  <li><a href="#update-github-from-local-repository" id="toc-update-github-from-local-repository" class="nav-link" data-scroll-target="#update-github-from-local-repository">Update GitHub from local repository</a></li>
+  <li><a href="#update-local-repository-from-the-server" id="toc-update-local-repository-from-the-server" class="nav-link" data-scroll-target="#update-local-repository-from-the-server">Update local repository from the server</a></li>
+  <li><a href="#preserve-current-state-of-local-repository-commit" id="toc-preserve-current-state-of-local-repository-commit" class="nav-link" data-scroll-target="#preserve-current-state-of-local-repository-commit">Preserve current state of local repository (commit)</a></li>
+  <li><a href="#view-remote-url" id="toc-view-remote-url" class="nav-link" data-scroll-target="#view-remote-url">View remote URL</a></li>
+  <li><a href="#change-remote-url" id="toc-change-remote-url" class="nav-link" data-scroll-target="#change-remote-url">Change remote URL</a></li>
+  <li><a href="#force-pull-to-overwrite-local-changes" id="toc-force-pull-to-overwrite-local-changes" class="nav-link" data-scroll-target="#force-pull-to-overwrite-local-changes">Force pull to overwrite local changes</a></li>
+  <li><a href="#when-things-go-wrong" id="toc-when-things-go-wrong" class="nav-link" data-scroll-target="#when-things-go-wrong">When things go wrong</a></li>
+  </ul></li>
+  <li><a href="#using-git-via-guis" id="toc-using-git-via-guis" class="nav-link" data-scroll-target="#using-git-via-guis"><span class="toc-section-number">6.5</span>  Using Git via GUIs</a></li>
+  <li><a href="#git-sandbox" id="toc-git-sandbox" class="nav-link" data-scroll-target="#git-sandbox"><span class="toc-section-number">6.6</span>  Git sandbox</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="git" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Git is a version control system that tracks changes in computer files and stores multiple versions of those files. The lab uses Git to maintain version controlled documents, data, and code. For shared projects, the version controlled repositories are hosted on <a href="https://github.com">GitHub</a> in private and public repositories.</p>
+<p>There are lots of Git resources including:</p>
+<ul>
+<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+<li><a href="http://cse.unl.edu/~cbourke/gitTutorial.pdf">Dr.&nbsp;Bourke’s tutorial</a></li>
+<li><a href="https://rogerdudler.github.io/git-guide/">Git Guide</a></li>
+<li><a href="https://swcarpentry.github.io/git-novice/">Software Carpentry’s Version Control with Git</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-git-for-data-science">DataCamp’s Intro to Git</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git</a></li>
+<li><a href="https://kbroman.org/github_tutorial/">git/github guide</a></li>
+</ul>
+<section id="installing-git" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="installing-git"><span class="header-section-number">6.1</span> Installing Git</h2>
+<p>You will install Git in different ways depending on your operating system.</p>
+<section id="linux-ubuntu" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="linux-ubuntu">Linux (Ubuntu)</h4>
+<p>In a terminal, type <code>sudo apt install git</code>.</p>
+</section>
+<section id="macos" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="macos">MacOS</h4>
+<p>Go to https://git-scm.com/download/mac to download and install Git.</p>
+</section>
+<section id="windows" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="windows">Windows</h4>
+<p>Go to https://git-scm.com/download/win to download and install Git.</p>
+</section>
+</section>
+<section id="ignoring-files-and-directories" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="ignoring-files-and-directories"><span class="header-section-number">6.2</span> Ignoring files and directories</h2>
+<p>Git will automatically use version control on all of the files that are in the repo. But you can give it a list of files or directories that you want it to ignore and not track.</p>
+<ul>
+<li>Create a <code>.gitignore</code> file in your repository directory.</li>
+<li>Add directory names (e.g., <code>data</code>) and/or file types (e.g., <code>*.log</code>)—one per line.</li>
+<li>Find default ignore files at <a href="https://gitignore.io" class="uri">https://gitignore.io</a>.</li>
+</ul>
+</section>
+<section id="using-to-github" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="using-to-github"><span class="header-section-number">6.3</span> Using to GitHub</h2>
+<p>Using GitHub is fairly straightforward, and there are lots of help resources on GitHub’s website.</p>
+<section id="create-a-github-account" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="create-a-github-account">Create a GitHub account</h3>
+<ul>
+<li>Go to https://github.com and click on Sign up.</li>
+<li>I <strong>highly</strong> recommend enabling two-factor authentication for your GitHub account.</li>
+<li>Send me your username when you have created an account, and I will add you to the shared lab group.</li>
+</ul>
+</section>
+<section id="connect-your-repo-to-your-account" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="connect-your-repo-to-your-account">Connect your repo to your account</h3>
+<p>There are two ways to connect securely to GitHub. The first (and easiest) is to use HTTPS. This requires no special work on your part, but you must create and use a GitHub personal access token that is stored on your computer. This is the preferred method for interfacing with GitHub. The second is to use SSH, but this is not recommended unless you really know what you are doing.<!--  For this, you don't have to enter your credentials each time, but you have to save an SSH key to each computer that you will be connecting to GitHub. --></p>
+<p>This information is drawn from <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">GitHub’s personal access token help page</a>.</p>
+<p>Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the GitHub API or the command line. Create a PAT by going to Settings &gt; Developer settings &gt; Personal access tokens. Generate a new token, name it, optionally set an expiration date and limit the scope. Save the generated token in your password manager (e.g., LastPass).</p>
+<p>When you log into the GitHub website, use your GitHub password. When you are interfacing with GitHub through GitHub Desktop, Git, RStudio, etc., use the PAT. Instead of having to log into GitHub with your PAT every time you push or pull, you can <a href="https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git">store your GitHub credentials/PAT in Git</a> by using the GitHub CLI or Git Credential Manager. If you using Linux, you can <a href="https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/">manage GitHub credentials from R</a>.</p>
+<!-- #### Create an SSH key to connect your local computer to your GitHub account -->
+<!-- This information is drawn from [GitHub's SSH help page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). -->
+<!-- * Generate a new SSH key on your computer (https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) -->
+<!-- * Check if you have a key already (`cat ~/.ssh/id_rsa.pub`).  If you see a string starting with `ssh-rsa` you already have an SSH key pair and you can skip the generate portion of the next section and skip to the copy to clipboard step. If you don't see the string or would like to generate a SSH key pair with a custom name continue onto the next step. -->
+<!-- * Open a terminal (Mac/Linux) or Git Bash (Windows), and paste the following text, substituting in your GitHub email address: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` -->
+<!-- * When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location. -->
+<!-- * Once you have input a file path you will be prompted to input a password to secure your SSH key pair. It is a best practice to use a password for an SSH key pair, but it is not required and you can skip creating a password by pressing enter.  Note that every time you connect to the GitHub server, you will need to enter your password if you add one here.  Personally, I do not have a password.  If you don't want a password, hit enter twice. -->
+<!-- * Copy the SSH key to your clipboard by locating the hidden `.ssh` folder in your home directory, opening the file in your favorite text editor, and copying it to your clipboard. -->
+<!-- * Log into your GitHub account, click on your profile in the top right corner, select *Settings > SSH and GPG keys*. -->
+<!-- * Click on *New SSH key* and insert the title and key. Use an identifiable title like ‘Work Laptop - Windows 7’ or ‘Home MacBook Pro 15’. If you manually copied your public SSH key make sure you copied the entire key starting with `ssh-rsa` and ending with your email. -->
+</section>
+</section>
+<section id="using-git-commands" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="using-git-commands"><span class="header-section-number">6.4</span> Using Git commands</h2>
+<p>Git is command-line driven software, so it is useful to know how to use a command line for your operating system. To open a command line terminal in <a href="https://www.wikihow.com/Open-the-Command-Prompt-in-Windows">Windows</a>, click <em>Start</em>, type <code>cmd</code>, and select <em>Command Prompt</em>. For <a href="https://www.wikihow.com/Get-to-the-Command-Line-on-a-Mac">Macs</a>, open <em>Spotlight</em>, type <code>terminal</code>, and select <em>Terminal</em>. For Linux, type <code>Ctrl-Alt-T</code>. Next, if you’re not familiar, you need to learn about <a href="https://swcarpentry.github.io/shell-novice/">working from the command line</a>.</p>
+<section id="create-a-local-repository-repo" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="create-a-local-repository-repo">Create a local repository (repo)</h3>
+<ul>
+<li>Open a terminal.</li>
+<li>Change directories to the directory in which you want to create the directory (e.g., <code>cd projects/this_project</code>).</li>
+<li>Type <code>git init</code>. This creates a hidden directory on your computer call <code>.git</code> that stores all of the Git files. You have to be able to view hidden files in your operating system (<a href="https://www.howtogeek.com/howto/windows-vista/show-hidden-files-and-folders-in-windows-vista/">Windows</a> and <a href="https://www.wikihow.com/Show-Hidden-Files-and-Folders-on-a-Mac">MacOS</a>) to see this folder.</li>
+</ul>
+</section>
+<section id="clone-a-remote-github-repository-locally" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="clone-a-remote-github-repository-locally">Clone a remote (GitHub) repository locally</h3>
+<p>To clone a repo means to copy it from GitHub to your computer. Cloning will create a directory for you, so you don’t need to create a project-specific directory before cloning. To clone the repo, change directories to the main directory where you want the new repo to be and type:</p>
+<p><code>git clone [insert SSH/URL info from remote repository]</code></p>
+</section>
+<section id="add-a-local-repository-to-github" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="add-a-local-repository-to-github">Add a local repository to GitHub</h3>
+<p>If you have already created a repo locally and want to put it on GitHub, you first need to create a new, empty repo in GitHub. Then, copy the URL (either HTTPS or SSH) from GitHub and type:</p>
+<p><code>git remote add origin [insert GitHub repo URL]</code></p>
+</section>
+<section id="update-github-from-local-repository" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="update-github-from-local-repository">Update GitHub from local repository</h3>
+<p>After you’ve put your repo on GitHub, you’ll want to update it when you make changes locally. To do this, you need to <code>push</code> the local changes to the remote repo by typing:</p>
+<p><code>git push -u origin main</code></p>
+<p>The term <code>origin</code> refers to your local version, and the <code>main</code> refers to the remote branch.</p>
+</section>
+<section id="update-local-repository-from-the-server" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="update-local-repository-from-the-server">Update local repository from the server</h3>
+<p>If changes are made on the remote repo, you’ll want to download them to your local repo. For this, we <code>pull</code>.</p>
+<p><code>git pull</code></p>
+</section>
+<section id="preserve-current-state-of-local-repository-commit" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="preserve-current-state-of-local-repository-commit">Preserve current state of local repository (commit)</h3>
+<p>Version control saves the current state of a project (or subset of files). To do this, you first need to ‘stage’ the changes, which just means select the files that you want to save. After staging, you must ‘commit’ the files to actually save the files that you’ve staged. For each commit, you should include a message that describes what that commit does.</p>
+<ul>
+<li>Stage all changes with <code>git add .</code> and individual files with <code>git add [insert path/filename]</code>.</li>
+<li>Commit changes with <code>git commit -m "[Insert message here]"</code>.</li>
+<li>There is no set rule on when/what to commit, but it is useful to commit fairly frequently, and different file changes can be added to different commits.</li>
+<li>Commit messages should be active declarations of what changes are in the commit. They should almost always start with a present tense imperative verb (e.g., “Add Cronbach’s alpha analysis”, “Remove redundant plots”, “Replace frequentist t-test with Bayesian t-test”). Additional details can be given if committing in RStudio or other GUIs, but command line commit messages should be short. It takes a bit of practice to learn <a href="https://chris.beams.io/posts/git-commit/">How to Write a Good Git Commit Message</a>.</li>
+</ul>
+</section>
+<section id="view-remote-url" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="view-remote-url">View remote URL</h3>
+<p>To see the remote URL for a particular repo, type:</p>
+<p><code>git remote -v</code></p>
+</section>
+<section id="change-remote-url" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="change-remote-url">Change remote URL</h3>
+<p>To change the remote URL for a repo, type:</p>
+<p><code>git remote set-url origin [Insert URL here]</code></p>
+</section>
+<section id="force-pull-to-overwrite-local-changes" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="force-pull-to-overwrite-local-changes">Force pull to overwrite local changes</h3>
+<p>Sometimes, we fall behind in pulling from the remote repo or we make local changes that we don’t want to keep. To overwrite the local changes with what is on the remote repo, type:</p>
+<p><code>git fetch --all</code></p>
+<p><code>git reset --hard origin/main</code></p>
+</section>
+<section id="when-things-go-wrong" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="when-things-go-wrong">When things go wrong</h3>
+<p>When things go wrong, check out <a href="https://ohshitgit.com/">Oh Shit, Git!?!</a>.</p>
+</section>
+</section>
+<section id="using-git-via-guis" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="using-git-via-guis"><span class="header-section-number">6.5</span> Using Git via GUIs</h2>
+<p>Though Git was developed as a command-line app, there are numerous graphical user interfaces (GUIs) that you can use to run Git commands. For Windows and MacOS, you can use <a href="https://desktop.github.com/">GitHub Desktop</a>, which obviously integrates well with GitHub (Linux users must install a <a href="https://github.com/shiftkey/desktop">fork</a>). Also, some folks like <a href="https://www.git-tower.com">Git Tower</a> or <a href="https://gitkraken.com">GitKracken</a>. In addition, RStudio has some core Git features baked in if you use RStudio Projects. It is fairly straightforward to stage, commit, push, pull, and view your history from RStudio. While you should be able to get by with GUIs 95% of the time, there will be times when you need to use the commands in a terminal, so it make sense to be familiar with using the commands.</p>
+</section>
+<section id="git-sandbox" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="git-sandbox"><span class="header-section-number">6.6</span> Git sandbox</h2>
+<p>The lab has a <a href="https://github.com/adaptive-decision-making-lab/git_sandbox">Git sandbox</a> on its GitHub account. Feel free to go play around with Git there.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./project_data_management.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

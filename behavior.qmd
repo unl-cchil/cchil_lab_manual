@@ -1,0 +1,124 @@
+# Behavior and communication {#behavior}
+
+## Code of conduct
+The lab, and the university, is an environment that must be free of harassment and discrimination. All lab members must read and abide by the UNL [policies on discrimination and harassment](https://registrar.unl.edu/academic-standards/discrimination-harassment/).
+
+The lab is committed to ensuring a safe, friendly, and accepting environment for everybody. We will not tolerate any verbal or physical harassment or discrimination on the basis of gender, gender identity and expression, age, sexual orientation, political orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We will not tolerate intimidation, stalking, following, unwanted photography or video recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Sexual language and imagery are generally not appropriate for any lab venue, including lab meetings, presentations, or discussions. Finally, it should go without saying that lewd language and behavior have no place in the lab, including any lab outings. 
+
+Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Harassment of any kind will not be tolerated and will result in the harasser being asked immediately to leave the lab and subjected to any and all university and legal sanctions.
+
+If you notice someone being harassed, or are harassed yourself, tell Jeff immediately. If Jeff is the cause of your concern, then reach out to the Department Chair or another trusted faculty member in the department. See [Problems](#problems) for more resources.
+
+If you have any suggestions about lab culture, how we do things, or anything at all, you are always welcome to contact Jeff or a graduate student to discuss. 
+
+### Scientific integrity
+#### Research misconduct {-}
+The lab, and UNL, is committed to ensuring research integrity, and we take a hard line on research misconduct. We will not tolerate fabrication, falsification, or plagiarism. Read UNL’s [Responsible Conduct of Research policy](https://research.unl.edu/researchcompliance/responsible-conduct-of-research/)  and their [Research Misconduct policy](https://research.unl.edu/researchcompliance/about-research-misconduct/).
+
+If you are feeling pressured to succeed (publish a lot, publish in high impact journals), you should reach out to Jeff and we can talk about it – but this pressure is something we all face and is never an excuse to fabricate, falsify, or plagiarize. Also, think about the goal of science and why you are here: you’re here to arrive at the truth, to get as close as we can to facts about human and non-human behavior. Not only is research misconduct doing you a disservice, it’s also a disservice to the field. And it risks your entire career. It is never right and never worth it. Don’t do it.
+
+#### Open science {-}
+Our policy on open science is simple: we share all data, materials, and code upon posting a preprint or publishing a paper, whenever possible. Sometimes there are circumstances where we cannot do this (e.g., we do not own the data, so we are legally obligated to keep it private; or we need to hold off on public sharing until a paper is published to avoid getting scooped). Because of this, you must have explicit permission from Jeff to post data, materials, or code publicly. More details are available in [Reproducible research and open science](#reproducible).
+
+### Authorship {#authorship}
+We will follow APA guidelines with respect to authorship:
+
+> Authorship credit should reflect the individual's contribution to the study. An author is considered anyone involved with initial research design, data collection and analysis, manuscript drafting, and final approval. However, the following do not necessarily qualify for authorship: providing funding or resources, mentorship, or contributing research but not helping with the publication itself. The primary author assumes responsibility for the publication, making sure that the data are accurate, that all deserving authors have been credited, that all authors have given their approval to the final draft; and handles responses to inquiries after the manuscript is published.
+
+Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. In general, I expect that graduate students will be first authors on publications on which they are the primary lead, and I will be the last author. Talk to Jeff right away if you aren’t sure if you are first author. Students who help over the course of the project may be added to the author list depending on their contribution, and their placement will be discussed with all parties involved in the paper. These discussions and decisions will be spearheaded by the first author, in consultation with Jeff. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. For example, if a student hands a project off to another lab member, they will most likely lose first-authorship to the new project leader. If a student collects a dataset but does not completely analyze it and write it up, Jeff will re-assign the project (if appropriate) to another person (who will become first author) to expedite publication. 
+
+All of these issues will be discussed openly, and you should feel free to bring them up if you are not sure of your authorship status or want to challenge it. Again, these discussions should be addressed with the first author, but Jeff is always happy to help with negotiations should the need arise.
+
+### Human subjects and animal research
+Because we are engaged in human subjects and animal research, it is of the utmost importance that we adhere to our approved IRB and IACUC protocols. Non-adherence to these protocols can lead to severe consequences for the entire lab (i.e., we may lose permission to conduct any research!). All lab members must read and comply with the IRB consent form and research summary for any project that they are working on. Lab members must also complete the CITI training and be added to the research personnel list before they can work with subjects. If there are any questions about the protocols, or if you're not sure whether we have approval to run your study, please ask the project manager or me for clarification. If necessary, we can file an amendment to an existing protocol or create a new protocol. But you *must not deviate from the protocol* unless you have been specifically instructed to do so by Jeff or your supervisor.
+
+If you encounter any problems in the course of doing research that results in a negative outcome for the participant (e.g., if a participant becomes ill or upset, if there is an accident with the equipment, if there is a breach of confidentiality, etc) or animal subject, you should immediately seek assistance from Jeff or the project manager. If Jeff is not around, you must notify him within 24 hours, preferably as soon as possible. In some cases, we may need to report this information to the IRB, IACUC, and/or our funding agencies.
+
+### Confidentiality
+All research data and materials in the lab are assumed to be confidential until they are publicly shared and should be treated as such. Our IRB reviews our research practices to ensure that only approved personnel have access to data. It is your responsibility to ensure that confidential materials are never made available to unapproved individuals. This means, for instance, that you must:
+
+* never share your login credentials to lab resources with outside individuals; 
+* never distribute passwords, which could compromise the confidentiality of our data and materials; 
+* never discuss or share any participant information outside the lab, including identifiable information (like people's names or contact information), performance in studies, correspondence with parents, and so on;
+* never store confidential materials on personal computers or phones;
+* when using data outside the lab, ensure that you delete all local copies after using them, and ensure that no one other than you can view or access data (including videos); and
+* never allow unapproved individuals to enter the lab unaccompanied, and if such an individual is in the lab, ensure they cannot access any confidential information.
+
+### Photos & videos
+
+We respect the privacy and comfort of lab members by only taking photos or video recordings of them with their explicit knowledge and consent. This is especially important in situations where a lab member would otherwise not be aware of you taking a photo and therefore cannot object if they do not want you to (e.g., using a still from a video while they are participating in an experiment). To avoid ambiguity about when a lab member is vs. is not aware of photos being taken, you must obtain direct consent from lab members before taking photos or videos, and obtain consent again before posting any images on social media. 
+
+Note that this also applies to our research participants. Unless a participant explicitly asks you to do so, you may not photograph your participant during an experiment (aside from an official video record of the experiment).
+
+Finally, lab members are not allowed to  photograph or video record subjects in the animal research areas. Dog owners may consent to having their dog's photo taken for posting on social media. Dog owners are allowed to photograph their dogs in our lab.
+
+
+### Diversity and inclusion {#diversity}
+We hope to make the lab a diverse working environment. We recruit people from a variety of backgrounds who have a variety of perspectives, life and professional experiences, skills, and interests. However, the lab is small enough that all lab members are likely to be an exclusive member of some sort of group, whether other lab members recognize this or not. Sometimes this may be more apparent, if the make-up of the lab group is highly skewed. Highlighting individuals’ group membership by asking them to be ‘ambassadors’ or representatives of their group (or in some other way) can be tiresome and offensive to an individual so singled out, but ignoring diversity can be equally problematic. Keep this balance in mind as you communicate with each other and about group memberships. Please think of this both in a systemic way (e.g. would a lab where group membership was continually emphasized or ignored be a positive place to work?) and an individual way (e.g. would I want to work in a lab where people seemed to focus on only X about me to the general exclusion of everything else? Or, where people ignored X about me, despite my making its centrality in my life clear?). Even if an individual is not offended, please do not unfairly place a burden on someone by asking them to represent a group and/or correct your problematic behavior. Please try to avoid making broad assumptions about various group memberships (e.g. women are so A, men are so B). Also, consider whether some terms (e.g. ‘guys’) are really (gender- etc.) neutral and consider alternatives (e.g. folks).
+
+Some group memberships can be less visible or invisible until they become apparent for various reasons (e.g. sexual orientation, religious affiliation, ethnicity, disability, socioeconomic status). Try to avoid making assumptions about individuals, and help ensure that the lab is a positive place for diverse folks. This will make the lab a better place to work, but is also required by the law. 
+
+If someone makes a comment you find offensive (whether it is a comment directed to you or your group membership, or someone else’s), please make your best effort to work from the assumption that there may be a misunderstanding and that communication is the best way to clear this up. Document the situation by making a note of it somewhere. Approach the person immediately or within the week to let them know (a) what they said, (b) it offended you, (c) why you found it offensive, and potentially (d) what they might say instead.  Language norms change over time and from place to place, so individuals might not be aware of what is currently considered offensive and what is currently considered appropriate and respectful. If concerns remain and/or the situation is serious, please bring it to Jeff’s attention as soon as possible. Jeff would like to promote a lab environment where folks feel comfortable to communicate respectfully. 
+
+
+## Lab culture
+
+We aim to have a healthy research culture for all lab members. To this end, we follow the "Ten simple rules towards healthier research labs" [@Maestre.2019] and add a few more.
+
+1. **Promote the well-being of lab members:** One of the lab priorities is the safety, security, and well-being of lab personnel. We care about you and wish you to be successful. We expect all lab members to be kind and avoid harassment and discrimination. We are sensitive to dealing with lab members' personal, family, and health situations, and we carefully listen to lab members regarding any matter related to their work that can improve their well-being. Lab members don't have to provide details, but please let Jeff or a grad student know if you need time away from the lab.
+
+11. **Foster diversity and inclusion:** One of the lab priorities is to maintain an inclusive working environment that respects diverse perspectives; seeks empathic understanding of diverse experiences, including discrimination, bias, and privilege; and fosters opportunities for underrepresented students to participate in science (See [Diversity and inclusion](#diversity)). We do not discriminate based on sex, gender identity, sexual orientation, religious affiliation, ethnicity, disability, socioeconomic status, first generation status. We encourage individuals from underrepresented groups to join and participate in the lab.
+
+12. **Ensure transparent data and replicable analsyses:** One of the lab priorities is to maintain the integrity and transparency of data and the replicability of data analyses (see [Reproducible research and open science](#reproducible)). We maintain a transparent [project workflow](#project-workflow) from data collection analysis. We share all data, materials, and code upon posting a preprint or publishing a paper, whenever possible. We rely on open access software as much as possible (see [Software](#software)).
+
+2. **Let people set their own schedules:** Jeff tends to work in his office (or home office) from 8am-5:30pm Monday-Friday and as needed in the evenings and weekends. Other lab members, however, may have different preferences for working hours. Everyone is expected to fulfill their full weekly work time and is welcome to set their own work schedule within the constraints of their tasks (e.g., running human participants or animal subjects at appointed times). However, if your hours differ greatly from the standard 8am-5pm work day, consider how to be trade off work on collaborative projects to avoid losing days of work. Lab members can work remotely when this is appropriate for their project.
+
+3. **Gratitude:** This lab could not function without the help from all of the students and staff. Jeff is extremely grateful for all of the hard work that lab members pour into the lab. If you do not feel like your role is appreciated, please contact him to discuss this. Because you definitely are appreciated!
+
+4. **Treat your lab members as teammates:** Jeff is the PI for the lab, so he sets the vision and research priorities for the lab and has the last say on multiple matters in the lab. But the aim is to have a relatively 'flat hierarchy' where all lab members are treated as valued colleagues. All lab members' opinions and contributions are important, and Jeff would very much like to hear your suggestions for how to improve any aspect of the lab and research (though please do not make changes with out getting permission!).
+
+5. **Create a collaborative environment:** Doing science is a collective endeavor, and we actively foster collaborations within the labs. We do this by requiring attendance of lab meetings where we get updates and feedback on research projects. If you have ideas for projects, please discuss them with Jeff and/or grad students in the lab. We expressly build a collaborative rather than a competitive research environment.
+
+6. **Every lab member is unique:** While comparisons are inevitable, each lab member brings unique skills, ideas, and experiences to the lab. What a boring lab it would be if everyone were the same! When you interview with Jeff before joining the lab, he will ask about career goals. This is to help tailor your lab experience to your aspirations. If those change or if you see ways that the lab can facilitate your personal goals, talk with Jeff and/or grad students. We want to leverage everyone's unique contributions and focus them toward helping achieve their goals.
+
+7. **Respect working hours, public holidays, and vacations:** While some lab members may choose to work on evenings, weekends, and holidays, typically this is not expected unless there are extenuating circumstances (e.g., urgent deadline, public outreach event).  Lab members are encouraged to take vacations. Undergraduate assistants are not expected to work over fall break, winter break, spring break, or summer break, but they can if they would like. Grad students are encouraged to take vacation time during winter and summer break (1-2 weeks), depending on on their funding and research situation. Other vacation times are allowed, too. The important thing is to make sure to notify Jeff and/or grad students in advance of when you will be away.
+
+8. **Give credit where credit is due:** We try to be clear about authorship by deciding on who will be an author early in the research project (see [Authorship](#authorship)). Undergraduate assistants and lab technicians can be authors when they materially contribute to the project. Jeff will not be on papers that he does not materially contribute to. Papers and presentations should acknowledge the assistance of lab members who help with projects.
+
+9. **Destigmatize failure and celebrate success:** Projects fail and papers, grant applications, and job applications are rejected. A lot. Rejections are the rule rather than the exception. We will all struggle scientifically---this is not a reflection on us as people. We must learn from rejection and use that to improve our science. We must also celebrate our successes---not just our big successes, like paper acceptances, grants, and jobs, but also smaller successes like submitting a paper and giving a presentation. The road to good science is paved with a lot of small accomplishments, each of which should be celebrated!
+
+10. **Promote the professional development of your lab members:** Members of the lab come from a range of backgrounds and have a range of career goals. We want to help develop you to meet your professional goals. We will try to assign you to projects that helps you toward your goals, and we will try to offer professional development opportunities during lab meetings and other times. Undergraduate assistants can help design and implement studies, as well as analyze and present data. Grad students can gain experience mentoring undergraduate assistants. We financially possible, we will help send students to conferences to present their work. Contact Jeff if you see opportunities to achieve your career goals.
+
+11. **Express your curiosity and critical thinking:** Science is driven by curiosity. We recruit curious people to the lab because we want to answer questions, and curiosity is needed to reveal potential answers to those questions. So we encourage lab members to ask questions, propose ideas, suggest changes, question the status quo of what we are doing. Be bold. Speak up. Challenge us intellectually. Think about things from another perspective. There are no stupid questions or suggestions. We want to hear your ideas. We may not be able to act on them, but we want to hear them. Your voice will be heard.
+
+## Communication
+
+The key to a healthy lab is communication. So please don't ever feel afraid to reach out to Jeff or any lab members. We would rather you reach out too often than not enough. Here's how we communicate in the lab:
+
+### Teams {#teams}
+The primary means of communication among lab members is the lab Microsoft Teams workspace. Upon entering the lab everyone should install Teams on their phones and computers. Turn on the notification settings for the channels that you're a part of, and also please regularly check Teams and reply there when needed.
+
+Teams is divided into *channels* that have different members in them. Some of these channels are project specific, and others are just a group of specific individuals (e.g., grad students). Most of the channels are open, so you are welcome to join them to observe or participate in what is going on. Here is some Teams etiquette.
+
+* Use Teams as a positive forum. Do not post potentially offensive material.
+* Important messages can be pinned so that they are saved.
+* You can use bullet points (to combine posts) by starting a line with `*` and a space then hit `Enter` to start a new line without posting the message.
+* You can attach multiple files to one message rather than sending separate messages.
+* You can direct message lab members. Jeff **cannot view these messages**. However, this software is run by UNL, therefore the ITS folks have access to everything that we post in Teams. So assume your post is being monitored.
+* Messages in public/shared channels can be viewed by people who join the channel after the messages are posted.
+* Don't post to the `General` channel unless it needs to go to **everyone** in all of the labs (this should rarely be used by anyone but Jeff). 
+* Feel free to use the `random` channel to post (appropriate) jokes or other random things.
+
+### Communication types and timing
+
+Outside of Teams, email is Jeff's preferred mode of communication. Feel free to prompt him via email if he doesn't respond via Teams after a day (sometimes Teams doesn't send notifications properly, or he reads the notification when he is not able to respond and then forgets about it). If something is urgent or difficult to communicate over Teams or email, feel free to call Jeff. Text is the least preferred method of communicating with Jeff.
+
+### Meetings
+
+Usually, Jeff meets with grad students weekly to keep up-to-date with projects and to offer a regular opportunity to get feedback. If you would like to meet at other times, just contact Jeff over Teams to see when he is available. When meeting, it is often useful to give a quick recap of the project before discussing issues/questions that you have. There are a lot of different projects going on in the lab, and it can be difficult to remember exactly what is going on with each one. It is often useful for the student to take notes during the meeting to ensure that everything is accounted for. 
+
+### Problems {#problems}
+
+Open communication is the key to preventing or resolving problems in the lab. If you are having problems with other students or lab equipment/materials, contact Jeff or a grad student. If you are having problems with a grad student, contact Jeff. If you are having a problem with Jeff, contact Jeff. If you're not comfortable contacting Jeff, you can contact other faculty ([Mike Dodd](mailto:mdodd2@unl.edu) and [Maital Neta](maitalneta@unl.edu) have agreed to be available for lab members to contact), the Department Chair ([David DiLillo](mailto:ddilillo2@unl.edu)), or the Graduate Committee Chair ([Mike Dodd](mailto:mdodd2@unl.edu)). If these parties cannot resolve the issue, a formal grievance can be submitted to the Department Chair or directly to a member of the department [Grievance Committee](https://psychology.unl.edu/committees) (see instructions in [Department Bylaws](https://psychology.unl.edu/Psych%20Dept%20Bylaws.pdf)). For sexual harassment or misconduct issues, contact the UNL [Title IX Office](https://www.unl.edu/equity/title-ix).
+
+

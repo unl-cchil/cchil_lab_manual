@@ -1,0 +1,116 @@
+# Logistics {#logistics}
+
+## General lab policies
+
+* Research is a meticulous business. Please make sure to take your time and do your jobs well. Attention to detail is critical for our research.
+* Keep the lab tidy. Clean up messes. If you're using lab equipment, put it away when you're done.
+* Close/lock the doors to the lab if no one else is around, even if you're stepping out for a short break (e.g., to get coffee).
+* Arrive to lab at least 15 minutes before you have any human subject experiments scheduled, so that you will be there to greet the participants.
+* Show up to all meetings, show up to run your participants, show up for any other commitments (classes, lab meetings). 
+* You are expected to meet any and all deadlines set by Jeff (or agreed upon among collaborators). If you are going to miss a deadline, you must give advance notice along with a reason and a proposed new deadline that must be agreed upon by all parties.
+    - If you are hoping to submit an abstract to a conference, you must inform the members of the project team (including Jeff) no less than 2 weeks prior to the abstract deadline, and you must complete a draft of the abstract no less than 1 week prior to the deadline. 
+    - For posters, a draft must be completed two weeks prior to the conference in order to facilitate feedback from the team (first) and then the wider group (lab and other colleagues in the department/CB3).
+* If you’re sick, stay home and rest. Because you need it and because others don’t need to get sick.  Notify your supervisor if you will be out, either due to illness or vacation. If you are sick and you had experiments or meetings scheduled that day, notify your participants or collaborators and reschedule.
+* You are not expected to come into lab on staff holidays. If you are being paid, then you are expected to come into lab during university breaks (except for staff holidays or if you're taking your paid vacation time).
+* The dress code in academia is generally casual. My only request is that you look semi-professional when interacting with participants and when presenting your work. Jeans are fine, gym clothes and pajamas are not.
+For the dog lab, scrubs are available for you to use.
+* Personal protective equipment (PPE) is currently a moving target. Working in the dog lab requires a mask when interacting with owners and gloves when interacting with a dog (scrubs are highly recommended). Human research is currently suspended.
+* Food and drink are allowed in the dog lab, but please keep them in the office or food-preparation area and clean up any spills.
+ * Well-behaved dogs are allowed in the dog lab and the CB3 bullpen when they need to be on campus for research or educational purposes (e.g., human-animal interaction study, training for HAI study, dog destressing event, outreach activities, guest lectures). Dogs are not allowed in university buildings (including CB3) if they do not fall under one of Jeff's IACUC protocols. Check with Jeff before bringing your dog into a university building. Note that it is super important not to jeopardize the lab's ability to bring dogs into campus buildings for research and educational purposes. Therefore, to protect this ability, Jeff will report violations of the [campus animal policy](https://bf.unl.edu/policies/pets).
+ * We have shared-use lockers in B71 and in the B-level bullpen for secure research materials (e.g., signed consent forms, equipment, participant payment). Contact Jeff to get access to those lockers.
+
+
+
+## Lab space
+
+### CB3
+
+The lab has exclusive and shared space in three locations. Jeff's and grad student office space is in the [Center for Brain, Biology & Behavior (CB3)](https://cb3.unl.edu), which is located in the [southeast corner of Memorial Stadium](https://maps.unl.edu/STE). Anyone without a UNL parking permit will need to park in the [metered parking south of Memorial Stadium](https://maps.unl.edu/#parking/65) or the [Memorial Drive parking garage](https://maps.unl.edu/SDPG) on the southwest corner of the stadium. 
+Enter the doors with the NCB3 sign above it, and proceed to the reception.  Upon entering CB3, you can ask Linda at the reception to give you directions to Jeff's office or, if she is not available, take the elevator (just around the corner from her desk) to level B (press BR on the panel to open the doors closest to his office).
+
+Jeff's office is B83 East Stadium, and grad students have desks in the bullpen on level B down the hall. We currently have exclusive access to <!--C56C to conduct human-animal interaction studies. We also have exclusive access to--> B71J and shared access to other rooms in B71 for human computer-based testing. There is also meeting space on the B and C levels that can be scheduled through Linda Lynch (contact at <linda.lynch@unl.edu>). CB3 is open from 7:45am-5pm Monday-Friday. If you need access to the building outside of those hours, contact Jeff.
+
+### Canine Cognition Lab
+The [Canine Cognition and Human Interaction Lab (CCHIL)](https://dogcog.unl.edu) is located in room 3 in the basement of the [501 Building](https://maps.unl.edu/501). You can pay to park in the [Memorial Drive parking garage](https://maps.unl.edu/SDPG) on the southwest corner of the stadium. CCHIL is in the northeast corner of the 501 Building in the basement. Keycard access is required at all times to enter CCHIL. Contact Jeff for keycard access.
+
+CCHIL has a waiting area, testing area, office space, and food-preparation area. If no one is using the space for research or educational purposes, you are welcome to hang out or work there. But please keep the space orderly and be prepared to vacate it if the space is needed for other purposes.
+
+### Keycard access
+To gain access to most of our space, you need permission granted to your NUID (keycard). Only Jeff can request this permission, and it can take a few days to go through, so contact him as soon as possible if you need access. And *always* bring your NUID with you when you are coming into the lab. It is possible to call the police to let you in to space that you should have access to, but this is not advised. And don't leave your NUID in the research space. Keep it with you at all times. Finally, do not let someone that you do not know into any of the research spaces. If you are uncomfortable with the situation call the UNL police (402-472-2222) and report the incident to Jeff or a grad student. 
+
+### Visitors and photos
+
+Visitors are allowed in CB3 during regular business hours. If you would like to bring visitors to CB3 outside of regular hours or to CCHIL, contact Jeff. 
+
+Do not take photos of participants or dogs without their explicit permission. For CCHIL, participants must sign a media release for us to take and use photos of them and/or their dogs for research, educational, or promotional reasons. Contact Jeff or the CCHIL lab manager for media release forms.
+
+## Meetings and events
+
+### Lab meetings
+We typically have lab meetings in the dog lab and/or via Zoom. Usually, the first half of the lab meeting involves students and lab managers giving an update about the status of the research and/or subjects. The second half of the meeting tends to be more focused on professional development, so we may discuss a research paper that we read or listen to one of the students give a practice talk/poster or someone may present about a professional development topic (e.g., applying to grad school). Unless you have a class conflict or are ill, all lab members are expected to attend and participate in lab meetings. 
+
+### Seminars
+All lab members are encouraged to take advantage of the many opportunities to learn about our field by attending the seminars presented in the department or at CB3. During the school year, we typically alternate between weekly [CABIN and CB3 Club meetings](https://psychology.unl.edu/social-and-cognitive/cabin-and-cb3-club/) at 12:30pm on Mondays in B60 CB3 or via Zoom (in the summer, only CB3 Club runs). CABIN is a brownbag that tends to have research proposal or research summary talks. CB3 Club is more of a journal club with research article discussions, practice talks, or professional development tutorials. Again, all are welcome, and feel free to offer suggestions of speakers or topics for either.
+
+## Funding
+
+Different parts of the lab are funded differently. For instance, the lab is wrapping up a [National Science Foundation grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1658837) to cover almost all expenses associated with impulsivity-related projects. The lab has a few small grants and some private donation funds that allow us to purchase small things as we need them. 
+
+The lab can provide grad students with a desktop computer, monitor, and external hard drive for research purposes, but it cannot provide laptops. All lab-purchased equipment must stay with the lab when the student leaves.
+
+### Supplies, copies, and reimbursement
+Let Jeff know if the lab needs any supplies or materials. You shouldn't have to pay for lab supplies yourself. Jeff will pay for printing/copies for the lab and for posters for presentations.
+
+You can get reimbursed for purchases, but check with Jeff before buying anything. If you make purchases for reimbursement, do not include personal items in the same purchase and bring Jeff your receipts as soon as possible.
+
+### Grant opportunties
+If eligible, undergraduate students can apply for [UCARE](https://ucare.unl.edu/) or [McNair Scholars](https://www.unl.edu/mcnair/) to cover a small stipend for conducting research in the lab. 
+
+Grad students are encouraged to apply for funding throughout their graduate career. Here are some possible funding sources
+
+* [NSF Graduate Research Fellowship Program funds](http://www.nsfgrfp.org/) (first or second year)
+* [NIH National Research Service Award fellowships](https://researchtraining.nih.gov/programs/fellowships/F31)
+* [UNL Graduate Fellowships](https://www.unl.edu/gradstudies/funding/fellowships)
+* [Animal Behavior Society Student Research Grants](https://www.animalbehaviorsociety.org/web/awards-student-grants.php)
+* [Buffett Early Childhood Institute Graduate Scholars fellowships](https://buffettinstitute.nebraska.edu/our-people/graduate-scholars)
+
+## Computing in the lab
+
+### Hardware
+The lab has desktop computers in CB3 and the dog lab. CB3 has data collection computers in B71J as well as data analysis computers in the B-level bullpen.  Students are allowed to use these computers for research or educational purposes, with priority given to people who need them for research purposes. The lab also has external hard drives for backing up data.
+
+### Software {#software}
+The lab works with two computer operating systems. Most computers run Windows 10/11 but some also run the latest long-term support version of [Ubuntu](https://www.ubuntu.com) (some computers run both operating systems). It is important to keep operating systems and applications up-to-date, so please facilitate this. Do not install applications on lab computers without Jeff's approval.
+
+#### Cloud storage {-}
+Currently, most of the lab's data is stored or backed up on [Microsoft OneDrive](https://onedrive.live.com).  In general, all raw data should be uploaded to cloud storage as soon as it is generated. See [Data management](#project_data_management) for more details.
+
+#### File management and version control {-}
+We use [GitHub](https://github.com) as for file management and version control. See [Data management](#project_data_management) and [Version control](#git) for more details.
+
+#### Experimental data collection {-}
+We use [Qualtrics](https://www.qualtrics.com) as our web-based survey software. Contact Jeff for log in details to the lab account. For more complicated designs that cannot be implemented in Qualtrics, we use [PsychoPy](https://www.psychopy.org/) or [OpenSesame](https://www.psychopy.org/), which are open source programs for creating experiments.
+
+#### Data analysis {-}
+The lab primarily uses [R Statistical Software](https://r-project.org) to analyze data, using [RStudio](https://posit.co) as a user interface. Undergrads may also use [JASP](https://jasp-stats.org/) for a GUI-driven stats package. We do not use SPSS, SAS, Stata, etc.
+
+#### Communication {-}
+The lab uses [Microsoft Teams](https://teams.microsoft.com) for all lab communication. See [Teams](#teams) for more details.  
+
+#### Literature and bibliographies {-}
+To keep track of literature and to build bibliographies for papers, the lab uses [Zotero](https://zotero.org). [Better BibTeX](https://retorque.re/zotero-better-bibtex/) is a useful plug-in that helps integrate Zotero with R Markdown documents.
+
+#### Other {-}
+We use other open source software as well:
+
+* [GIMP](https://www.gimp.org/)---image editing (free version of Adobe Photoshop)
+* [Inkscape](https://inkscape.org/)---scalar vector graphics editing (free version of Adobe Illustrator)
+* [VLC](https://www.videolan.org/vlc/)---media player
+* [OpenShot](https://www.openshot.org/)---video editing
+
+
+
+### Passwords
+Please do not send passwords over email or Slack. Either transfer them verbally or via an encrypted program such as [Signal](https://www.signal.org/). Store them in a secure location like a password manager (e.g., [LastPass](https://lastpass.com)).
+
+

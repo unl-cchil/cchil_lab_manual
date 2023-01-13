@@ -1,0 +1,36 @@
+# Onboarding and offboarding {#onboarding}
+
+## Onboarding
+Congratulations for joining the lab! Now there are a number of steps you must take to actively participate in the lab.
+
+1. Send Jeff a CV/resume. It doesn't need to be thorough or up-to-date. It must be submitted to IACUC when adding you to the protocol, so it just needs to be something that we can upload.
+2. Install Microsoft Teams on your phone and computer and log in via your UNL credentials.
+3. Go to the [IACUC training page](https://research.unl.edu/researchresponsibility/required-and-optional-training-2/) to:
+    a. Complete online CITI IACUC training (**Working with the IACUC- Investigators, Staff, and Students- 1 Basic Course**) and send Jeff a PDF of the certification when completed.
+    b. Complete the OHS form.
+        - For “campus mail address, supervisor, department, building or facility”, enter “B83 East Stadium, Jeffrey Stevens, Psychology, CB3”
+        - On page 1 (Part A- Occupational and Environmental Risk Factors- Animal Contact), check “I have contact with animals in teaching or research through a university approved animal care and use protocol.”
+        - Under Species and Type, check column 4 (Research/Teaching) for Dog
+        - Page 3, Part A, Section II, “Hazards Associated with Animal Contact”, there is a list of agents with a column of check boxes. Answer “no” for all of them.
+        - Submit the form electronically (do not send it to Jeff, as it has personal health information).
+5. Complete [CITI IRB training](https://research.unl.edu/researchcompliance/required-human-subjects-training/) for **Social/Behavioral Research Investigators** and send Jeff a PDF of the certification when completed.
+4. Send Jeff a photo for the [lab website](http://decisionslab.unl.edu/people.html) and a short blurb about yourself for the [CCHIL website](https://dogcog.unl.edu/people).
+5. Send Jeff your NUID for lab keycard access.
+6. Read over the lab manual.
+
+## Training
+
+Prior to joining the lab, you should complete CITI training for IRB and/or IACUC to learn the basic principles of conducting research on humans and/or other animals. Once you join the lab, training occurs to different extents and by different people depending on which project you are working on. Often a graduate student or lab technician will be involved in training undergraduate researchers. However, sometimes, an experienced undergraduate may train a new undergraduate researcher. Training is super important, and if you feel like you do not know what you should be doing, please ask questions and request help. We would rather you ask a 'silly' question (very few questions are silly) than not ask the question and make a mistake. If you feel you have not been properly trained, please contact Jeff.
+
+## Offboarding
+
+While we're sorry to see you go, leaving is an inevitable part of working in a research lab. We have a few requests when you leave the lab.
+
+- Please clean any areas you have been working in and return any equipment that you have been using. Any equipment and materials purchased by the lab are property of UNL and must be returned to the lab (this includes computer equipment such as laptops, monitors, external hard drives, etc.). 
+- Please archive all lab materials appropriately. This is very important for data. Please ensure all data are archived on OneDrive or the appropriate data storage area. Ensure all data analysis scripts and documentation are archived to OneDrive and/or the appropriate Git repository. Please take the time to carefully document the experimental methods, data collection, and data analysis. If possible, please explain the documentation and materials to another lab member.
+- Note that any data collected, obtained, and/or generated in the course of a research project conducted at the University are property of the University of Nebraska. As such, they must be fully transferred to Jeff upon leaving the lab. See the [University of Nebraska Research Data Policy](https://nebraska.edu/offices-policies/policies/no-41-policy-on-research-data-and-security) for more information.
+- Please delete files or securely dispose of documentation of lab credentials (e.g., experimental computer passwords, Qualtrics passwords, social media account passwords).
+
+If you have participated meaningfully to the lab and not violated any of the lab principles, we will move your name to the 'former members' section of the lab website. Note if you are in the lab less than a semester, we will not list you as a former member. <!-- If you would like a [letter of reference](#reference_letters), please see that section of the lab manual. -->
+
+We will also deactivate your Teams account to reduce the number of active members. But we still want to hear from you, so please keep in touch via email and let us know how you are doing!
