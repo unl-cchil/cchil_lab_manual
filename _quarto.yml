@@ -17,7 +17,7 @@ book:
         # - ethics.qmd
     - part: "Lab projects"
       chapters:
-        # - experiments.qmd
+        - experiments.qmd
         - project_data_management.qmd
         - version_control.qmd
     - part: "Resources"

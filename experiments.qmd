@@ -1,0 +1,208 @@
+
+# Experimental protocols {#experiments}
+
+This section is primarily written for project leaders, so lab assistants can skip it.
+
+## Recruiting and scheduling participants
+
+### Finding lab assistant availability 
+1. Have all lab assistants block out their available times on the cchil.unl@gmail.com Google calendar [Dog lab availability](https://calendar.google.com/calendar/u/0?cid=OXJsaHQ5NTAzdnJvOGE2Njk3b2M4NjBjcThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ). 
+1. Look for blocks of time in which at least two lab assistants are available. These will be the "open" times on the Calendly Calendar in which owners can sign up for appointment slots. 
+
+### Setting up Calendly Calendar 
+1. Log into the lab [Calendly account](https://calendly.com/) (contact Jeff for login information).
+2. Once on the account dashboard, click on `+ Create` or `New Event Type` to create a new event type for the project then select "One-on-One Event Type".
+3. What event is this?
+  * Use this section to name the event, set a location, give a brief description, and choose
+the display color. The event name is what the participants see, so make it understandable for them but also signals to us what the project is (in case more than one project runs at a time). The location should be In-person meeting and enter 501 Building, room 3. Give a short description to remind the participants what the appointment is.
+4. When can people book this event?
+* Use this section to set the time slots available.
+* Use the _Within a date range_ option and select the dates that lab assistants are available.
+* Under _Duration_ you select how long the study session will last (often 1 hour).
+* To set times I usually use the _Set custom hours_ option.
+  - Then select which days you want to be available and fill out the time table based on when enough RAs are available.
+  - If you need multiple time ranges on one day you can use the `+` symbol to add another range (e.g., 9:00-11:00 am and 1:00-3:00 pm).
+  - If times differ from the previous week, click on the _Add a date override_ button to the right. Then select on the day you want to customize the times for.
+* If there is a certain day you want no availability, but you don’t want all those days unavailable (e.g., you want Wednesday, Jan. 4 to be available but not Wednesday, Jan 11), then click on _Add a date override_, select the date, and then hit the trash can symbol.
+  - This will make that day unavailable without altering the rest of the weeks.
+* At the bottom of this section you can select to add time before or after your events.
+  - Add 15 minutes before the event to prepare the room.
+  - Add 30 minutes after the event to give us time to clean/reset before the next dog.
+  - Calendly will automatically remove the affected time slots to give you this extra time.
+* Under _Additional rules for your availability_
+  - You can select what increments you want your sessions to be posteD in (30 minutes is probably best).
+  - You can also alter the scheduling conditions to set a limit to how soon before the appointment they can schedule as well as the maximum allowed events per day. We usually set it so they cannot schedule within 1 or 2 days of the appointment to give time to send all the confirmation emails and make sure all RAs were
+informed.
+5. Invitee Questions
+* Calendly automatically asks for their Name, Email, and if there is anything they want to share
+* Under this section, you can also add other questions to ask. Add "What is your dog’s name?" and make it required. This helps make sure the owner was bringing in the correct dog in the instances where an owner has multiple dogs.
+6. Turn off other event types and turn on this one once you're ready to schedule appointments.
+
+### Finding participants in the database
+
+1. **The CCHIL participant database has personally identifiable information (names, email addresses). Therefore, you can only access the database on UNL-owned computers. For most purposes, this means the desktop computer in the dog lab. _Do not access the database from your personal computer_.**
+2. Log into the [Dog Lab dashboard](https://decisionslab.unl.edu/doglab/researchers/) with the username and password that Jeff gave you and click the option _Continue to run a report or search_.
+3. Click on the "All Eligible Dogs (+ Owner Contact)" and save the spreadsheet file on the C drive of the computer.
+4. Open the spreadsheet file in Excel and save it as an .xlsx file. This allows you to sort, filter, and color code the file.
+5. Once you have sorted and filtered down to the correct records, check eligibility status by confirming:
+* The dog is not aggressive towards people.
+* The rabies vaccination is up to date (given within 3 years of appointment date).
+* Any other requirements (e.g., weight minimum).
+6. Once the dog’s eligibility is confirmed, the owner may be sent an invitation email (see [Sending email invitations](#invitations)).
+7. If you want to search for a particular owner or dog, type the owner’s last name into the search bar at the bottom of the dashboard page.
+
+
+### Sending email invitations  {#invitations}
+1. Pick out the participants from the spreadsheet that you want to contact. A good rule of thumb is selecting twice as many participants as you have open slots in the calendar.
+2. Access the CCHIL Gmail account delegated to you by logging into your Gmail account, clicking on your account image in the top right corner, and then selecting UNL CCHIL.
+3. Compose a new email and in the bottom rightish corner of the new message, click on the three vertical dots, then click Templates, and select the appropriate template for this study email.
+4. It works best to send a separate email to each participant so that you can specify which dog is invited. This is especially important for studies with requirements like minimum weights.
+5. Once the invitation email is sent, the participants can select a time in the Calendly calendar that works for them. When they book an appointment, Calendly will send an email to the UNL CCHIL Gmail account, so keep an eye on that account.
+6. After an appointment has been made in Calendly, Send a Teams notification to the lab assistants assigned to the session to notify them of the new appointment. You can also then send a confirmation email to the participant with any additional information they will need.
+7. It is useful to send reminder emails to participants about 24 hours before their appointment.
+8. The UNL CCHIL Gmail account also has templates for registering new people into the database and asking them to update their vaccination records.
+
+
+## Before testing sessions
+
+1. Have lab assistants arrive at least 15 minutes before appointment time to ensure enough time for set up.
+2. Turn on the camera computer and live-streaming TV by flipping the large orange power switch on the power strip.
+3. Make sure an empty SD card and charged battery are in the GoPro camera.
+3. Turn on the computer in the office area and pull up the Parking Portal website (saved in favorites).
+4. Turn the white noise machine (located next to the door to the experimental room) onto the highest setting.
+5. Prepare the tablets or laptop with the appropriate data sheet.
+6. Fill the water bowl by the door with fresh water.
+7. Bring treats and any other necessary materials (e.g., lab notebook) into the experimental room.
+8. Five minutes before the appointment time, send one lab assistant outside to wait for/greet the dog and their owner.
+
+
+## During testing sessions
+
+### After participant arrives 
+1. As the owner and dog enter the room, ask them to let their dog off leash so the dog can explore the area. Let the owners know they can hang their coats on the coat rack by the door (in the winter) and leave their belongings on the chairs.
+2. While the dog is exploring, ask the owner if the dog has any food allergies or food preferences. 
+* If the dog has food allergies/sensitive stomach, feel free to use any treats the owner brings with them.  Often, these treats will need to be cut into smaller pieces, about the size of the training treats that are normally used.
+3. Ask the owner if their dog has any separation anxiety from them.
+* If owner says yes and study requires dog to be away from the owner, run the separation anxiety protocol (see [Separation anxiety protocol](#separation)).
+4. Explain experiment to owner. 
+* Take the owner and the dog into the experimental room with lab assistants and shut the door. 
+* While one lab assistant explains the experiment to the owner, the other lab assistant will play with/interact with the dog to better acquaint the dog with the room and watch for signs of separation anxiety.
+
+### Training and testing
+1. Provide study-specific training.
+2. Allow a break between training and testing. 
+* Allow the dog to be off leash in the experimental room, but do not provide access to treats during the break.
+* If needed, bring the water bowl into the experimental room and allow the dog to get a drink water before starting testing. 
+* At the end of the break, have one experimenter start the room cameras recording:
+  - Right click anywhere on the screen.
+  - Click on _Manual record_.
+  - Hit _Ok_ (the username should be admin, and you do not need a password).
+  - Click the _All_ box and click _All on". The red recording symbol should appear in the corner.
+* Start the GoPro camera recording:
+  - Hold the power button on the side of the camera until the screen turns on.
+  -  Place the GoPro on the tripod in the experimental room and make sure everything you
+need is in frame.
+  -  Press the button with a red circle on the top of the camera and recording should begin.
+3. Begin study-specific testing.
+4. After the test session is complete, stop recording.
+* GoPro camera
+  - Press the red circle button on top of the camera to stop recording.
+  - Hold the power button on the side of the camera to power the GoPro off (do this immediately, as it is easy to accidentally press buttons on the touch screen while moving around and videos may accidentally get deleted).
+* Room cameras:
+  - Right click anywhere on the screen.
+  - Click on _Manual record_.
+  - Click the _All_ box and click _All off_. The red recording symbol should disappear in the corner of each camera screen.
+
+### Owner wrap-up
+1. Once the dog has finished testing, take them off leash and allow them to return to their owner.
+2. Inform the owner that the experiment has ended. Remind the owner that there is no "right or wrong" or "good or bad" results, our goal is to simply measure dog behavior. 
+3. Present the owner their dog’s Certificate of Achievement.
+4. Obtain consent from the owner to get a picture of their dog in front of the lab sign to post on our Facebook and Instagram by having them sign our Media Release form.
+
+### Parking validation
+1. Open the UNL Parking Portal (bookmarked as _Parking Validation_) in Google Chrome on the office computer.
+2. Scroll to the very bottom of the home page and click on _Validation Provider Management_.
+3. Log into the Validation Account (the username and password should autofill).
+4. Select _SD 100% off (100% off)_ as the validation discount.
+5. Place cursor in the text box under _Enter Permit/Ticket_.
+* Using the magnetic strip reader, swipe the parking garage ticket. The ticket number should auto-fill in the text box.
+* If the swipe does not work, type in the ticket number (gray numbers on back of ticket).
+6. Click _Create Validation_.
+7. You should get a message at the top of the screen saying that the validation was created.
+8. Give the ticket back to the participant and inform them that the arms of the parking garage should open when they put the ticket in.
+8. Thank the owner for their time and participation. Ask them if they need any help finding their way out. 
+
+## After testing sessions
+
+### Shutting down cameras and backing up videos
+
+1. GoPro camera:
+* Open the chamber on the side of the camera (the side without the power button).
+  - Remove the SD card and place it in the pill organizer in the chamber that corresponds with the day of the week.
+  - Remove the battery and place it back on the charger (double check that the charging light comes on, otherwise the battery will not charge).
+* Return the GoPro to the black case.
+
+2. Room cameras:
+* Right click anywhere on the screen.
+* Click on _Video backup_.
+* Select the date of the video you want to backup (on the _Search time_ row), then click _Search_.
+* The videos from that session should appear - click the box next to each video you want to download and click _Backup_.
+* You will get a message saying _To backup this record?_ - click _Yes_.
+* When you get a message saying "USB storage is not found!" unplug the mouse and plug a flash drive into the USB port. The videos should start downloading automatically.
+* When the videos are done backing up you will get a message saying the backup was successful. At this time you can unplug the flash drive and plug the mouse back in.
+* If you are done backing up the videos you are good to turn the cameras off (just turn the power strip off that is to the right of the computer).
+
+3. Back up both the GoPro and room camera videos on the desktop computer in the project-specific folder. Make sure all videos are saved on the desktop computer hard drive before deleting them from the SD card or USB drive.
+
+### Cleaning 
+1. Sweep the experimental room (including the mat) with the rubber broom and/or vacuum.
+2. Spray the experimental room with a light mist of disinfectant (be sure to hold the wand as high as possible to ensure a light layer of spray otherwise the floor will get sticky).
+3. Wipe all door handles and light switches down with a Clorox wipe (I wipe the keyboard down as well if participants used it to take a survey).
+4. Take the water bowl to the bathroom to dump/rinse out.
+5. Make sure all treats are put away and turn all lights off when leaving.
+
+
+### Updating database 
+1. Log into the [Dog Lab dashboard](https://decisionslab.unl.edu/doglab/researchers/) and select _Continue to add study data to database_.
+3. In the drop down box, select _Record of dog participation in study_.
+4. Fill in the required information (Dog’s name, Owner's Phone Number, Study Name, and Date) and click _Submit_.
+
+### Social media posts
+1. Log in to [Meta Business Suite](https://business.facebook.com).
+2. Click on _Create/Make Post_.
+2. **Make sure both Facebook and Instagram are selected.**
+3. Type the message you want for the study, typically "Thank you, NAME!".
+4. Add the photo you want.
+* You will probably have to edit the picture for it to post to Instagram (choose the square option).
+* Add alt text to both Facebook and Instagram photos. Describe the dog and owner (if applicable).
+6. Click _Post_.
+
+## Separation anxiety protocol  {#separation}
+1. Apply this protocol if the dog is showing signs of anxiety after being in the lab after 10-15 minutes. Signs include heavy panting, drooped ears, urinating, pacing, drooling, licking lips, red nose, staying near owners/near the door, whining, and barking.
+2. Inform the owners that their dog is showing signs of anxiety, so instead of running the experiment right away, you want to use the appointment time to allow the dog to further acclimate to the room and experimenters. 
+* Inform the owners that it is very important for them to ignore their dog (i.e. no petting or talking to dog) while running the anxiety protocol. This way, the dog will realize they only get attention/treats from the experimenters and will gravitate towards them more.
+3. For 10 minutes, allow the dog to walk freely between the experimental room and the lobby. Have only the experimenters give the dogs treats when they are in the experimental room. The dog should not get any treats while outside the experimental room.
+4. For 5 minutes, have the dog, experimenters, and owners in the lab room with the door closed. 
+* Owners should still be ignoring their dog while experimenters continue to be the only ones giving the dog attention and treats. 
+5. With the owners still in the room, alternate between having the dog on leash and off leash for a minute at a time over the span of 6 minutes.   Continue to offer occasional treats.
+6. Have the owner return to the lobby. For 15 minutes, keep the dog in the experimental room, alternating between being off leash and on leash for a minute at a time. 
+* If the dog has shown improvement, begin training and attempt to collect data from the dog the same day. 
+* If the dog does not show improvement, thank the owner for their time and allow the dog to leave. Inform the owner that we will keep them in our database for future studies that will not require the owner to be separated from the dog.  
+
+
+
+## Safety protocol
+
+IN CASE OF A DOG BITE OR AGGRESSIVE DOG:
+
+1. Ask the owner/dog to leave the lab at this time.
+* "For the safety of our staff, we need to stop the study at this time and let you take your dog home."
+2. If needed, get the injured individual to the emergency room ASAP. Otherwise, get the first-aid kit in the clear bin hanging over the table in the back of the lab and apply first-aid, if needed. 
+3. Notify Dr. Stevens right away (all contact information is located on the left cabinet in the lab office room). He will submit the required incident report. He will need to know exactly what happened, when, where, and with whom, as well as what was done afterwards.
+
+## Cleaning protocol if dog has an accident on lab carpet:
+1. If owner is present when dog has accident, ensure them it is not a problem.
+2. Get Nature’s Miracle spray and paper towels from the table in the back of lab.
+* Apply the spray to the accident area, wait 15 minutes, and then blot area well with paper towels.
+* If there is an "extra" lab assistant, have them handle the accident cleanup so the study can proceed while the Nature’s Miracle spray sits on the accident area.
+* Be sure that the dog does not mess with the sprayed area while it sits!
