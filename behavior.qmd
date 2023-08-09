@@ -95,7 +95,7 @@ We aim to have a healthy research culture for all lab members. To this end, we f
 
 The key to a healthy lab is communication. So please don't ever feel afraid to reach out to Jeff or any lab members. We would rather you reach out too often than not enough. Here's how we communicate in the lab:
 
-### Teams {#teams}
+### Microsoft Teams {#teams}
 The primary means of communication among lab members is the lab Microsoft Teams workspace. Upon entering the lab everyone should install Teams on their phones and computers. Turn on the notification settings for the channels that you're a part of, and also please regularly check Teams and reply there when needed.
 
 Teams is divided into *channels* that have different members in them. Some of these channels are project specific, and others are just a group of specific individuals (e.g., grad students). Most of the channels are open, so you are welcome to join them to observe or participate in what is going on. Here is some Teams etiquette.

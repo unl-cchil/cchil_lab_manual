@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -76,7 +76,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -87,11 +88,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./roles.html">Lab policies</a></li><li class="breadcrumb-item"><a href="./behavior.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,85 +105,102 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">CCHIL Lab Manual</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About the lab</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the lab</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Lab policies</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lab policies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./roles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></a>
+  <a href="./roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./behavior.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></a>
+  <a href="./behavior.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./onboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></a>
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./logistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></a>
+  <a href="./logistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Lab projects</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Lab projects</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></a>
+  <a href="./experiments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./version_control.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></a>
+  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Resources</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
       </ul>
@@ -185,28 +208,29 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link active" data-scroll-target="#code-of-conduct"><span class="toc-section-number">2.1</span>  Code of conduct</a>
+  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link active" data-scroll-target="#code-of-conduct"><span class="header-section-number">2.1</span> Code of conduct</a>
   <ul class="collapse">
-  <li><a href="#scientific-integrity" id="toc-scientific-integrity" class="nav-link" data-scroll-target="#scientific-integrity"><span class="toc-section-number">2.1.1</span>  Scientific integrity</a></li>
-  <li><a href="#authorship" id="toc-authorship" class="nav-link" data-scroll-target="#authorship"><span class="toc-section-number">2.1.2</span>  Authorship</a></li>
-  <li><a href="#human-subjects-and-animal-research" id="toc-human-subjects-and-animal-research" class="nav-link" data-scroll-target="#human-subjects-and-animal-research"><span class="toc-section-number">2.1.3</span>  Human subjects and animal research</a></li>
-  <li><a href="#confidentiality" id="toc-confidentiality" class="nav-link" data-scroll-target="#confidentiality"><span class="toc-section-number">2.1.4</span>  Confidentiality</a></li>
-  <li><a href="#photos-videos" id="toc-photos-videos" class="nav-link" data-scroll-target="#photos-videos"><span class="toc-section-number">2.1.5</span>  Photos &amp; videos</a></li>
-  <li><a href="#diversity" id="toc-diversity" class="nav-link" data-scroll-target="#diversity"><span class="toc-section-number">2.1.6</span>  Diversity and inclusion</a></li>
+  <li><a href="#scientific-integrity" id="toc-scientific-integrity" class="nav-link" data-scroll-target="#scientific-integrity"><span class="header-section-number">2.1.1</span> Scientific integrity</a></li>
+  <li><a href="#authorship" id="toc-authorship" class="nav-link" data-scroll-target="#authorship"><span class="header-section-number">2.1.2</span> Authorship</a></li>
+  <li><a href="#human-subjects-and-animal-research" id="toc-human-subjects-and-animal-research" class="nav-link" data-scroll-target="#human-subjects-and-animal-research"><span class="header-section-number">2.1.3</span> Human subjects and animal research</a></li>
+  <li><a href="#confidentiality" id="toc-confidentiality" class="nav-link" data-scroll-target="#confidentiality"><span class="header-section-number">2.1.4</span> Confidentiality</a></li>
+  <li><a href="#photos-videos" id="toc-photos-videos" class="nav-link" data-scroll-target="#photos-videos"><span class="header-section-number">2.1.5</span> Photos &amp; videos</a></li>
+  <li><a href="#diversity" id="toc-diversity" class="nav-link" data-scroll-target="#diversity"><span class="header-section-number">2.1.6</span> Diversity and inclusion</a></li>
   </ul></li>
-  <li><a href="#lab-culture" id="toc-lab-culture" class="nav-link" data-scroll-target="#lab-culture"><span class="toc-section-number">2.2</span>  Lab culture</a></li>
-  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication"><span class="toc-section-number">2.3</span>  Communication</a>
+  <li><a href="#lab-culture" id="toc-lab-culture" class="nav-link" data-scroll-target="#lab-culture"><span class="header-section-number">2.2</span> Lab culture</a></li>
+  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication"><span class="header-section-number">2.3</span> Communication</a>
   <ul class="collapse">
-  <li><a href="#teams" id="toc-teams" class="nav-link" data-scroll-target="#teams"><span class="toc-section-number">2.3.1</span>  Teams</a></li>
-  <li><a href="#communication-types-and-timing" id="toc-communication-types-and-timing" class="nav-link" data-scroll-target="#communication-types-and-timing"><span class="toc-section-number">2.3.2</span>  Communication types and timing</a></li>
-  <li><a href="#meetings" id="toc-meetings" class="nav-link" data-scroll-target="#meetings"><span class="toc-section-number">2.3.3</span>  Meetings</a></li>
-  <li><a href="#problems" id="toc-problems" class="nav-link" data-scroll-target="#problems"><span class="toc-section-number">2.3.4</span>  Problems</a></li>
+  <li><a href="#teams" id="toc-teams" class="nav-link" data-scroll-target="#teams"><span class="header-section-number">2.3.1</span> Microsoft Teams</a></li>
+  <li><a href="#communication-types-and-timing" id="toc-communication-types-and-timing" class="nav-link" data-scroll-target="#communication-types-and-timing"><span class="header-section-number">2.3.2</span> Communication types and timing</a></li>
+  <li><a href="#meetings" id="toc-meetings" class="nav-link" data-scroll-target="#meetings"><span class="header-section-number">2.3.3</span> Meetings</a></li>
+  <li><a href="#problems" id="toc-problems" class="nav-link" data-scroll-target="#problems"><span class="header-section-number">2.3.4</span> Problems</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -216,7 +240,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="behavior" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></span></h1>
+<h1 class="title"><span id="behavior" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></span></h1>
 </div>
 
 
@@ -312,7 +336,7 @@ div.csl-indent {
 <h2 data-number="2.3" class="anchored" data-anchor-id="communication"><span class="header-section-number">2.3</span> Communication</h2>
 <p>The key to a healthy lab is communication. So please don’t ever feel afraid to reach out to Jeff or any lab members. We would rather you reach out too often than not enough. Here’s how we communicate in the lab:</p>
 <section id="teams" class="level3" data-number="2.3.1">
-<h3 data-number="2.3.1" class="anchored" data-anchor-id="teams"><span class="header-section-number">2.3.1</span> Teams</h3>
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="teams"><span class="header-section-number">2.3.1</span> Microsoft Teams</h3>
 <p>The primary means of communication among lab members is the lab Microsoft Teams workspace. Upon entering the lab everyone should install Teams on their phones and computers. Turn on the notification settings for the channels that you’re a part of, and also please regularly check Teams and reply there when needed.</p>
 <p>Teams is divided into <em>channels</em> that have different members in them. Some of these channels are project specific, and others are just a group of specific individuals (e.g., grad students). Most of the channels are open, so you are welcome to join them to observe or participate in what is going on. Here is some Teams etiquette.</p>
 <ul>
@@ -339,8 +363,8 @@ div.csl-indent {
 <p>Open communication is the key to preventing or resolving problems in the lab. If you are having problems with other students or lab equipment/materials, contact Jeff or a grad student. If you are having problems with a grad student, contact Jeff. If you are having a problem with Jeff, contact Jeff. If you’re not comfortable contacting Jeff, you can contact other faculty (<a href="mailto:mdodd2@unl.edu">Mike Dodd</a> and <a href="maitalneta@unl.edu">Maital Neta</a> have agreed to be available for lab members to contact), the Department Chair (<a href="mailto:ddilillo2@unl.edu">David DiLillo</a>), or the Graduate Committee Chair (<a href="mailto:mdodd2@unl.edu">Mike Dodd</a>). If these parties cannot resolve the issue, a formal grievance can be submitted to the Department Chair or directly to a member of the department <a href="https://psychology.unl.edu/committees">Grievance Committee</a> (see instructions in <a href="https://psychology.unl.edu/Psych%20Dept%20Bylaws.pdf">Department Bylaws</a>). For sexual harassment or misconduct issues, contact the UNL <a href="https://www.unl.edu/equity/title-ix">Title IX Office</a>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-Maestre.2019" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Maestre.2019" class="csl-entry" role="listitem">
 Maestre, Fernando T. 2019. <span>“Ten Simple Rules Towards Healthier Research Labs.”</span> <em>PLOS Computational Biology</em> 15 (4): e1006914. <a href="https://doi.org/10.1371/journal.pcbi.1006914">https://doi.org/10.1371/journal.pcbi.1006914</a>.
 </div>
 </div>
@@ -375,9 +399,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -442,6 +480,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

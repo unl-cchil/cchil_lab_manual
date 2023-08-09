@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCHIL Lab Manual - 5&nbsp; Project and data management</title>
+<title>CCHIL Lab Manual - 6&nbsp; Project and data management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./version_control.html" rel="next">
-<link href="./logistics.html" rel="prev">
+<link href="./experiments.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,10 +76,12 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
@@ -88,11 +90,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./experiments.html">Lab projects</a></li><li class="breadcrumb-item"><a href="./project_data_management.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -100,85 +107,102 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">CCHIL Lab Manual</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About the lab</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the lab</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Lab policies</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lab policies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./roles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></a>
+  <a href="./roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./behavior.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></a>
+  <a href="./behavior.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./onboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></a>
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./logistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></a>
+  <a href="./logistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Lab projects</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Lab projects</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></a>
+  <a href="./experiments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./version_control.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></a>
+  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Resources</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
       </ul>
@@ -186,33 +210,34 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#project-management" id="toc-project-management" class="nav-link active" data-scroll-target="#project-management"><span class="toc-section-number">5.1</span>  Project management</a>
+  <li><a href="#project-management" id="toc-project-management" class="nav-link active" data-scroll-target="#project-management"><span class="header-section-number">6.1</span> Project management</a>
   <ul class="collapse">
-  <li><a href="#project-directory-structure" id="toc-project-directory-structure" class="nav-link" data-scroll-target="#project-directory-structure"><span class="toc-section-number">5.1.1</span>  Project directory structure</a></li>
-  <li><a href="#existing-projects" id="toc-existing-projects" class="nav-link" data-scroll-target="#existing-projects"><span class="toc-section-number">5.1.2</span>  Existing projects</a></li>
-  <li><a href="#rstudio-projects" id="toc-rstudio-projects" class="nav-link" data-scroll-target="#rstudio-projects"><span class="toc-section-number">5.1.3</span>  RStudio Projects</a></li>
+  <li><a href="#project-directory-structure" id="toc-project-directory-structure" class="nav-link" data-scroll-target="#project-directory-structure"><span class="header-section-number">6.1.1</span> Project directory structure</a></li>
+  <li><a href="#existing-projects" id="toc-existing-projects" class="nav-link" data-scroll-target="#existing-projects"><span class="header-section-number">6.1.2</span> Existing projects</a></li>
+  <li><a href="#rstudio-projects" id="toc-rstudio-projects" class="nav-link" data-scroll-target="#rstudio-projects"><span class="header-section-number">6.1.3</span> RStudio Projects</a></li>
   </ul></li>
-  <li><a href="#project-workflow" id="toc-project-workflow" class="nav-link" data-scroll-target="#project-workflow"><span class="toc-section-number">5.2</span>  Project workflow</a>
+  <li><a href="#project-workflow" id="toc-project-workflow" class="nav-link" data-scroll-target="#project-workflow"><span class="header-section-number">6.2</span> Project workflow</a>
   <ul class="collapse">
-  <li><a href="#pre-registration" id="toc-pre-registration" class="nav-link" data-scroll-target="#pre-registration"><span class="toc-section-number">5.2.1</span>  Pre-registration</a></li>
-  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection"><span class="toc-section-number">5.2.2</span>  Data collection</a></li>
-  <li><a href="#raw-data" id="toc-raw-data" class="nav-link" data-scroll-target="#raw-data"><span class="toc-section-number">5.2.3</span>  Raw data</a></li>
-  <li><a href="#data-processing" id="toc-data-processing" class="nav-link" data-scroll-target="#data-processing"><span class="toc-section-number">5.2.4</span>  Data processing</a></li>
-  <li><a href="#working-data" id="toc-working-data" class="nav-link" data-scroll-target="#working-data"><span class="toc-section-number">5.2.5</span>  Working data</a></li>
-  <li><a href="#analysis_script" id="toc-analysis_script" class="nav-link" data-scroll-target="#analysis_script"><span class="toc-section-number">5.2.6</span>  Data analysis</a></li>
+  <li><a href="#pre-registration" id="toc-pre-registration" class="nav-link" data-scroll-target="#pre-registration"><span class="header-section-number">6.2.1</span> Pre-registration</a></li>
+  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection"><span class="header-section-number">6.2.2</span> Data collection</a></li>
+  <li><a href="#raw-data" id="toc-raw-data" class="nav-link" data-scroll-target="#raw-data"><span class="header-section-number">6.2.3</span> Raw data</a></li>
+  <li><a href="#data-processing" id="toc-data-processing" class="nav-link" data-scroll-target="#data-processing"><span class="header-section-number">6.2.4</span> Data processing</a></li>
+  <li><a href="#working-data" id="toc-working-data" class="nav-link" data-scroll-target="#working-data"><span class="header-section-number">6.2.5</span> Working data</a></li>
+  <li><a href="#analysis_script" id="toc-analysis_script" class="nav-link" data-scroll-target="#analysis_script"><span class="header-section-number">6.2.6</span> Data analysis</a></li>
   </ul></li>
-  <li><a href="#reproducible" id="toc-reproducible" class="nav-link" data-scroll-target="#reproducible"><span class="toc-section-number">5.3</span>  Reproducible research and open science</a>
+  <li><a href="#reproducible" id="toc-reproducible" class="nav-link" data-scroll-target="#reproducible"><span class="header-section-number">6.3</span> Reproducible research and open science</a>
   <ul class="collapse">
-  <li><a href="#coding" id="toc-coding" class="nav-link" data-scroll-target="#coding"><span class="toc-section-number">5.3.1</span>  Coding</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="toc-section-number">5.3.2</span>  Documentation</a></li>
-  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link" data-scroll-target="#r-markdown"><span class="toc-section-number">5.3.3</span>  R Markdown</a></li>
-  <li><a href="#dissemination" id="toc-dissemination" class="nav-link" data-scroll-target="#dissemination"><span class="toc-section-number">5.3.4</span>  Dissemination</a></li>
+  <li><a href="#coding" id="toc-coding" class="nav-link" data-scroll-target="#coding"><span class="header-section-number">6.3.1</span> Coding</a></li>
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">6.3.2</span> Documentation</a></li>
+  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link" data-scroll-target="#r-markdown"><span class="header-section-number">6.3.3</span> R Markdown</a></li>
+  <li><a href="#dissemination" id="toc-dissemination" class="nav-link" data-scroll-target="#dissemination"><span class="header-section-number">6.3.4</span> Dissemination</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -222,7 +247,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="project_data_management" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></span></h1>
+<h1 class="title"><span id="project_data_management" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span></h1>
 </div>
 
 
@@ -237,10 +262,10 @@ div.csl-indent {
 
 </header>
 
-<section id="project-management" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="project-management"><span class="header-section-number">5.1</span> Project management</h2>
-<section id="project-directory-structure" class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="project-directory-structure"><span class="header-section-number">5.1.1</span> Project directory structure</h3>
+<section id="project-management" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="project-management"><span class="header-section-number">6.1</span> Project management</h2>
+<section id="project-directory-structure" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="project-directory-structure"><span class="header-section-number">6.1.1</span> Project directory structure</h3>
 <p>The lab uses a consistent project management style to facilitate collaboration across members and to facilitate the open dissemination of our work. To participate in data analysis or manuscript preparation, you will need to organize the files on your local computer with a particular structure to match the lab’s structure. If you do not have one already, you should create a <code>projects</code> or <code>research</code> or <code>CCHIL work</code> directory on your computer. We highly recommend creating this directory with your Microsoft OneDrive folder on your computer.</p>
 <p>Once you have an overall projects directory in place, you can create a subdirectory for the current project. Within the project directory, you will want to use the following subdirectory structure:</p>
 <div class="cell" data-layout-align="center">
@@ -265,21 +290,21 @@ div.csl-indent {
 </ul>
 <p>In general, use subdirectories to organize the main directories and limit the files in the main directories to just the core files. We will often create <code>old</code> subdirectories to move old or irrelevant files into.</p>
 </section>
-<section id="existing-projects" class="level3" data-number="5.1.2">
-<h3 data-number="5.1.2" class="anchored" data-anchor-id="existing-projects"><span class="header-section-number">5.1.2</span> Existing projects</h3>
+<section id="existing-projects" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="existing-projects"><span class="header-section-number">6.1.2</span> Existing projects</h3>
 <p>Most projects in the lab already have project directories, and they are available to collaborators in the lab. These directories are available as <a href="https://git-scm.com/">Git</a> <a href="https://help.github.com/en/github/getting-started-with-github/github-glossary#repository">repositories</a> (repos) at <a href="https://www.github.com">GitHub</a>, a website that stores, backs up, and version controls code. Git is a very powerful tool for tracking changes that happen to files, and GitHub is a great way to facilitate online collaboration. Briefly, GitHub allows you to <a href="https://help.github.com/en/github/getting-started-with-github/github-glossary#clone">clone</a> (install new) existing repos from the <a href="https://help.github.com/en/github/getting-started-with-github/github-glossary#remote">remote</a> GitHub source to your local computer, <a href="https://help.github.com/en/github/getting-started-with-github/github-glossary#pull">pull</a> changes from a remote repo to update your local repo, and <a href="https://help.github.com/en/github/getting-started-with-github/github-glossary#push">push</a> changes you make locally up to the remote repo. Check out <a href="https://help.github.com/en/github/getting-started-with-github/github-glossary">Github’s glossary</a> for more definitions. To learn more about working with Git, check out the <a href="version_control.html">Version control</a> section.</p>
 <p>So if you want access to the project directories, you need to create a GitHub account and send Jeff your GitHub account name. Once you’re added to the lab team as a contributor, you can clone the repo locally to your own computer and start working on the files.</p>
 <p>Note that GitHub does not automatically sync your computer with the remote repo. This is done for two reasons: (1) multiple people can be working on a file at a time, which can cause conflicts and (2) project manager may want control over what changes are accepted and rejected. Therefore, you must manually pull changes from the remote repo that other people have pushed there. <strong>Please always pull from the remote repo everytime before you start working on a project.</strong> Also, when you make changes to files on your local repo, you must manually push them to the remote repo. In some cases, your pushes will be automatically accepted. But in other cases, your pushes must be reviewed by the repo maintainer to make sure that they are acceptable.</p>
 </section>
-<section id="rstudio-projects" class="level3" data-number="5.1.3">
-<h3 data-number="5.1.3" class="anchored" data-anchor-id="rstudio-projects"><span class="header-section-number">5.1.3</span> RStudio Projects</h3>
+<section id="rstudio-projects" class="level3" data-number="6.1.3">
+<h3 data-number="6.1.3" class="anchored" data-anchor-id="rstudio-projects"><span class="header-section-number">6.1.3</span> RStudio Projects</h3>
 <p>Because most of our analyses and documents are done in RStudio, we use <a href="https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects">RStudio Projects</a> for our projects. Creating an RStudio Project sets the working directory in RStudio to the project’s root directory. This is useful because when you open an RStudio Project, you always know what working directory you are using. Combined with the functionality of the <code>here()</code> function of the <code>{here}</code> package, you will not have to spend any time worried about setting directories with an RStudio Project.</p>
 <p>RStudio Projects also will automatically open the documents that were opened last time that you used the Project. Finally, you must work in an RStudio Project to be able to use version control via Git in RStudio.</p>
 <p>So you should create an RStudio Project for every project that you will be using RStudio for. To open the RStudio Project, double click on the <code>.Rproj</code> file in your project root directory (do not open RStudio through the app menu).</p>
 </section>
 </section>
-<section id="project-workflow" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="project-workflow"><span class="header-section-number">5.2</span> Project workflow</h2>
+<section id="project-workflow" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="project-workflow"><span class="header-section-number">6.2</span> Project workflow</h2>
 <p>The way in which we manage our project workflow can (1) maintain consistency and facilitate collaboration across the lab, (2) ensure more robust scientific practices, and (3) encourage open science and facilitate publishing our work in a reproducible way. Therefore, the lab uses consistent tools and steps to maintain a reproducible project workflow. In general, our lab</p>
 <ol type="1">
 <li>pre-registers our studies,</li>
@@ -292,13 +317,13 @@ div.csl-indent {
 <li>posts our data collection materials, working data sets, R analysis scripts, and R Markdown documents with our published articles.</li>
 </ol>
 <p>This workflow needs to be in place for all CCHIL lab members. However, the workflow is not immutable—if you have suggestions on ways to improve it, let Jeff know. Though imposing our structure on collaborators is not feasible, we will try to maintain our project workflow as much as possible with people outside of the lab.</p>
-<section id="pre-registration" class="level3" data-number="5.2.1">
-<h3 data-number="5.2.1" class="anchored" data-anchor-id="pre-registration"><span class="header-section-number">5.2.1</span> Pre-registration</h3>
+<section id="pre-registration" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="pre-registration"><span class="header-section-number">6.2.1</span> Pre-registration</h3>
 <p>One way to improve replicability of our studies is to <a href="https://www.cos.io/prereg">pre-register</a> them <span class="citation" data-cites="Nosek.etal.2019">(<a href="references.html#ref-Nosek.etal.2019" role="doc-biblioref">Nosek et al. 2019</a>)</span>. Pre-registration means that you write down and post your plan for methods, data collection, data processing, and analysis <strong>before starting data collection</strong>. Pre-registration forces you to think about how you will analyze your data before you have any. This both helps in designing your data collection tools and limits the degrees of freedom available for <a href="https://psychology.wikia.org/wiki/P-hacking">p-hacking</a> at the analysis step.</p>
 <p>There are a number of different ways to pre-register a study. This simplest is to complete the nine-question form at <a href="https://aspredicted.org/">AsPredicted.org</a>. Alternatively, the <a href="https://osf.io/prereg/">Open Science Framework pre-registration system</a> provides a more thorough avenue to pre-register your study. I highly recommend using the <a href="https://github.com/crsh/prereg"><code>{prereg}</code></a> package to create your pre-registration in R Markdown before submitting. However you choose to do so, you will need to pre-register your studies before starting data collection.</p>
 </section>
-<section id="data-collection" class="level3" data-number="5.2.2">
-<h3 data-number="5.2.2" class="anchored" data-anchor-id="data-collection"><span class="header-section-number">5.2.2</span> Data collection</h3>
+<section id="data-collection" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="data-collection"><span class="header-section-number">6.2.2</span> Data collection</h3>
 <p>When designing data collection tools (e.g., Qualtrics surveys, PsychoPy scripts, etc.), it is important to think about how the data will be used downstream in the work flow. So before designing data collection, make sure to understand the rest of the workflow and think carefully about how the information you collect will be used in the workflow. Take the time to carefully design these tools to facilitate easier data analysis.</p>
 <section id="standard-practices-for-data-files" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="standard-practices-for-data-files">Standard practices for data files</h4>
@@ -324,15 +349,15 @@ div.csl-indent {
 </ul>
 </section>
 </section>
-<section id="raw-data" class="level3" data-number="5.2.3">
-<h3 data-number="5.2.3" class="anchored" data-anchor-id="raw-data"><span class="header-section-number">5.2.3</span> Raw data</h3>
+<section id="raw-data" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="raw-data"><span class="header-section-number">6.2.3</span> Raw data</h3>
 <p>All raw data should either be automatically saved to a cloud storage service or should be moved there as soon as possible. Currently, the lab uses OneDrive to store all raw data, and each project should have its own OneDrive folder that is shared with all of the project members. Note that OneDrive raw data folders do not necessarily have to be synced onto your local computer.</p>
 <p>Note that we are using OneDrive as an archive for all raw data. That means that <strong>all</strong> raw data need to be archived on OneDrive, even if it is a ‘bad’ data file (e.g., incomplete data, interrupted session, wrong subject/date entered, etc.). If necessary, a subdirectory for ‘bad’ data can be created and these files can be moved there. But every data file created must be archived on OneDrive.</p>
 <p>Because this is an archive of the data, <strong>we do not EVER alter the raw data files, including the file names</strong>. Any changes that need to be made to data must happen downstream in the R scripts. Raw data should never be changed. If changes need to be made, they need to be entered into the <code>project_log.md</code> file and a separate notes file (if desired).</p>
 <p>OneDrive files are versioned (meaning it saves previous versions) and authored (meaning we can see who made changes). So we can revert to previous versions, but this should not need to happen. Do not change raw data files.</p>
 </section>
-<section id="data-processing" class="level3" data-number="5.2.4">
-<h3 data-number="5.2.4" class="anchored" data-anchor-id="data-processing"><span class="header-section-number">5.2.4</span> Data processing</h3>
+<section id="data-processing" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="data-processing"><span class="header-section-number">6.2.4</span> Data processing</h3>
 <p>In the lab, all data processing occurs transparently via R. <strong>Never change any data files in Excel.</strong> While Excel saves the changes that you make to files, it does not save the <em>process</em> of that change. Our lab prioritizes making the entire data analysis workflow transparent, and Excel does not allow transparency, so it is not allowed to be a part of our workflow.</p>
 <p>To achieve this, we usually have a single R script called something like <code>data_processing.R</code>. This script inputs the raw data and processes it to generate the working data set that will be published with the article.</p>
 <ul>
@@ -346,8 +371,8 @@ div.csl-indent {
 </ul>
 <p>Note the only aim of this script is to generate a publication-ready working data set. <strong>There should be no analysis conducted in this script.</strong> Every statistic in the manuscript should come from the <a href="#analysis_script">analysis script</a>. While the data processing script does need to be commented and documented, it does not need to be as polished as the analysis script.</p>
 </section>
-<section id="working-data" class="level3" data-number="5.2.5">
-<h3 data-number="5.2.5" class="anchored" data-anchor-id="working-data"><span class="header-section-number">5.2.5</span> Working data</h3>
+<section id="working-data" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="working-data"><span class="header-section-number">6.2.5</span> Working data</h3>
 <p>The working data set is the data file (or files) that will be posted with the published article. As such, it needs to be clean and polished. Ideally, there is only a single working data set, so try to merge different data sets together in the data processing script. If that is not possible, multiple working data sets are acceptable, but try to minimize the number of working data sets.</p>
 <p>Characteristics of working data sets:</p>
 <ul>
@@ -356,8 +381,8 @@ div.csl-indent {
 <li>Make sure that the column names are both human and R readable—meaning they are understandable to people but are easy for R to work with (e.g., snake_case).</li>
 </ul>
 </section>
-<section id="analysis_script" class="level3" data-number="5.2.6">
-<h3 data-number="5.2.6" class="anchored" data-anchor-id="analysis_script"><span class="header-section-number">5.2.6</span> Data analysis</h3>
+<section id="analysis_script" class="level3" data-number="6.2.6">
+<h3 data-number="6.2.6" class="anchored" data-anchor-id="analysis_script"><span class="header-section-number">6.2.6</span> Data analysis</h3>
 <p>There should be a single data analysis script for one article manuscript (that will be published with that manuscript). If multiple scripts were created during data analysis, they should be combined into a single script. It should contain the code for <strong>all</strong> of the analyses in the manuscript. If there are analyses that cannot be run in R, this should be made clear in the manuscript. It should not contain code that is not contained or referenced in the manuscript. Save unused analyses in other scripts.</p>
 <p>In general, the analysis script should use the <a href="https://www.tidyverse.org/">tidyverse</a> system of working with, analyzing, and plotting data. The data analysis script should contain the following in this order:</p>
 <ul>
@@ -377,11 +402,11 @@ div.csl-indent {
 </section>
 </section>
 </section>
-<section id="reproducible" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="reproducible"><span class="header-section-number">5.3</span> Reproducible research and open science</h2>
+<section id="reproducible" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reproducible"><span class="header-section-number">6.3</span> Reproducible research and open science</h2>
 <p>The lab’s policy is to generate reproducible research—that is, we provide the experimental code, working data, R analysis script, and manuscript file used to generate the final document. This allows other researchers to rerun our studies, rerun our code, or reanalyze our data. While it can be scary to put our work out there for public scrutiny, this is what science is about. It can be uncomfortable to have others scrutinize our work. But the benefits of having someone detect an error and correcting the scientific record is more important than our individual egos. We need to be comfortable saying that we were wrong.</p>
-<section id="coding" class="level3" data-number="5.3.1">
-<h3 data-number="5.3.1" class="anchored" data-anchor-id="coding"><span class="header-section-number">5.3.1</span> Coding</h3>
+<section id="coding" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="coding"><span class="header-section-number">6.3.1</span> Coding</h3>
 <p>We should write our code assuming that someone else will be reading it. This is guaranteed to happen when future you revisits the code after taking a break. But we should also assume that a different person will be looking at the code.</p>
 <section id="coding-principles" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="coding-principles">Coding principles</h4>
@@ -404,20 +429,20 @@ div.csl-indent {
 </ul>
 </section>
 </section>
-<section id="documentation" class="level3" data-number="5.3.2">
-<h3 data-number="5.3.2" class="anchored" data-anchor-id="documentation"><span class="header-section-number">5.3.2</span> Documentation</h3>
+<section id="documentation" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="documentation"><span class="header-section-number">6.3.2</span> Documentation</h3>
 <p>In addition to commenting code, documentation is important to maintaining reproducible research.</p>
 <p>First, creating and updating a project log is important. The <code>project_log.md</code> file in a project’s <code>admin</code> folder is the best place to start for this (here’s an <a href="../examples/project_log.md">example project log</a>). The log simply comprises a date and a description of the what happened in the project that day. Entries for these logs can include IRB/IACUC approval dates and protocol numbers, experiment start/pause/stop dates, experiment assistant start/stop dates, anomalous data descriptions (e.g., “program stopped while subject was running, so I restarted it and labelled it subject 102b”). While it may seem tedious, and you may forget to add entries, updating the project log is critical to keep track of issues that may be relevant to data analysis and interpretation, especially months or years after the issues occurred. The project log should be used from the inception of the project, through data collection, data analysis, and manuscript preparation. It can be closed upon final publication.</p>
 <p>Second, README files are important for documenting the structure and process of a study project. There is a <code>README.md</code> in the root directory of every project. This file should include the project name and overview, a list of specific aims and research questions, and a project protocol describing the structure of the project and the expectations for working on the project. This should be updated to include the citation and abstract of the accepted manuscript when the project is published. This file is what shows up on the main page of the GitHub repo for the project.</p>
 <p>Once a project is ready for submission, there should also be a <code>README.md</code> file added to the reproducible research folder. This file should include the author(s) and creation date of the file, a request for a citation of the manuscript, the license under which the script is published, notes on how to compile the file/run the script, a short summary of the data and data processing, a list of data files, a description of all of the columns in the data files, a list of R scripts.</p>
 </section>
-<section id="r-markdown" class="level3" data-number="5.3.3">
-<h3 data-number="5.3.3" class="anchored" data-anchor-id="r-markdown"><span class="header-section-number">5.3.3</span> R Markdown</h3>
+<section id="r-markdown" class="level3" data-number="6.3.3">
+<h3 data-number="6.3.3" class="anchored" data-anchor-id="r-markdown"><span class="header-section-number">6.3.3</span> R Markdown</h3>
 <p>Though it is the worldwide standard and it has some advantages such as track changes, Microsoft Word has limitations for reproducible research because you cannot embed R code into the text to show how statistics are calculated. <a href="https://rmarkdown.rstudio.com/">R Markdown</a> allows the inclusion of R code into manuscripts and can produce beautiful documents. A key benefit of this is that, if your statistics change (because you have altered the R script), you do not have to change them by hand in the document. R Markdown will automatically update them. <strong>The standard for the lab is to use R Markdown for all publications</strong>. There may be cases in which we do not use R Markdown (e.g., working with collaborators outside of the lab), but it should be the default method for writing manuscripts.</p>
 <p>To use R Markdown, you will edit a plain-text <code>.Rmd</code> file that uses <a href="https://daringfireball.net/projects/markdown/">Markdown</a> syntax to format text and R code chunks to embed R calculations. In RStudio, you can then compile this file using the <code>{knitr}</code> package to generate a PDF of your document. It takes a bit of time to learn Markdown and R Markdown syntax, but the time invested is worth it to generate elegant, reproducible, updatable manuscripts. You can find <a href="https://decisionslab.unl.edu/data/duque_etal_2020_rr.zip">example R Markdown files</a> on the <a href="https://decisionslab.unl.edu/publications.html">lab’s publications page</a> and check out <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> <span class="citation" data-cites="Xie.etal.2018">(<a href="references.html#ref-Xie.etal.2018" role="doc-biblioref">Xie, Allaire, and Grolemund 2018</a>)</span>.</p>
 </section>
-<section id="dissemination" class="level3" data-number="5.3.4">
-<h3 data-number="5.3.4" class="anchored" data-anchor-id="dissemination"><span class="header-section-number">5.3.4</span> Dissemination</h3>
+<section id="dissemination" class="level3" data-number="6.3.4">
+<h3 data-number="6.3.4" class="anchored" data-anchor-id="dissemination"><span class="header-section-number">6.3.4</span> Dissemination</h3>
 <p>To disseminate our reproducible research, we must collect all of the relevant files in a cohesive way. Therefore, we need to create a subdirectory in the <code>docs</code> directory called <code>rr</code> or <code>osf</code> or <code>dryad</code>. Within this directory, we need to place the following:</p>
 <ul>
 <li>Data files (<code>.csv</code> files)</li>
@@ -441,14 +466,14 @@ div.csl-indent {
 <p>For our purposes, there are two primary preprint servers. <a href="https://psyarxiv.com/">PsyArXiv</a> focuses on psychology-related content and is associated with the OSF. In fact, you can import files directly from your OSF projects. <a href="https://www.biorxiv.org/">BioRxiv</a> focuses on biology-related content and has direct connections to many biology journals.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-Nosek.etal.2019" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Nosek.etal.2019" class="csl-entry" role="listitem">
 Nosek, Brian A., Emorie D. Beck, Lorne Campbell, Jessica K. Flake, Tom E. Hardwicke, David T. Mellor, Anna E. van ’t Veer, and Simine Vazire. 2019. <span>“Preregistration Is Hard, and Worthwhile.”</span> <em>Trends in Cognitive Sciences</em> 23 (10): 815–18. <a href="https://doi.org/10.1016/j.tics.2019.07.009">https://doi.org/10.1016/j.tics.2019.07.009</a>.
 </div>
-<div id="ref-Wickham.Grolemund.2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wickham.Grolemund.2017" class="csl-entry" role="listitem">
 Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for <span>Data Science</span></em>. <span>O’Reilly Media</span>.
 </div>
-<div id="ref-Xie.etal.2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Xie.etal.2018" class="csl-entry" role="listitem">
 Xie, Y, J J Allaire, and G Grolemund. 2018. <em>R <span>Markdown</span>: <span>The Definitive Guide</span></em>. <span>Chapman and Hall</span>.
 </div>
 </div>
@@ -484,9 +509,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -551,6 +590,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -592,13 +717,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./logistics.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></span>
+      <a href="./experiments.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./version_control.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

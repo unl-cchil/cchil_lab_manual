@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>CCHIL Lab Manual - 5&nbsp; Experimental protocols</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./project_data_management.html" rel="next">
+<link href="./logistics.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./experiments.html">Lab projects</a></li><li class="breadcrumb-item"><a href="./experiments.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">CCHIL Lab Manual</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the lab</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lab policies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./behavior.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Lab projects</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./experiments.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#recruiting-and-scheduling-participants" id="toc-recruiting-and-scheduling-participants" class="nav-link active" data-scroll-target="#recruiting-and-scheduling-participants"><span class="header-section-number">5.1</span> Recruiting and scheduling participants</a>
+  <ul class="collapse">
+  <li><a href="#finding-lab-assistant-availability" id="toc-finding-lab-assistant-availability" class="nav-link" data-scroll-target="#finding-lab-assistant-availability"><span class="header-section-number">5.1.1</span> Finding lab assistant availability</a></li>
+  <li><a href="#setting-up-calendly-calendar" id="toc-setting-up-calendly-calendar" class="nav-link" data-scroll-target="#setting-up-calendly-calendar"><span class="header-section-number">5.1.2</span> Setting up Calendly Calendar</a></li>
+  <li><a href="#finding-participants-in-the-database" id="toc-finding-participants-in-the-database" class="nav-link" data-scroll-target="#finding-participants-in-the-database"><span class="header-section-number">5.1.3</span> Finding participants in the database</a></li>
+  <li><a href="#invitations" id="toc-invitations" class="nav-link" data-scroll-target="#invitations"><span class="header-section-number">5.1.4</span> Sending email invitations</a></li>
+  </ul></li>
+  <li><a href="#before-testing-sessions" id="toc-before-testing-sessions" class="nav-link" data-scroll-target="#before-testing-sessions"><span class="header-section-number">5.2</span> Before testing sessions</a></li>
+  <li><a href="#during-testing-sessions" id="toc-during-testing-sessions" class="nav-link" data-scroll-target="#during-testing-sessions"><span class="header-section-number">5.3</span> During testing sessions</a>
+  <ul class="collapse">
+  <li><a href="#after-participant-arrives" id="toc-after-participant-arrives" class="nav-link" data-scroll-target="#after-participant-arrives"><span class="header-section-number">5.3.1</span> After participant arrives</a></li>
+  <li><a href="#training-and-testing" id="toc-training-and-testing" class="nav-link" data-scroll-target="#training-and-testing"><span class="header-section-number">5.3.2</span> Training and testing</a></li>
+  <li><a href="#owner-wrap-up" id="toc-owner-wrap-up" class="nav-link" data-scroll-target="#owner-wrap-up"><span class="header-section-number">5.3.3</span> Owner wrap-up</a></li>
+  <li><a href="#parking-validation" id="toc-parking-validation" class="nav-link" data-scroll-target="#parking-validation"><span class="header-section-number">5.3.4</span> Parking validation</a></li>
+  </ul></li>
+  <li><a href="#after-testing-sessions" id="toc-after-testing-sessions" class="nav-link" data-scroll-target="#after-testing-sessions"><span class="header-section-number">5.4</span> After testing sessions</a>
+  <ul class="collapse">
+  <li><a href="#shutting-down-cameras-and-backing-up-videos" id="toc-shutting-down-cameras-and-backing-up-videos" class="nav-link" data-scroll-target="#shutting-down-cameras-and-backing-up-videos"><span class="header-section-number">5.4.1</span> Shutting down cameras and backing up videos</a></li>
+  <li><a href="#cleaning" id="toc-cleaning" class="nav-link" data-scroll-target="#cleaning"><span class="header-section-number">5.4.2</span> Cleaning</a></li>
+  <li><a href="#updating-database" id="toc-updating-database" class="nav-link" data-scroll-target="#updating-database"><span class="header-section-number">5.4.3</span> Updating database</a></li>
+  <li><a href="#social-media-posts" id="toc-social-media-posts" class="nav-link" data-scroll-target="#social-media-posts"><span class="header-section-number">5.4.4</span> Social media posts</a></li>
+  </ul></li>
+  <li><a href="#separation" id="toc-separation" class="nav-link" data-scroll-target="#separation"><span class="header-section-number">5.5</span> Separation anxiety protocol</a></li>
+  <li><a href="#safety-protocol" id="toc-safety-protocol" class="nav-link" data-scroll-target="#safety-protocol"><span class="header-section-number">5.6</span> Safety protocol</a></li>
+  <li><a href="#cleaning-protocol-if-dog-has-an-accident-on-lab-carpet" id="toc-cleaning-protocol-if-dog-has-an-accident-on-lab-carpet" class="nav-link" data-scroll-target="#cleaning-protocol-if-dog-has-an-accident-on-lab-carpet"><span class="header-section-number">5.7</span> Cleaning protocol if dog has an accident on lab carpet:</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="experiments" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This section is primarily written for project leaders, so lab assistants can skip it.</p>
+<section id="recruiting-and-scheduling-participants" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="recruiting-and-scheduling-participants"><span class="header-section-number">5.1</span> Recruiting and scheduling participants</h2>
+<section id="finding-lab-assistant-availability" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="finding-lab-assistant-availability"><span class="header-section-number">5.1.1</span> Finding lab assistant availability</h3>
+<ol type="1">
+<li>Have all lab assistants block out their available times on the cchil.unl@gmail.com Google calendar <a href="https://calendar.google.com/calendar/u/0?cid=OXJsaHQ5NTAzdnJvOGE2Njk3b2M4NjBjcThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Dog lab availability</a>.</li>
+<li>Look for blocks of time in which at least two lab assistants are available. These will be the “open” times on the Calendly Calendar in which owners can sign up for appointment slots.</li>
+</ol>
+</section>
+<section id="setting-up-calendly-calendar" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="setting-up-calendly-calendar"><span class="header-section-number">5.1.2</span> Setting up Calendly Calendar</h3>
+<ol type="1">
+<li>Log into the lab <a href="https://calendly.com/">Calendly account</a> (contact Jeff for login information).</li>
+<li>Once on the account dashboard, click on <code>+ Create</code> or <code>New Event Type</code> to create a new event type for the project then select “One-on-One Event Type”.</li>
+<li>What event is this?</li>
+</ol>
+<ul>
+<li>Use this section to name the event, set a location, give a brief description, and choose the display color. The event name is what the participants see, so make it understandable for them but also signals to us what the project is (in case more than one project runs at a time). The location should be In-person meeting and enter 501 Building, room 3. Give a short description to remind the participants what the appointment is.</li>
+</ul>
+<ol start="4" type="1">
+<li>When can people book this event?</li>
+</ol>
+<ul>
+<li>Use this section to set the time slots available.</li>
+<li>Use the <em>Within a date range</em> option and select the dates that lab assistants are available.</li>
+<li>Under <em>Duration</em> you select how long the study session will last (often 1 hour).</li>
+<li>To set times I usually use the <em>Set custom hours</em> option.
+<ul>
+<li>Then select which days you want to be available and fill out the time table based on when enough RAs are available.</li>
+<li>If you need multiple time ranges on one day you can use the <code>+</code> symbol to add another range (e.g., 9:00-11:00 am and 1:00-3:00 pm).</li>
+<li>If times differ from the previous week, click on the <em>Add a date override</em> button to the right. Then select on the day you want to customize the times for.</li>
+</ul></li>
+<li>If there is a certain day you want no availability, but you don’t want all those days unavailable (e.g., you want Wednesday, Jan.&nbsp;4 to be available but not Wednesday, Jan 11), then click on <em>Add a date override</em>, select the date, and then hit the trash can symbol.
+<ul>
+<li>This will make that day unavailable without altering the rest of the weeks.</li>
+</ul></li>
+<li>At the bottom of this section you can select to add time before or after your events.
+<ul>
+<li>Add 15 minutes before the event to prepare the room.</li>
+<li>Add 30 minutes after the event to give us time to clean/reset before the next dog.</li>
+<li>Calendly will automatically remove the affected time slots to give you this extra time.</li>
+</ul></li>
+<li>Under <em>Additional rules for your availability</em>
+<ul>
+<li>You can select what increments you want your sessions to be posteD in (30 minutes is probably best).</li>
+<li>You can also alter the scheduling conditions to set a limit to how soon before the appointment they can schedule as well as the maximum allowed events per day. We usually set it so they cannot schedule within 1 or 2 days of the appointment to give time to send all the confirmation emails and make sure all RAs were informed.</li>
+</ul></li>
+</ul>
+<ol start="5" type="1">
+<li>Invitee Questions</li>
+</ol>
+<ul>
+<li>Calendly automatically asks for their Name, Email, and if there is anything they want to share</li>
+<li>Under this section, you can also add other questions to ask. Add “What is your dog’s name?” and make it required. This helps make sure the owner was bringing in the correct dog in the instances where an owner has multiple dogs.</li>
+</ul>
+<ol start="6" type="1">
+<li>Turn off other event types and turn on this one once you’re ready to schedule appointments.</li>
+</ol>
+</section>
+<section id="finding-participants-in-the-database" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="finding-participants-in-the-database"><span class="header-section-number">5.1.3</span> Finding participants in the database</h3>
+<ol type="1">
+<li><strong>The CCHIL participant database has personally identifiable information (names, email addresses). Therefore, you can only access the database on UNL-owned computers. For most purposes, this means the desktop computer in the dog lab. <em>Do not access the database from your personal computer</em>.</strong></li>
+<li>Log into the <a href="https://decisionslab.unl.edu/doglab/researchers/">Dog Lab dashboard</a> with the username and password that Jeff gave you and click the option <em>Continue to run a report or search</em>.</li>
+<li>Click on the “All Eligible Dogs (+ Owner Contact)” and save the spreadsheet file on the C drive of the computer.</li>
+<li>Open the spreadsheet file in Excel and save it as an .xlsx file. This allows you to sort, filter, and color code the file.</li>
+<li>Once you have sorted and filtered down to the correct records, check eligibility status by confirming:</li>
+</ol>
+<ul>
+<li>The dog is not aggressive towards people.</li>
+<li>The rabies vaccination is up to date (given within 3 years of appointment date).</li>
+<li>Any other requirements (e.g., weight minimum).</li>
+</ul>
+<ol start="6" type="1">
+<li>Once the dog’s eligibility is confirmed, the owner may be sent an invitation email (see <a href="#invitations">Sending email invitations</a>).</li>
+<li>If you want to search for a particular owner or dog, type the owner’s last name into the search bar at the bottom of the dashboard page.</li>
+</ol>
+</section>
+<section id="invitations" class="level3" data-number="5.1.4">
+<h3 data-number="5.1.4" class="anchored" data-anchor-id="invitations"><span class="header-section-number">5.1.4</span> Sending email invitations</h3>
+<ol type="1">
+<li>Pick out the participants from the spreadsheet that you want to contact. A good rule of thumb is selecting twice as many participants as you have open slots in the calendar.</li>
+<li>Access the CCHIL Gmail account delegated to you by logging into your Gmail account, clicking on your account image in the top right corner, and then selecting UNL CCHIL.</li>
+<li>Compose a new email and in the bottom rightish corner of the new message, click on the three vertical dots, then click Templates, and select the appropriate template for this study email.</li>
+<li>It works best to send a separate email to each participant so that you can specify which dog is invited. This is especially important for studies with requirements like minimum weights.</li>
+<li>Once the invitation email is sent, the participants can select a time in the Calendly calendar that works for them. When they book an appointment, Calendly will send an email to the UNL CCHIL Gmail account, so keep an eye on that account.</li>
+<li>After an appointment has been made in Calendly, Send a Teams notification to the lab assistants assigned to the session to notify them of the new appointment. You can also then send a confirmation email to the participant with any additional information they will need.</li>
+<li>It is useful to send reminder emails to participants about 24 hours before their appointment.</li>
+<li>The UNL CCHIL Gmail account also has templates for registering new people into the database and asking them to update their vaccination records.</li>
+</ol>
+</section>
+</section>
+<section id="before-testing-sessions" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="before-testing-sessions"><span class="header-section-number">5.2</span> Before testing sessions</h2>
+<ol type="1">
+<li>Have lab assistants arrive at least 15 minutes before appointment time to ensure enough time for set up.</li>
+<li>Turn on the camera computer and live-streaming TV by flipping the large orange power switch on the power strip.</li>
+<li>Make sure an empty SD card and charged battery are in the GoPro camera.</li>
+<li>Turn on the computer in the office area and pull up the Parking Portal website (saved in favorites).</li>
+<li>Turn the white noise machine (located next to the door to the experimental room) onto the highest setting.</li>
+<li>Prepare the tablets or laptop with the appropriate data sheet.</li>
+<li>Fill the water bowl by the door with fresh water.</li>
+<li>Bring treats and any other necessary materials (e.g., lab notebook) into the experimental room.</li>
+<li>Five minutes before the appointment time, send one lab assistant outside to wait for/greet the dog and their owner.</li>
+</ol>
+</section>
+<section id="during-testing-sessions" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="during-testing-sessions"><span class="header-section-number">5.3</span> During testing sessions</h2>
+<section id="after-participant-arrives" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="after-participant-arrives"><span class="header-section-number">5.3.1</span> After participant arrives</h3>
+<ol type="1">
+<li>As the owner and dog enter the room, ask them to let their dog off leash so the dog can explore the area. Let the owners know they can hang their coats on the coat rack by the door (in the winter) and leave their belongings on the chairs.</li>
+<li>While the dog is exploring, ask the owner if the dog has any food allergies or food preferences.</li>
+</ol>
+<ul>
+<li>If the dog has food allergies/sensitive stomach, feel free to use any treats the owner brings with them. Often, these treats will need to be cut into smaller pieces, about the size of the training treats that are normally used.</li>
+</ul>
+<ol start="3" type="1">
+<li>Ask the owner if their dog has any separation anxiety from them.</li>
+</ol>
+<ul>
+<li>If owner says yes and study requires dog to be away from the owner, run the separation anxiety protocol (see <a href="#separation">Separation anxiety protocol</a>).</li>
+</ul>
+<ol start="4" type="1">
+<li>Explain experiment to owner.</li>
+</ol>
+<ul>
+<li>Take the owner and the dog into the experimental room with lab assistants and shut the door.</li>
+<li>While one lab assistant explains the experiment to the owner, the other lab assistant will play with/interact with the dog to better acquaint the dog with the room and watch for signs of separation anxiety.</li>
+</ul>
+</section>
+<section id="training-and-testing" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="training-and-testing"><span class="header-section-number">5.3.2</span> Training and testing</h3>
+<ol type="1">
+<li>Provide study-specific training.</li>
+<li>Allow a break between training and testing.</li>
+</ol>
+<ul>
+<li>Allow the dog to be off leash in the experimental room, but do not provide access to treats during the break.</li>
+<li>If needed, bring the water bowl into the experimental room and allow the dog to get a drink water before starting testing.</li>
+<li>At the end of the break, have one experimenter start the room cameras recording:
+<ul>
+<li>Right click anywhere on the screen.</li>
+<li>Click on <em>Manual record</em>.</li>
+<li>Hit <em>Ok</em> (the username should be admin, and you do not need a password).</li>
+<li>Click the <em>All</em> box and click _All on”. The red recording symbol should appear in the corner.</li>
+</ul></li>
+<li>Start the GoPro camera recording:
+<ul>
+<li>Hold the power button on the side of the camera until the screen turns on.</li>
+<li>Place the GoPro on the tripod in the experimental room and make sure everything you need is in frame.</li>
+<li>Press the button with a red circle on the top of the camera and recording should begin.</li>
+</ul></li>
+</ul>
+<ol start="3" type="1">
+<li>Begin study-specific testing.</li>
+<li>After the test session is complete, stop recording.</li>
+</ol>
+<ul>
+<li>GoPro camera
+<ul>
+<li>Press the red circle button on top of the camera to stop recording.</li>
+<li>Hold the power button on the side of the camera to power the GoPro off (do this immediately, as it is easy to accidentally press buttons on the touch screen while moving around and videos may accidentally get deleted).</li>
+</ul></li>
+<li>Room cameras:
+<ul>
+<li>Right click anywhere on the screen.</li>
+<li>Click on <em>Manual record</em>.</li>
+<li>Click the <em>All</em> box and click <em>All off</em>. The red recording symbol should disappear in the corner of each camera screen.</li>
+</ul></li>
+</ul>
+</section>
+<section id="owner-wrap-up" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="owner-wrap-up"><span class="header-section-number">5.3.3</span> Owner wrap-up</h3>
+<ol type="1">
+<li>Once the dog has finished testing, take them off leash and allow them to return to their owner.</li>
+<li>Inform the owner that the experiment has ended. Remind the owner that there is no “right or wrong” or “good or bad” results, our goal is to simply measure dog behavior.</li>
+<li>Present the owner their dog’s Certificate of Achievement.</li>
+<li>Obtain consent from the owner to get a picture of their dog in front of the lab sign to post on our Facebook and Instagram by having them sign our Media Release form.</li>
+</ol>
+</section>
+<section id="parking-validation" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="parking-validation"><span class="header-section-number">5.3.4</span> Parking validation</h3>
+<ol type="1">
+<li>Open the UNL Parking Portal (bookmarked as <em>Parking Validation</em>) in Google Chrome on the office computer.</li>
+<li>Scroll to the very bottom of the home page and click on <em>Validation Provider Management</em>.</li>
+<li>Log into the Validation Account (the username and password should autofill).</li>
+<li>Select <em>SD 100% off (100% off)</em> as the validation discount.</li>
+<li>Place cursor in the text box under <em>Enter Permit/Ticket</em>.</li>
+</ol>
+<ul>
+<li>Using the magnetic strip reader, swipe the parking garage ticket. The ticket number should auto-fill in the text box.</li>
+<li>If the swipe does not work, type in the ticket number (gray numbers on back of ticket).</li>
+</ul>
+<ol start="6" type="1">
+<li>Click <em>Create Validation</em>.</li>
+<li>You should get a message at the top of the screen saying that the validation was created.</li>
+<li>Give the ticket back to the participant and inform them that the arms of the parking garage should open when they put the ticket in.</li>
+<li>Thank the owner for their time and participation. Ask them if they need any help finding their way out.</li>
+</ol>
+</section>
+</section>
+<section id="after-testing-sessions" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="after-testing-sessions"><span class="header-section-number">5.4</span> After testing sessions</h2>
+<section id="shutting-down-cameras-and-backing-up-videos" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="shutting-down-cameras-and-backing-up-videos"><span class="header-section-number">5.4.1</span> Shutting down cameras and backing up videos</h3>
+<ol type="1">
+<li>GoPro camera:</li>
+</ol>
+<ul>
+<li>Open the chamber on the side of the camera (the side without the power button).
+<ul>
+<li>Remove the SD card and place it in the pill organizer in the chamber that corresponds with the day of the week.</li>
+<li>Remove the battery and place it back on the charger (double check that the charging light comes on, otherwise the battery will not charge).</li>
+</ul></li>
+<li>Return the GoPro to the black case.</li>
+</ul>
+<ol start="2" type="1">
+<li>Room cameras:</li>
+</ol>
+<ul>
+<li>Right click anywhere on the screen.</li>
+<li>Click on <em>Video backup</em>.</li>
+<li>Select the date of the video you want to backup (on the <em>Search time</em> row), then click <em>Search</em>.</li>
+<li>The videos from that session should appear - click the box next to each video you want to download and click <em>Backup</em>.</li>
+<li>You will get a message saying <em>To backup this record?</em> - click <em>Yes</em>.</li>
+<li>When you get a message saying “USB storage is not found!” unplug the mouse and plug a flash drive into the USB port. The videos should start downloading automatically.</li>
+<li>When the videos are done backing up you will get a message saying the backup was successful. At this time you can unplug the flash drive and plug the mouse back in.</li>
+<li>If you are done backing up the videos you are good to turn the cameras off (just turn the power strip off that is to the right of the computer).</li>
+</ul>
+<ol start="3" type="1">
+<li>Back up both the GoPro and room camera videos on the desktop computer in the project-specific folder. Make sure all videos are saved on the desktop computer hard drive before deleting them from the SD card or USB drive.</li>
+</ol>
+</section>
+<section id="cleaning" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="cleaning"><span class="header-section-number">5.4.2</span> Cleaning</h3>
+<ol type="1">
+<li>Sweep the experimental room (including the mat) with the rubber broom and/or vacuum.</li>
+<li>Spray the experimental room with a light mist of disinfectant (be sure to hold the wand as high as possible to ensure a light layer of spray otherwise the floor will get sticky).</li>
+<li>Wipe all door handles and light switches down with a Clorox wipe (I wipe the keyboard down as well if participants used it to take a survey).</li>
+<li>Take the water bowl to the bathroom to dump/rinse out.</li>
+<li>Make sure all treats are put away and turn all lights off when leaving.</li>
+</ol>
+</section>
+<section id="updating-database" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="updating-database"><span class="header-section-number">5.4.3</span> Updating database</h3>
+<ol type="1">
+<li>Log into the <a href="https://decisionslab.unl.edu/doglab/researchers/">Dog Lab dashboard</a> and select <em>Continue to add study data to database</em>.</li>
+<li>In the drop down box, select <em>Record of dog participation in study</em>.</li>
+<li>Fill in the required information (Dog’s name, Owner’s Phone Number, Study Name, and Date) and click <em>Submit</em>.</li>
+</ol>
+</section>
+<section id="social-media-posts" class="level3" data-number="5.4.4">
+<h3 data-number="5.4.4" class="anchored" data-anchor-id="social-media-posts"><span class="header-section-number">5.4.4</span> Social media posts</h3>
+<ol type="1">
+<li>Log in to <a href="https://business.facebook.com">Meta Business Suite</a>.</li>
+<li>Click on <em>Create/Make Post</em>.</li>
+<li><strong>Make sure both Facebook and Instagram are selected.</strong></li>
+<li>Type the message you want for the study, typically “Thank you, NAME!”.</li>
+<li>Add the photo you want.</li>
+</ol>
+<ul>
+<li>You will probably have to edit the picture for it to post to Instagram (choose the square option).</li>
+<li>Add alt text to both Facebook and Instagram photos. Describe the dog and owner (if applicable).</li>
+</ul>
+<ol start="6" type="1">
+<li>Click <em>Post</em>.</li>
+</ol>
+</section>
+</section>
+<section id="separation" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="separation"><span class="header-section-number">5.5</span> Separation anxiety protocol</h2>
+<ol type="1">
+<li>Apply this protocol if the dog is showing signs of anxiety after being in the lab after 10-15 minutes. Signs include heavy panting, drooped ears, urinating, pacing, drooling, licking lips, red nose, staying near owners/near the door, whining, and barking.</li>
+<li>Inform the owners that their dog is showing signs of anxiety, so instead of running the experiment right away, you want to use the appointment time to allow the dog to further acclimate to the room and experimenters.</li>
+</ol>
+<ul>
+<li>Inform the owners that it is very important for them to ignore their dog (i.e.&nbsp;no petting or talking to dog) while running the anxiety protocol. This way, the dog will realize they only get attention/treats from the experimenters and will gravitate towards them more.</li>
+</ul>
+<ol start="3" type="1">
+<li>For 10 minutes, allow the dog to walk freely between the experimental room and the lobby. Have only the experimenters give the dogs treats when they are in the experimental room. The dog should not get any treats while outside the experimental room.</li>
+<li>For 5 minutes, have the dog, experimenters, and owners in the lab room with the door closed.</li>
+</ol>
+<ul>
+<li>Owners should still be ignoring their dog while experimenters continue to be the only ones giving the dog attention and treats.</li>
+</ul>
+<ol start="5" type="1">
+<li>With the owners still in the room, alternate between having the dog on leash and off leash for a minute at a time over the span of 6 minutes. Continue to offer occasional treats.</li>
+<li>Have the owner return to the lobby. For 15 minutes, keep the dog in the experimental room, alternating between being off leash and on leash for a minute at a time.</li>
+</ol>
+<ul>
+<li>If the dog has shown improvement, begin training and attempt to collect data from the dog the same day.</li>
+<li>If the dog does not show improvement, thank the owner for their time and allow the dog to leave. Inform the owner that we will keep them in our database for future studies that will not require the owner to be separated from the dog.</li>
+</ul>
+</section>
+<section id="safety-protocol" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="safety-protocol"><span class="header-section-number">5.6</span> Safety protocol</h2>
+<p>IN CASE OF A DOG BITE OR AGGRESSIVE DOG:</p>
+<ol type="1">
+<li>Ask the owner/dog to leave the lab at this time.</li>
+</ol>
+<ul>
+<li>“For the safety of our staff, we need to stop the study at this time and let you take your dog home.”</li>
+</ul>
+<ol start="2" type="1">
+<li>If needed, get the injured individual to the emergency room ASAP. Otherwise, get the first-aid kit in the clear bin hanging over the table in the back of the lab and apply first-aid, if needed.</li>
+<li>Notify Dr.&nbsp;Stevens right away (all contact information is located on the left cabinet in the lab office room). He will submit the required incident report. He will need to know exactly what happened, when, where, and with whom, as well as what was done afterwards.</li>
+</ol>
+</section>
+<section id="cleaning-protocol-if-dog-has-an-accident-on-lab-carpet" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="cleaning-protocol-if-dog-has-an-accident-on-lab-carpet"><span class="header-section-number">5.7</span> Cleaning protocol if dog has an accident on lab carpet:</h2>
+<ol type="1">
+<li>If owner is present when dog has accident, ensure them it is not a problem.</li>
+<li>Get Nature’s Miracle spray and paper towels from the table in the back of lab.</li>
+</ol>
+<ul>
+<li>Apply the spray to the accident area, wait 15 minutes, and then blot area well with paper towels.</li>
+<li>If there is an “extra” lab assistant, have them handle the accident cleanup so the study can proceed while the Nature’s Miracle spray sits on the accident area.</li>
+<li>Be sure that the dog does not mess with the sprayed area while it sits!</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./logistics.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./project_data_management.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

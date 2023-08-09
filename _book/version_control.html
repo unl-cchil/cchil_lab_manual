@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCHIL Lab Manual - 6&nbsp; Version control with Git</title>
+<title>CCHIL Lab Manual - 7&nbsp; Version control with Git</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -57,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -68,11 +69,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./experiments.html">Lab projects</a></li><li class="breadcrumb-item"><a href="./version_control.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -80,85 +86,102 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">CCHIL Lab Manual</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About the lab</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the lab</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Lab policies</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lab policies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./roles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></a>
+  <a href="./roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./behavior.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></a>
+  <a href="./behavior.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Behavior and communication</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./onboarding.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></a>
+  <a href="./onboarding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./logistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></a>
+  <a href="./logistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Logistics</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Lab projects</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Lab projects</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></a>
+  <a href="./experiments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Experimental protocols</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./version_control.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></a>
+  <a href="./project_data_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./version_control.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Resources</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
       </ul>
@@ -166,20 +189,21 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#installing-git" id="toc-installing-git" class="nav-link active" data-scroll-target="#installing-git"><span class="toc-section-number">6.1</span>  Installing Git</a></li>
-  <li><a href="#ignoring-files-and-directories" id="toc-ignoring-files-and-directories" class="nav-link" data-scroll-target="#ignoring-files-and-directories"><span class="toc-section-number">6.2</span>  Ignoring files and directories</a></li>
-  <li><a href="#using-to-github" id="toc-using-to-github" class="nav-link" data-scroll-target="#using-to-github"><span class="toc-section-number">6.3</span>  Using to GitHub</a>
+  <li><a href="#installing-git" id="toc-installing-git" class="nav-link active" data-scroll-target="#installing-git"><span class="header-section-number">7.1</span> Installing Git</a></li>
+  <li><a href="#ignoring-files-and-directories" id="toc-ignoring-files-and-directories" class="nav-link" data-scroll-target="#ignoring-files-and-directories"><span class="header-section-number">7.2</span> Ignoring files and directories</a></li>
+  <li><a href="#using-to-github" id="toc-using-to-github" class="nav-link" data-scroll-target="#using-to-github"><span class="header-section-number">7.3</span> Using to GitHub</a>
   <ul class="collapse">
   <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">Create a GitHub account</a></li>
   <li><a href="#connect-your-repo-to-your-account" id="toc-connect-your-repo-to-your-account" class="nav-link" data-scroll-target="#connect-your-repo-to-your-account">Connect your repo to your account</a></li>
   </ul></li>
-  <li><a href="#using-git-commands" id="toc-using-git-commands" class="nav-link" data-scroll-target="#using-git-commands"><span class="toc-section-number">6.4</span>  Using Git commands</a>
+  <li><a href="#using-git-commands" id="toc-using-git-commands" class="nav-link" data-scroll-target="#using-git-commands"><span class="header-section-number">7.4</span> Using Git commands</a>
   <ul class="collapse">
   <li><a href="#create-a-local-repository-repo" id="toc-create-a-local-repository-repo" class="nav-link" data-scroll-target="#create-a-local-repository-repo">Create a local repository (repo)</a></li>
   <li><a href="#clone-a-remote-github-repository-locally" id="toc-clone-a-remote-github-repository-locally" class="nav-link" data-scroll-target="#clone-a-remote-github-repository-locally">Clone a remote (GitHub) repository locally</a></li>
@@ -192,8 +216,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#force-pull-to-overwrite-local-changes" id="toc-force-pull-to-overwrite-local-changes" class="nav-link" data-scroll-target="#force-pull-to-overwrite-local-changes">Force pull to overwrite local changes</a></li>
   <li><a href="#when-things-go-wrong" id="toc-when-things-go-wrong" class="nav-link" data-scroll-target="#when-things-go-wrong">When things go wrong</a></li>
   </ul></li>
-  <li><a href="#using-git-via-guis" id="toc-using-git-via-guis" class="nav-link" data-scroll-target="#using-git-via-guis"><span class="toc-section-number">6.5</span>  Using Git via GUIs</a></li>
-  <li><a href="#git-sandbox" id="toc-git-sandbox" class="nav-link" data-scroll-target="#git-sandbox"><span class="toc-section-number">6.6</span>  Git sandbox</a></li>
+  <li><a href="#using-git-via-guis" id="toc-using-git-via-guis" class="nav-link" data-scroll-target="#using-git-via-guis"><span class="header-section-number">7.5</span> Using Git via GUIs</a></li>
+  <li><a href="#git-sandbox" id="toc-git-sandbox" class="nav-link" data-scroll-target="#git-sandbox"><span class="header-section-number">7.6</span> Git sandbox</a></li>
   </ul>
 </nav>
     </div>
@@ -202,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="git" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></h1>
+<h1 class="title"><span id="git" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Version control with Git</span></span></h1>
 </div>
 
 
@@ -228,8 +252,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://git-scm.com/book/en/v2">Pro Git</a></li>
 <li><a href="https://kbroman.org/github_tutorial/">git/github guide</a></li>
 </ul>
-<section id="installing-git" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="installing-git"><span class="header-section-number">6.1</span> Installing Git</h2>
+<section id="installing-git" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="installing-git"><span class="header-section-number">7.1</span> Installing Git</h2>
 <p>You will install Git in different ways depending on your operating system.</p>
 <section id="linux-ubuntu" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="linux-ubuntu">Linux (Ubuntu)</h4>
@@ -244,8 +268,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Go to https://git-scm.com/download/win to download and install Git.</p>
 </section>
 </section>
-<section id="ignoring-files-and-directories" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="ignoring-files-and-directories"><span class="header-section-number">6.2</span> Ignoring files and directories</h2>
+<section id="ignoring-files-and-directories" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="ignoring-files-and-directories"><span class="header-section-number">7.2</span> Ignoring files and directories</h2>
 <p>Git will automatically use version control on all of the files that are in the repo. But you can give it a list of files or directories that you want it to ignore and not track.</p>
 <ul>
 <li>Create a <code>.gitignore</code> file in your repository directory.</li>
@@ -253,8 +277,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Find default ignore files at <a href="https://gitignore.io" class="uri">https://gitignore.io</a>.</li>
 </ul>
 </section>
-<section id="using-to-github" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="using-to-github"><span class="header-section-number">6.3</span> Using to GitHub</h2>
+<section id="using-to-github" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="using-to-github"><span class="header-section-number">7.3</span> Using to GitHub</h2>
 <p>Using GitHub is fairly straightforward, and there are lots of help resources on GitHub’s website.</p>
 <section id="create-a-github-account" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="create-a-github-account">Create a GitHub account</h3>
@@ -282,8 +306,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- * Click on *New SSH key* and insert the title and key. Use an identifiable title like ‘Work Laptop - Windows 7’ or ‘Home MacBook Pro 15’. If you manually copied your public SSH key make sure you copied the entire key starting with `ssh-rsa` and ending with your email. -->
 </section>
 </section>
-<section id="using-git-commands" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="using-git-commands"><span class="header-section-number">6.4</span> Using Git commands</h2>
+<section id="using-git-commands" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="using-git-commands"><span class="header-section-number">7.4</span> Using Git commands</h2>
 <p>Git is command-line driven software, so it is useful to know how to use a command line for your operating system. To open a command line terminal in <a href="https://www.wikihow.com/Open-the-Command-Prompt-in-Windows">Windows</a>, click <em>Start</em>, type <code>cmd</code>, and select <em>Command Prompt</em>. For <a href="https://www.wikihow.com/Get-to-the-Command-Line-on-a-Mac">Macs</a>, open <em>Spotlight</em>, type <code>terminal</code>, and select <em>Terminal</em>. For Linux, type <code>Ctrl-Alt-T</code>. Next, if you’re not familiar, you need to learn about <a href="https://swcarpentry.github.io/shell-novice/">working from the command line</a>.</p>
 <section id="create-a-local-repository-repo" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="create-a-local-repository-repo">Create a local repository (repo)</h3>
@@ -345,12 +369,12 @@ ul.task-list li input[type="checkbox"] {
 <p>When things go wrong, check out <a href="https://ohshitgit.com/">Oh Shit, Git!?!</a>.</p>
 </section>
 </section>
-<section id="using-git-via-guis" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="using-git-via-guis"><span class="header-section-number">6.5</span> Using Git via GUIs</h2>
+<section id="using-git-via-guis" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="using-git-via-guis"><span class="header-section-number">7.5</span> Using Git via GUIs</h2>
 <p>Though Git was developed as a command-line app, there are numerous graphical user interfaces (GUIs) that you can use to run Git commands. For Windows and MacOS, you can use <a href="https://desktop.github.com/">GitHub Desktop</a>, which obviously integrates well with GitHub (Linux users must install a <a href="https://github.com/shiftkey/desktop">fork</a>). Also, some folks like <a href="https://www.git-tower.com">Git Tower</a> or <a href="https://gitkraken.com">GitKracken</a>. In addition, RStudio has some core Git features baked in if you use RStudio Projects. It is fairly straightforward to stage, commit, push, pull, and view your history from RStudio. While you should be able to get by with GUIs 95% of the time, there will be times when you need to use the commands in a terminal, so it make sense to be familiar with using the commands.</p>
 </section>
-<section id="git-sandbox" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="git-sandbox"><span class="header-section-number">6.6</span> Git sandbox</h2>
+<section id="git-sandbox" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="git-sandbox"><span class="header-section-number">7.6</span> Git sandbox</h2>
 <p>The lab has a <a href="https://github.com/adaptive-decision-making-lab/git_sandbox">Git sandbox</a> on its GitHub account. Feel free to go play around with Git there.</p>
 
 
@@ -384,9 +408,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -451,6 +489,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -493,7 +617,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./project_data_management.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Project and data management</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project and data management</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
