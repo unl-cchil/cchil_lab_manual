@@ -36,7 +36,7 @@ informed.
 5. Invitee Questions
 * Calendly automatically asks for their Name, Email, and if there is anything they want to share
 * Under this section, you can also add other questions to ask. Add "What is your dog’s name?" and make it required. This helps make sure the owner was bringing in the correct dog in the instances where an owner has multiple dogs.
-6. Turn off other event types and turn on this one once you're ready to schedule appointments.
+<!-- 6. Turn off other event types and turn on this one once you're ready to schedule appointments. -->
 
 ### Finding participants in the database
 
@@ -54,13 +54,13 @@ informed.
 
 ### Sending email invitations  {#invitations}
 1. Pick out the participants from the spreadsheet that you want to contact. A good rule of thumb is selecting twice as many participants as you have open slots in the calendar.
-2. Access the CCHIL Gmail account delegated to you by logging into your Gmail account, clicking on your account image in the top right corner, and then selecting UNL CCHIL.
-3. Compose a new email and in the bottom rightish corner of the new message, click on the three vertical dots, then click Templates, and select the appropriate template for this study email.
+2. Access the CCHIL UNL shared email account (unl_cchil@unl.edu) delegated to you by Jeff ([instructions for accessing shared accounts in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)).
+3. Compose a new email and click on the three horizontal dots, then click My Templates, and select the appropriate template for this study email.
 4. It works best to send a separate email to each participant so that you can specify which dog is invited. This is especially important for studies with requirements like minimum weights.
-5. Once the invitation email is sent, the participants can select a time in the Calendly calendar that works for them. When they book an appointment, Calendly will send an email to the UNL CCHIL Gmail account, so keep an eye on that account.
-6. After an appointment has been made in Calendly, Send a Teams notification to the lab assistants assigned to the session to notify them of the new appointment. You can also then send a confirmation email to the participant with any additional information they will need.
-7. It is useful to send reminder emails to participants about 24 hours before their appointment.
-8. The UNL CCHIL Gmail account also has templates for registering new people into the database and asking them to update their vaccination records.
+5. Once the invitation email is sent, the participants can select a time in the Calendly calendar that works for them. When they book an appointment, Calendly will send an email to the UNL CCHIL email account, so keep an eye on that account.
+6. After an appointment has been made in Calendly, send a Teams notification to the lab assistants assigned to the session to notify them of the new appointment. You can also then send a confirmation email to the participant with any additional information they will need.
+7. It is useful to send reminder emails to participants at the beginning of the week.
+8. The UNL CCHIL account also has templates for registering new people into the database and asking them to update their vaccination records.
 
 
 ## Before testing sessions
@@ -79,7 +79,7 @@ informed.
 ## During testing sessions
 
 ### After participant arrives 
-1. As the owner and dog enter the room, ask them to let their dog off leash so the dog can explore the area. Let the owners know they can hang their coats on the coat rack by the door (in the winter) and leave their belongings on the chairs.
+1. After the owner and dog enter the room, close the door and ask them to let their dog off leash so the dog can explore the area. Let the owners know they can hang their coats on the coat rack by the door (in the winter) and leave their belongings on the chairs.
 2. While the dog is exploring, ask the owner if the dog has any food allergies or food preferences. 
 * If the dog has food allergies/sensitive stomach, feel free to use any treats the owner brings with them.  Often, these treats will need to be cut into smaller pieces, about the size of the training treats that are normally used.
 3. Ask the owner if their dog has any separation anxiety from them.
@@ -131,6 +131,7 @@ need is in frame.
 7. You should get a message at the top of the screen saying that the validation was created.
 8. Give the ticket back to the participant and inform them that the arms of the parking garage should open when they put the ticket in.
 8. Thank the owner for their time and participation. Ask them if they need any help finding their way out. 
+8. Parking validation is only for dog owners. Do not use this system to validate your own parking.
 
 ## After testing sessions
 
@@ -159,7 +160,7 @@ need is in frame.
 2. Spray the experimental room with a light mist of disinfectant (be sure to hold the wand as high as possible to ensure a light layer of spray otherwise the floor will get sticky).
 3. Wipe all door handles and light switches down with a Clorox wipe (I wipe the keyboard down as well if participants used it to take a survey).
 4. Take the water bowl to the bathroom to dump/rinse out.
-5. Make sure all treats are put away and turn all lights off when leaving.
+5. Make sure all treats are put away (open bags in the refrigerator) and turn all lights off when leaving.
 
 
 ### Updating database 

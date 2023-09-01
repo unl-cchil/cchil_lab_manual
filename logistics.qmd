@@ -13,8 +13,8 @@
 * If you’re sick, stay home and rest. Because you need it and because others don’t need to get sick.  Notify your supervisor if you will be out, either due to illness or vacation. If you are sick and you had experiments or meetings scheduled that day, notify your participants or collaborators and reschedule.
 * You are not expected to come into lab on staff holidays. If you are being paid, then you are expected to come into lab during university breaks (except for staff holidays or if you're taking your paid vacation time).
 * The dress code in academia is generally casual. My only request is that you look semi-professional when interacting with participants and when presenting your work. Jeans are fine, gym clothes and pajamas are not.
-For the dog lab, scrubs are available for you to use.
-* Personal protective equipment (PPE) is currently a moving target. Working in the dog lab requires a mask when interacting with owners and gloves when interacting with a dog (scrubs are highly recommended). Human research is currently suspended.
+Scrubs are available for you to use.
+* Personal protective equipment (PPE) is currently a moving target. Follow Jeff's guidelines on whether masks and gloves are required in the lab.
 * Food and drink are allowed in the dog lab, but please keep them in the office or food-preparation area and clean up any spills.
  * Well-behaved dogs are allowed in the dog lab and the CB3 bullpen when they need to be on campus for research or educational purposes (e.g., human-animal interaction study, training for HAI study, dog destressing event, outreach activities, guest lectures). Dogs are not allowed in university buildings (including CB3) if they do not fall under one of Jeff's IACUC protocols. Check with Jeff before bringing your dog into a university building. Note that it is super important not to jeopardize the lab's ability to bring dogs into campus buildings for research and educational purposes. Therefore, to protect this ability, Jeff will report violations of the [campus animal policy](https://bf.unl.edu/policies/pets).
  * We have shared-use lockers in B71 and in the B-level bullpen for secure research materials (e.g., signed consent forms, equipment, participant payment). Contact Jeff to get access to those lockers.
@@ -54,7 +54,7 @@ All lab members are encouraged to take advantage of the many opportunities to le
 
 ## Funding
 
-Different parts of the lab are funded differently. For instance, the lab is wrapping up a [National Science Foundation grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1658837) to cover almost all expenses associated with impulsivity-related projects. The lab has a few small grants and some private donation funds that allow us to purchase small things as we need them. 
+Different parts of the lab are funded differently. For instance, the lab wrapped up a [National Science Foundation grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1658837) to cover almost all expenses associated with impulsivity-related projects. The lab has a few small grants and some private donation funds that allow us to purchase small things as we need them. 
 
 The lab can provide grad students with a desktop computer, monitor, and external hard drive for research purposes, but it cannot provide laptops. All lab-purchased equipment must stay with the lab when the student leaves.
 
