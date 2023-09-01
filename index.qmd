@@ -1,8 +1,10 @@
 
 # About the lab  {-}
-![](media/cchil_logo_red_wide.png)
+[![](media/cchil_logo_red_wide.png)](https://dogcog.unl.edu)
 
 Welcome to the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu)! 
+
+This lab is led by [Jeff Stevens](https://jeffreyrstevens.quarto.pub/), Susan J. Rosowski Professor in the [Department of Psychology](https://psychology.unl.edu/) and the [Center for Brain, Biology & Behavior](https://cb3.unl.edu/) at the [University of Nebraska-Lincoln](http://www.unl.edu/).
 
 ## Mission statement  {-}
 **The mission of CCHIL is to understand how dogs behave and process information in their world as well as how interacting with dogs influences human behavior and psychology.** 
@@ -22,4 +24,4 @@ When you join the lab, you’re expected to read this manual and are responsible
 
 This lab manual is licensed under a [Creative Commons Attribution - NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you’re a PI or trainee in a different lab and want to write your own lab manual, feel free to take inspiration from this one (and cite us!).
 
-Stevens, J.R. (2023). Canine Cognition and Human Interaction Lab Manual. https://github.com/unl-cchil/cchil_lab_manual.
+Stevens, J.R. (2023). Canine Cognition and Human Interaction Lab Manual. https://github.com/unl-cchil/cchil_lab_manual. [[PDF version](CCHIL-Lab-Manual.pdf)]
