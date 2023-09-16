@@ -69,9 +69,17 @@ All of the _Everyone_ expectations above, plus you will be expected to:
 * Attend and participate in all lab meetings. Let Jeff or a grad student know if you can't attend.
 * If you are earning course credit for research, you must additionally:
     - Write a short essay on your research topic or experiences due by the end of dead week.
-* If you completing a UCARE project, you must additionally:
-    - Meet all UCARE deadlines.
-    - Present at one meeting during the semester.
+
+
+### UCARE students
+
+All of the _Everyone_ and _Undergraduate researchers_ expectations above, plus you will be expected to:
+
+* Submit a [UCARE](https://careers.unl.edu/channels/ucare/) proposal, having sent a draft proposal to me at least two weeks before the deadline. Decide whether to participate in the lab during the summer or just the academic year.
+* Work on the UCARE project for **10 hours per week** during the academic year and 20 hours per week during summer (if you choose to work over the summer). If you cannot commit to the required effort or if you ability to meet the commitment changes, let Jeff know as soon as possible.
+* Meet all UCARE deadlines.
+* Present a poster at one conference/meeting during the semester. Typically, this is the [Nebraska Research Days](https://research.unl.edu/springresearchdays/undergraduate-poster-session-and-creative-exhibition/) in the spring, but it can also be the [Nebraska Psychological Association](https://www.nebpsych.org/) meeting or another appropriate meeting.
+
 
 ### Lab technicians
 
