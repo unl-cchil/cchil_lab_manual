@@ -6,23 +6,26 @@ This section is primarily written for project leaders, so lab assistants can ski
 ## Recruiting and scheduling participants
 
 ### Finding lab assistant availability 
-1. Have all lab assistants block out their available times on the cchil.unl@gmail.com Google calendar [Dog lab availability](https://calendar.google.com/calendar/u/0?cid=OXJsaHQ5NTAzdnJvOGE2Njk3b2M4NjBjcThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ). 
-1. Look for blocks of time in which at least two lab assistants are available. These will be the "open" times on the Calendly Calendar in which owners can sign up for appointment slots. 
+1. Have all lab assistants block out their available times on the cchil.unl@gmail.com Google calendar [Dog lab availability](https://calendar.google.com/calendar/u/0?cid=OXJsaHQ5NTAzdnJvOGE2Njk3b2M4NjBjcThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ). For some projects, it will be most efficient to ask everyone's 'regular' weekly availability for the semester rather than updating their availability every week or month. Be clear about what time period you are requesting availability for and who to tell if changes need to be made to the calendar.
+2. Look for blocks of time in which at least two lab assistants are available. These will be the "open" times on the Calendly Calendar in which owners can sign up for appointment slots. 
 
 ### Setting up Calendly Calendar 
 1. Log into the lab [Calendly account](https://calendly.com/) (contact Jeff for login information).
-2. Once on the account dashboard, click on `+ Create` or `New Event Type` to create a new event type for the project then select "One-on-One Event Type".
-3. What event is this?
-  * Use this section to name the event, set a location, give a brief description, and choose
-the display color. The event name is what the participants see, so make it understandable for them but also signals to us what the project is (in case more than one project runs at a time). The location should be In-person meeting and enter 501 Building, room 3. Give a short description to remind the participants what the appointment is.
+2. Once on the account dashboard, find the event called 'Study Template'
+* Click on the gear icon on the upper right corner of the event card
+* Select 'clone' from the menu. This will make a copy of the template event for you to edit.
+3. What event is this? (Click on the section to expand and edit)
+  * Use this section to name the event, set a location, give a brief description, set the url for the event, and choose the display color. The event name is what the participants see, so make it understandable for them but also signals to us what the project is (in case more than one project runs at a time). The location should be In-person meeting and enter 501 Building, room 3. Give a short description to remind the participants what the appointment is. The event link is the URL that will direct people to the booking page for this event. The URL will automatically start with calendly.com/cchil-unl/ so you are just picking an identifier for this specific study to put at the end of the URL.
 4. When can people book this event?
 * Use this section to set the time slots available.
-* Use the _Within a date range_ option and select the dates that lab assistants are available.
+* The template event defaults to showing owners times they can book up to 21 days in the future.
+* If the study will only be running for a set amount of time or availability will need to be manually updated on a weekly/monthly basis, use the _Within a date range_ option under _Date range_ and select the dates study date range.
 * Under _Duration_ you select how long the study session will last (often 1 hour).
 * To set times I usually use the _Set custom hours_ option.
   - Then select which days you want to be available and fill out the time table based on when enough RAs are available.
   - If you need multiple time ranges on one day you can use the `+` symbol to add another range (e.g., 9:00-11:00 am and 1:00-3:00 pm).
-  - If times differ from the previous week, click on the _Add a date override_ button to the right. Then select on the day you want to customize the times for.
+  - All avialability is automatically recurring on a weekly basis unless otherwise stated.
+  - To change avilablity on individual days (non-recurring changes), click on the _Add a date override_ button to the right. Then select on the day you want to customize the times for.
 * If there is a certain day you want no availability, but you don’t want all those days unavailable (e.g., you want Wednesday, Jan. 4 to be available but not Wednesday, Jan 11), then click on _Add a date override_, select the date, and then hit the trash can symbol.
   - This will make that day unavailable without altering the rest of the weeks.
 * At the bottom of this section you can select to add time before or after your events.
@@ -30,12 +33,13 @@ the display color. The event name is what the participants see, so make it under
   - Add 30 minutes after the event to give us time to clean/reset before the next dog.
   - Calendly will automatically remove the affected time slots to give you this extra time.
 * Under _Additional rules for your availability_
-  - You can select what increments you want your sessions to be posteD in (30 minutes is probably best).
+  - You can select what increments you want your sessions to be posted in (30 minutes is probably best).
   - You can also alter the scheduling conditions to set a limit to how soon before the appointment they can schedule as well as the maximum allowed events per day. We usually set it so they cannot schedule within 1 or 2 days of the appointment to give time to send all the confirmation emails and make sure all RAs were
 informed.
 5. Invitee Questions
 * Calendly automatically asks for their Name, Email, and if there is anything they want to share
-* Under this section, you can also add other questions to ask. Add "What is your dog’s name?" and make it required. This helps make sure the owner was bringing in the correct dog in the instances where an owner has multiple dogs.
+* The template event also includes a "What is your dog’s name?" question that is set as required. This helps make sure the owner was bringing in the correct dog in the instances where an owner has multiple dogs.
+* Under this section, you can also add other questions to ask. Some studies may want to ask for additional information from the owner in this section.
 <!-- 6. Turn off other event types and turn on this one once you're ready to schedule appointments. -->
 
 ### Finding participants in the database
