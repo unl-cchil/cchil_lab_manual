@@ -24,8 +24,8 @@ This section is primarily written for project leaders, so lab assistants can ski
 * To set times I usually use the _Set custom hours_ option.
   - Then select which days you want to be available and fill out the time table based on when enough RAs are available.
   - If you need multiple time ranges on one day you can use the `+` symbol to add another range (e.g., 9:00-11:00 am and 1:00-3:00 pm).
-  - All avialability is automatically recurring on a weekly basis unless otherwise stated.
-  - To change avilablity on individual days (non-recurring changes), click on the _Add a date override_ button to the right. Then select on the day you want to customize the times for.
+  - All availability is automatically recurring on a weekly basis unless otherwise stated.
+  - To change availability on individual days (non-recurring changes), click on the _Add a date override_ button to the right. Then select on the day you want to customize the times for.
 * If there is a certain day you want no availability, but you don’t want all those days unavailable (e.g., you want Wednesday, Jan. 4 to be available but not Wednesday, Jan 11), then click on _Add a date override_, select the date, and then hit the trash can symbol.
   - This will make that day unavailable without altering the rest of the weeks.
 * At the bottom of this section you can select to add time before or after your events.
