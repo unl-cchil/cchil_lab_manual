@@ -111,6 +111,6 @@ We use other open source software as well:
 
 
 ### Passwords
-Please do not send passwords over email or Slack. Either transfer them verbally or via an encrypted program such as [Signal](https://www.signal.org/). Store them in a secure location like a password manager (e.g., [LastPass](https://lastpass.com)).
+Please do not send passwords over email or Slack/Teams. Either transfer them verbally or via an encrypted program such as [Signal](https://www.signal.org/). Store them in a secure location like a password manager (e.g., [LastPass](https://lastpass.com)). Passwords stored on LastPass may also be shared securely from one LastPass account to another using LastPass's sharing feature.
 
 
