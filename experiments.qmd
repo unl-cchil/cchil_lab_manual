@@ -125,7 +125,7 @@ need is in frame.
 
 ### Parking validation
 1. Open the [UNL Parking Portal](https://unlpts.t2hosted.com/Account/Portal) (bookmarked as _Parking Validation_) in Google Chrome on the office computer.
-2. Scroll to the very bottom of the home page and click on _Validation Provider Management_, which should take you to <ahttps://unlpts.t2hosted.com/ppa/auth.aspx>.
+2. Scroll to the very bottom of the home page and click on _Validation Provider Management_, which should take you to <https://unlpts.t2hosted.com/ppa/auth.aspx>.
 3. Log into the Validation Account (the username and password should autofill).
 4. Select _SD 100% off (100% off)_ as the validation discount.
 5. Place cursor in the text box under _Enter Permit/Ticket_.
