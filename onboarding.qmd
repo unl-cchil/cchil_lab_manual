@@ -16,7 +16,7 @@ Congratulations for joining the lab! Now there are a number of steps you must ta
     c. If you receive an email from the IACP folks about the General Regulation Training (GRT), Occupational Health and Safety (OHS) form, and the Facility Orientation, you can ignore it. This email goes out if I add you to the IACUC protocol before you complete the online version of the GRT or before you submit your OHS form. And there is no facility orientation for the dog lab.
 5. Complete [CITI IRB training](https://research.unl.edu/researchcompliance/required-human-subjects-training/) for **Social/Behavioral Research Investigators** and send Jeff a PDF of the certification when completed.
 4. Send Jeff a photo and a short blurb about yourself for the [CCHIL website](https://dogcog.unl.edu/people).
-5. Send Jeff your NUID for lab keycard access. NOTE: If you are new to UNL and do not have your physical NCard yet, you will need to pick it up at the NCard office and activate it (instructions for activation come with the new card) before you can be given keycard access to buildings/rooms.
+5. Send Jeff your NUID number for lab keycard access. NOTE: If you are new to UNL and do not have your physical NCard yet, you will need to pick it up at the NCard office and activate it (instructions for activation come with the new card) before you can be given keycard access to buildings/rooms.
 6. Read over this lab manual (at least chapters 1-4).
 
 ## Training
