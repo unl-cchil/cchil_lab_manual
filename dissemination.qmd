@@ -1,0 +1,398 @@
+# Writing and presenting {#dissemination}
+
+**Under construction**
+
+ 
+## Writing
+
+Writing is a key part of academia. We communicate our ideas via manuscripts, books, reports, grant proposals, and blogs. We also make presentations and poster to disseminate our findings. Here we review some tools and tips for writing and presenting our work.
+
+### Writing software
+
+Though Microsoft Word/PowerPoint and Google Docs/Slides can be convenient, they do not make reproducible outputs. A reproducible alternative is [Markdown](https://daringfireball.net/projects/markdown/), which is a markup language that allows you to write [plain-text](https://en.wikipedia.org/wiki/Plain_text) in a [text editor](https://en.wikipedia.org/wiki/Text_editor) and include special syntax to control formatting. Markdown files get passed to Pandoc, which can process the syntax and convert the file to a formatted output file such as HTML, PDF, or DOCX. This contrasts with Word/PowerPoint where the formatting is shown to you in the app (What You See Is What You Get or WYSIWYG).
+
+A key benefit of Markdown is that you can see exactly what syntax is generating the output. This concept was pushed further with [R Markdown](https://rmarkdown.rstudio.com/) and [Quarto](https://quarto.org/). These packages allow you to directly embed R (or Python, Julia, or Observable in Quarto's case) code into the Markdown document. When processing the R Markdown or Quarto file, an additional step runs the R code and embeds the results into a Markdown file before it is passed off to Pandoc. Thus, you have a file with both Markdown syntax showing the formatting and R code showing the calculations. It's totally reproducible!
+
+Markdown syntax is pretty simple. Here are some quick examples:
+
+| Code | Output |
+| ---- | ------ |
+| `_italics_` | _italics_ |
+| `**bold**` | **bold** |
+| `~~strikethrough~~` | ~strikethrough~ |
+| `^upper^case` | ^upper^case |
+| `~lower~case` | ~lower~case |
+| `* bullet` | • bullet |
+| `# Header 1` | **Header 1** |
+| `[link](https://dogcog.unl.edu)` | [link](https://dogcog.unl.edu) |
+
+
+Check out the [Markdown Guide](https://www.markdownguide.org/) for a full reference guide on Markdown syntax. It's quite powerful and can include figures, tables,  [bibliographies](#bibliographies), cross-referencing, footnotes, math symbols, etc. And Markdown can be used to create documents, books, presentations, and webpages.
+
+### Bibliographies
+
+Citing our sources requires keeping track of all of the articles, books, websites, and dissertations that we use as resources. [Zotero](https://zotero.org) is a "free, easy-to-use tool to help you collect, organize, annotate, cite, and share research". There are two key functions of Zotero.
+
+#### Source organization {-}
+First, Zotero organizes all of your sources. It keeps track of authors, titles, DOI, URLs, etc. so you can search through your "collection" to find sources. Critically, it also stores PDFs of each source, so it is a great way to organize PDFs.
+
+How do you get sources into Zotero? It's easy. There are extensions for all of the major web browsers. When installed, there is a little button that, if you press it while on a source's webpage, will automatically extract the relevant meta-information (author, year, title, publisher, DOI) from the page and save a PDF (if available). You can also import meta-information either from other bibliography software (e.g., EndNote, Mendeley) or from a file with that information formatted appropriately.
+
+Within Zotero, you can create 'collections' or subfolders that include specific sources relevant to a particular topic. So instead of sorting through my 10,000 (!) sources, I can go straight to the `dog_inhibition` collection to see the relevant sources. In addition, you can share collections with other Zotero users either directly via their usernames or you can create [Zotero Groups](https://www.zotero.org/groups/) to share and collaborate on collections of sources.
+
+#### Formatting bibliographies {-}
+
+Another key feature of Zotero is that it can automatically format references to your sources. For instance, if you have a collection full of sources for a paper, you can export those references, choose a formatting style, and Zotero will create a completely formatted bibliography for you. So you don't have to remember if APA style italicizes the volume number or uses a colon or comma after the issue number. There are thousands of [style files](https://www.zotero.org/styles) already created for most journal styles. This is especially useful if you need to quickly change styles---it just takes selecting a different style type.
+
+What's more, you can even use special code to enter sources directly in your document as in-text citation. When you do this and compile the document the in-text citations and the bibliography are automatically formatted to the style you choose. If you add or remove sources, the bibliography is automatically update. It's amazing! No more typing out bibliographies. Use Zotero.
+
+
+### Writing lots and well
+
+Before we get to specific types of writing, it's important to remember that writing isn't easy for most of us. Writing is hard. Which means that we need to write a lot (meaning often) and revise a lot (meaning much of the writing). Motivating writing can be difficult, so folks often use strategies such as scheduling a certain amount of time each day to write. Or require yourself to write a certain number of words each day. Find a good time of day that works for you, and reward yourself after writing with something that you enjoy.
+
+But writing a lot isn't enough. You also need to write well to effectively communicate. First, that means know who your audience is. Are they novices who know nothing about your topic? Or are they experts in this area? I usually assume my audience is smart people who know nothing about my work.
+
+The two key things to keep in mind when writing are to **write simply** and **write concisely**. Writing _simply_ means using simpler words that more people know. 
+
+* Avoid using jargon or thesaurus words. 
+* _Use_ simpler words instead of _utilizing_ more complicated ones.
+* Write short sentences. Longer sentences with lots of phrases are hard to parse. Split long sentences in two.
+* Imagine your grandparent is reading your text. Would they understand? If not, simplify.
+* Check your readability with [readability checkers](https://readable.com/text/).
+
+Writing _concisely_ means using as few words as possible to convey your meaning.
+
+* Avoid unnecessary phrases that convey no real meaning. Here are two big ones that I cut out every time I see them.
+  - "In order to" can just be "To" over 90% of the time.
+  - "Research shows that" can also almost always be removed. Just state what the research shows!
+* Avoid passive voice when possible. Active voice tends to use fewer words and is clearer.
+* Read each sentence separately and check whether each word is necessary. Be brutal and cut anything that is not necessary to convey your meaning.
+
+## Publications
+
+<!-- ### Authorship -->
+
+### Journals
+
+
+
+### How to write a journal article
+
+
+
+#### Things to think about before writing {-} 
+
+- Why are you writing a scientific article? 
+- What will be the scope of this article?
+- Who is your audience?
+- Where will you submit the article?
+- Who should be a co-author, and what will be their roles?
+- How will you collaborate on writing?
+
+
+#### The structure {-} 
+
+Research articles are fairly formulaic. They do not need to be especially long to get your point across. In fact, the fewer words required to communicate your point, the better. My own view about the structure of a paper fits nicely with that of Claus Wilke, and he has some very helpful pointers for [writing a paper in four easy steps](https://serialmentor.com/blog/2013/8/29/writing-a-scientific-paper-in-four-easy-steps). I usually write them in the order Methods, Results, Discussion, Introduction, Abstract (or switch Introduction and Discussion).
+
+*Abstract*
+
+- Abstracts can be difficult to write. Write your abstract for a high-school educated person with no knowledge of your research program who will not read the rest of your paper. Hook them, so that they want to!
+- Some journals and fields have specific subsections to fill out: Background, Objective/Aim, Methods, Results, Conclusions. These structured abstracts can be a useful templates even if the journal does not require it, because they generally improve readability [@Hartley.Sydes.1997;@Hartley.2004]. 
+- Do not ever say "X, Y, and Z are discussed". Write your abstract in active voice as much as possible and give your conclusions rather than just say some topic is discussed.
+- Feel free to copy and paste sentences from the rest of your paper (since this is likely written last), but know that you will likely have to heavily edit them to make them accessible to your audience.
+- After writing a draft, consider running it through a readability scorer to see how accessible it will be.
+
+*Introduction*
+
+Introductions should be relatively short---they do not need to be full literature reviews if you are writing an empirical paper. Quickly cover the relevant literature.
+
+- First paragraph
+    * Try to start with a specific, catchy example that gives the reader a visual experience to remember during the rest of the paper. Check out some of our previous work for examples (e.g., [Duque et al., (2020)](https://decisionslab.unl.edu/publications.html#y2020) or [Goh et al., (2020)](https://decisionslab.unl.edu/publications.html#preprints)).
+    * Next, try to expand to explain the big picture very quickly. What is the big question that this paper addresses, and why is it important?
+- Middle paragraphs
+    * In the next few paragraphs, unroll a more specific story that conceptually motivates your project and places it in the theoretical foundation of your area.
+    * Move from background literature to the focus of your paper.
+- Final paragraph or two should be about the current study
+    * Describe your overall research question(s).
+    * Give a short description of your approach to answering the research questions.
+    * End with your hypotheses and/or predictions.
+
+*Methods*
+
+- Participants/subjects
+    * Describe the source and demographics of your participants.
+    * Describe *when* your data were collected.
+    * Describe why and how many participants/subject were excluded.
+- Materials
+- Procedure
+- Experimental conditions
+- Data analysis
+    * Cite R and the R packages that you use (this is done easily in R Markdown with the `{papaja}`).
+    * Describe where data, code, and supplementary materials can be found (e.g., [Open Science Framework](https://osf.io))
+    * If applicable, describe that the document is a reproducible document written in R Markdown.
+    * Describe the statistical analyses used. I find it useful to walk through the R script and describe what happens to the data.
+    * If using Bayes factors, give a short description of what they mean, the thresholds that you use, and the priors (if needed). If you are estimating them from BICs, include the formula $e^{(BIC_{null}-BIC_{alernative}) / 2}$. Good citations include @Wagenmakers.2007 for BFs generally and the BIC formula and @Wagenmakers.etal.2018 for thresholds.
+
+*Results*
+
+- Each major result/hypothesis should have its own section. Start with building the figure for the section, then write a paragraph about it.
+- Within each section, start with a reminder of what the hypothesis/aim is, followed by a very brief description of how the data were analyzed.
+- Then move into describing the results, using objective descriptions of what the statistical test show. Do not draw inferences or discuss conclusions from the data. Describe it in terms of your dependent and independent variables rather than the broader concepts that you are inferring from those variables.
+- If using frequentist statistics, give the test statistic, p-value, and effect size. Describe the effects, but **do not use the word _significant_**. 
+- For Bayesian hypothesis testing, give the Bayes factor, and describe the results in terms of evidence for hypotheses.
+
+*Discussion*
+
+- Start with a paragraph giving a quick summary of the results.
+- Next, spell out the implications of each of your results (in the order presented). This is where you relate the results to your hypotheses, connect them to previous literature, and give conclusions about what they mean and why they are important.
+- It is important to include limitations of your study. But don't go overboard here, and don't waste time with sample size as a limitation.
+- Sometimes this is integrated with limitations, but it is nice to point to future directions. What are the next questions/projects that logically follow from this one?
+- Finally, it is usually nice to end with a conclusion. This summarizes the findings, highlights the key implications, and ends with a strong conclusion that can be drawn from the study.
+
+*Acknowledgments* 
+
+- Make sure to acknowledge funding sources, assistants who helped collect the data, and people who gave advice or reviewed the manuscript. Notice there are only two `e's in Acknowledgments (in American spelling).
+
+#### Pro tips {-} 
+- Keep the presentation of hypotheses/research questions consistent throughout Methods, Results, and Discussion
+
+
+
+### Submitting journal articles
+how the lab deals with authorship, including the differences between listing in acknowledgments & co-authors; checklist of everything to do before a paper is published; policies on preprints, postprints, and open access; preferences about journals
+
+## Presentations
+how to give a talk; which conferences do lab members usually attend and why; technology considerations surrounding visualizations; data considerations for work-in-progress; discussion of #betterposter or #worseposter, etc
+
+### Conferences
+
+### Talk vs. poster
+
+### How to give a talk
+#### Things to think about before starting {-}
+- What will be the aim of this talk? Are you giving a tutorial, job talk, research overview, or a deep dive into a particular study or set of studyies? Or do you want feedback on an upcoming project?
+- Who is your audience?
+- How much time do you have? How much time do you have/want for questions?
+
+#### The slides {-}
+
+*Presentation files*
+
+- If you don't need to embed videos, consider using PDFs instead of PowerPoint slides. Even if you do use PowerPoint, save a PDF version and have your video files available just in case.
+- Find out if your projector/screen is 4x3 or 16x9, and set up your presentation to match (use 16x9 if possible)
+- Have your presentation on a USB but also email it to yourself to have an easily accessible copy. Don't rely on Box or other cloud services because logging in may be tricky.
+- Embed your fonts in your PowerPoint file.
+    
+*Structure and content*
+
+- General
+    * Outline your talk into sections before you start making slides.
+    * For study-based talks, organize them into Introduction, Methods, Results, Discussion/Summary.
+    * Use consistent ordering of content throughout your presentation. If you introduce topic/hypothesis A, B, and C in the introduction, present them in order A, B, C in the methods, results, and discussion. 
+- Preliminaries
+    * Title slides should not be too cluttered but should have the title, your name (possibly co-authors, but they can be on another slide), affiliation, and social media handles (especially Twitter---to allow the audience to tag you in any tweets during the talk)
+    * Consider having your acknowledgments slide next. This (1) makes clear from the start that it is a group endeavor (2) gets this item out of the way early so if you run out of time, you've been able to acknowledge the group, and (3) prevents the gap from your conclusions to questions that would occur if you have them at the end. **Note:** Do not belabor the acknowledgments and read off every person and/or funding agency unless there are just a few. Use funding agency icons rather than writing out their names.
+    * Consider having an outline slide, though this may not be necessary for short talks.
+- Introduction
+    * The introduction to your presentation should **briefly** cover the basic background of your topic. Just give the audience the *minimal introduction* needed to understand the motivation for your talk. And focus on why the audience should care about your talk rather than exhaustively reviewing previous literature. Your introduction should be about 15% of your total talk time. 
+    * Citing literature in your introduction is acceptable, but keep it to a minimum and consider putting citations at the bottom of the slide instead of embedded in sentences (footnotes work well for this).
+    * Include one or more slides with the research question and the specific hypotheses explicitly written out.
+- Methods
+    * The methods section also does not need to be exhaustive. The audience does not need to be able to replicate your work, just understand what you've done. 
+    * Include images or videos of the procedure.
+- Results
+    * The bulk of your presentation should focus on your results. Take your time carefully explaining your results. 
+    * Use graphs rather than tables when possible.
+    * End subsections with summary slide.
+- Discussion
+    * Keep discussion relatively short. Start with overall summary of results. Next, discuss implications. Limitations are usually not necessary in a presentation, but they can be useful sometimes. Consider describing future directions. End the discussion with a *Take Away* slide that reiterates the 1-3 points that you want the audience to walk away with.
+    * On the final slide, include all of your contact info: name, email address, social media handles. This is the slide that you leave on the screen when answering questions. You don't need a slide that says Thanks! or Questions?
+    
+
+*Style*
+
+- Text
+    * Limit the amount of text on a slide. There is no need to write in full sentences.
+    * Use **LARGE**, readable fonts. All text should be at least 18 point and anything you actually want people to read should be at least 24 point. 
+    * Don't use red fonts. Ever.
+    * Use abbreviations sparingly. People forget what abbreviations mean unless they are standard (e.g., DNA). Almost all abbreviations you might use **are not standard**, so don't use them. Unlike in a paper, if an audience member misses when you define an abbreviation, they cannot go back to find what it means.
+    * Use consistent labels/words throughout the presentation.
+- Figures
+    * Make your graphs large, preferably 1-2 per slide. Use large fonts for the x and y axes and legend labels.
+    * If you use color to distinguish data, use color-blind safe color palletes. Also, distinguish different data with different symbols or line types.
+    * Use consistent sizes, aspect ratios, labels, and colors for graphs. If red and blue mean female and male in one graph, don't use them to mean Condition 1 and Condition 2 in another graph.
+- Slides
+    * Consider color-coding different hypotheses/topics in your talk.
+    * If you are talking about your published work, put a citation of the work on the bottom of each slide that refers to the work.
+
+
+#### The presenter {-}
+*Audience*
+
+- Typically, you want to assume your audience is smart people who know nothing about your topic.
+- Face your audience!
+- Talk slowly and clearly and maintain a consistent volume that people in the back of the room can hear.
+- Do not read your slide text.
+
+*Kick-off*
+
+- Do not start your talk by reading your title. Feel free to summarize what you're covering in different words, though (e.g., "Today, I'll talk about...").
+- Practice what you'll say on your first slide. Otherwise, it can sometimes be awkward.
+
+*Slides*
+
+- Every time you have a new set of x and y axes on graphs, explain the axes. Consider starting with a blank graph to describe the axes and explain predictions before revealing the data.
+- Do not put massive tables or graphs on a slide and say "I know you can't read this, but...". If the audience cannot read a table or graph, don't use it.
+
+*Extras*
+
+- If you're nervous and are using a laser pointer, use two hands to point the laser---it will steady the laser.
+- If you're using a slide advancer, do not repeatedly apologize for pushing the wrong button. One apology is more than sufficient.
+- Have a glass or bottle of water at the podium and don't be afraid to take a moment to take a drink.
+- If you have technical difficulties and a video does not play or the presentation freezes. Do not apologize and get flustered. We've all experienced this. Simply work on trying to fix the technical problem.
+
+*Questions*
+
+- Defer to your host as to whether you field the questions or someone else does.
+- Do not interrupt when someone is asking a question. Let them finish speaking before you start to answer.
+- Repeat the question back to the questioner to make sure that you understood it and to ensure that others have heard it. If they ask multiple questions, feel free to ask them to repeat questions that you may have forgotten.
+- Try to answer succinctly and pay attention if you start to ramble. Pay attention to how much time you have and shorten answers as you get closer to the end of your time.
+- Feel free to ask if you have answered their question. 
+
+
+#### Resources {-}
+- [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373)
+- [Ten simple rules for making good oral presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077)
+- [How to give a great scientific talk](https://www.nature.com/articles/d41586-018-07780-5)
+- [How to give a good talk](https://www.sciencedirect.com/science/article/pii/S1097276509007424)
+- [Ten secrets to giving a good scientific talk](http://www.cgd.ucar.edu/cms/agu/scientific_talk.html)
+
+
+### How to give a poster 
+
+#### Things to think about before starting {-}
+- What will be the scope of this poster?
+- Who is your audience?
+- How much space do you have?
+- Will posters be available for viewing when you are not there?
+
+#### The structure {-}
+
+*Title*
+
+- Write attention grabbing title
+- Use ENORMOUS, easy-to-read font
+
+*Introduction*
+
+- Just a few bullet points offering the *essential* information needed to motivate your poster
+- Include references, but make them small
+- End with the Research Question clearly labeled and set off in its own box
+
+*Methods*
+
+- Just a few bullet points offering the *essential* information on your methods
+- Do not give details
+- Give examples when possible
+- Use images as much as possible
+
+*Results* 
+
+- This should primarily be large graphs
+- Add test statistics to graphs when possible
+- Use simple labels for axes
+- Use huge fonts for axes
+- Use large symbols and line widths
+- Include a summary statement of results for each graph or overall
+
+*Discussion/Conclusion*
+
+- Just a few bullet points summarizing finds and giving implications, limitations, and/or future directions
+
+*References cited*
+
+- Make this small font and out of the way
+
+*Acknowledgments*
+
+- Acknowledge funders
+
+*Contact info*
+
+- Make sure your email address is on the poster somewhere
+
+#### Pro tips {-}
+- Keep presentation of hypotheses/research questions consistent throughout Methods, Results, and Discussion
+- Make sure your institution or lab names are clearly visible
+- Print a few color copies to hand out
+- Consider a [completely different way to do posters](https://www.youtube.com/watch?v=1RwJbhkCA58)
+
+
+## Grant proposals
+### The structure {-}
+
+*Specific aims*
+
+- First paragraph
+    * Opening sentence--attention grabbing, relates to funding agency mission, provides general research area
+    * Important knowns--establish state of field and set up gap in knowledge
+    * Gap in knowledge--obvious extension of knowns
+    * Framing gap as problem--gap prevents this step from being taken
+- Second paragraph
+    * The *long-term goal* of this research program is to... _(addresses agency mission)_.
+    * The *overall objective* of this application is to take a major first step towards that long-term goal, namely to... .
+    * The *central hypothesis* of this project is tha...  _(directional hypothesis that conveys my best bet as to what explains the phenomenon that I will be investigating. Needs to be objectively testable. Then include why this is best bet (pilot data, etc.))_.
+    * The *rationale* for this study is that we expect to... _Why are you doing this? What will be possible after research is completed that is not possible now?_.
+- Third paragraph
+    * We will test the central hypothesis with the following *specific aims*:
+      1. Specific aim 1: _Should be an objective (e.g., identify...) activity with indeterminate end (e.g., study, explore)_.
+_Working hypothesis:_ _Testable hypothesis not a ‘look-and-see’_
+      2. Specific aim 2: _Working hypothesis:_
+      3. Specific aim 3: _Working hypothesis:_
+- Fourth paragraph
+    * This study is *innovative* because it... .
+    * This will provide an important *positive impact* because... _summarize what comes next in Significance paragraph. How will the funding agency benefit?_.
+    * Our team is especially *well qualified* to conduct this project because... .
+
+*Background and significance*
+
+- Significance of the proposed research
+    * Opening sentences--Despite the widely appreciated magnitude of this problem, there is still a critical gap in the knowledge base that centers on how . As an outcome of the proposed investigations, we expect to have determined the mechanism of/distinguished between/overcome the problem of .
+    * The research proposed in this application is significant because .
+        - Validate statement of significance with a credible list of benefits
+- State of research
+- Preparatory work
+
+*Research design*
+
+- Specific aim 1:
+    * Introduction. The objective of this aim is to . To attain the objective of this section, we will
+test the working hypothesis that . We will test our working hypothesis by using the experimental
+approach of . The rationale for this aim is that successful completion of the proposed research will
+. When the proposed studies for aim 1 have been completed, it is our expectation that . Such a
+finding would be of importance because it would allow, for the first time, the development of novel
+and much needed approaches to .
+    * Experimental design.
+        - Study 1:
+            - Justification of need to do the study
+            - Approach to be used
+            - Method(s) required
+            - Key equipment required
+            - Numbers of subjects and how these numbers were derived
+            - Statistical analysis needed
+            - Controls to be performed
+            - Replicates that will be needed
+            - Detailed expectations
+            - Time required to complete the studies
+            - Other considerations
+        - Study 2: [Repeat]
+    * Expected results.
+        - Summarize first outcome and its importance
+        - Summarize second outcome and its importance
+        - Conclude with how outcomes collectively attain the aim’s objective
+    * Anticipated problems and solutions.
+        - Problem: invalid working hypothesis
+        - Solution:
+        - Problem:
+        - Solution:
