@@ -1,0 +1,197 @@
+# Presenting 
+
+Presenting talks and posters is a key part of academic life that offers you the chance to disseminate your ideas and work to a larger audience. Mostly, these presentations will be at academic conferences and workshops. Grad students may attend national conferences to present, and undergraduates may attend regional conferences or the [UNL Student Research Days](https://research.unl.edu/researchdays/). But sometimes we present to the general public, which would involve different issues than described here.
+
+<!-- how to give a talk; which conferences do lab members usually attend and why; technology considerations surrounding visualizations; data considerations for work-in-progress; discussion of #betterposter or #worseposter, etc -->
+
+## Conferences
+
+There are **lots** of different conferences and workshops to present at. Here are a few that folks in our lab may present at:
+
+* [Comparative Cognition Society Conference](https://comparativecognition.org/conference.php)
+* [Canine Science Society Conference](https://www.caninesciencesociety.org/conference)
+* [Canine Science Forum](https://www.facebook.com/CanineScienceForum/)
+* [Animal Behavior Society Conference](https://isaz.net)
+* [International Society for Anthrozoology Conference](https://www.animalbehaviorsociety.org/web/index.php)
+* [Nebraska Psychological Society Conference](https://www.nebpsych.org/)
+
+<!-- ### Talk vs. poster -->
+
+## How to give a talk
+### Things to think about before starting {-}
+- What will be the aim of this talk? Are you giving a tutorial, job talk, research overview, or a deep dive into a particular study or set of studies? Or do you want feedback on an upcoming project?
+- Who is your audience?
+- How much time do you have? How much time do you have/want for questions?
+
+### The slides {-}
+
+*Presentation files*
+
+- If you don't need to embed videos, consider using PDFs instead of PowerPoint slides. Even if you do use PowerPoint, save a PDF version and have your video files available just in case.
+- Find out if your projector/screen is 4x3 or 16x9, and set up your presentation to match (use 16x9 if possible)
+- Have your presentation on a USB but also email it to yourself to have an easily accessible copy. Don't rely on Box or other cloud services because logging in may be tricky.
+- Embed your fonts in your PowerPoint file.
+    
+*Structure and content*
+
+- General
+    * Outline your talk into sections before you start making slides.
+    * For study-based talks, organize them into Introduction, Methods, Results, Discussion/Summary.
+    * Use consistent ordering of content throughout your presentation. If you introduce topic/hypothesis A, B, and C in the introduction, present them in order A, B, C in the methods, results, and discussion. 
+- Preliminaries
+    * Title slides should not be too cluttered but should have the title, your name (possibly co-authors, but they can be on another slide), affiliation, and social media handles (especially Twitter---to allow the audience to tag you in any tweets during the talk)
+    * Consider having your acknowledgments slide next. This (1) makes clear from the start that it is a group endeavor (2) gets this item out of the way early so if you run out of time, you've been able to acknowledge the group, and (3) prevents the gap from your conclusions to questions that would occur if you have them at the end. **Note:** Do not belabor the acknowledgments and read off every person and/or funding agency unless there are just a few. Use funding agency icons rather than writing out their names.
+    * Consider having an outline slide, though this may not be necessary for short talks.
+- Introduction
+    * The introduction to your presentation should **briefly** cover the basic background of your topic. Just give the audience the *minimal introduction* needed to understand the motivation for your talk. And focus on why the audience should care about your talk rather than exhaustively reviewing previous literature. Your introduction should be about 15% of your total talk time. 
+    * Citing literature in your introduction is acceptable, but keep it to a minimum and consider putting citations at the bottom of the slide instead of embedded in sentences (footnotes work well for this).
+    * Include one or more slides with the research question and the specific hypotheses explicitly written out.
+- Methods
+    * The methods section also does not need to be exhaustive. The audience does not need to be able to replicate your work, just understand what you've done. 
+    * Include images or videos of the procedure.
+- Results
+    * The bulk of your presentation should focus on your results. Take your time carefully explaining your results. 
+    * Use graphs rather than tables when possible.
+    * End subsections with summary slide.
+- Discussion
+    * Keep discussion relatively short. Start with overall summary of results. Next, discuss implications. Limitations are usually not necessary in a presentation, but they can be useful sometimes. Consider describing future directions. End the discussion with a *Take Away* slide that reiterates the 1-3 points that you want the audience to walk away with.
+    * On the final slide, include all of your contact info: name, email address, social media handles. This is the slide that you leave on the screen when answering questions. You don't need a slide that says Thanks! or Questions?
+    
+
+*Style*
+
+- Text
+    * Limit the amount of text on a slide. There is no need to write in full sentences.
+    * Use **LARGE**, readable fonts. All text should be at least 18 point and anything you actually want people to read should be at least 24 point. 
+    * Don't use red fonts. Ever.
+    * Use abbreviations sparingly. People forget what abbreviations mean unless they are standard (e.g., DNA). Almost all abbreviations you might use **are not standard**, so don't use them. Unlike in a paper, if an audience member misses when you define an abbreviation, they cannot go back to find what it means.
+    * Use consistent labels/words throughout the presentation.
+- Figures
+    * Make your graphs large, preferably 1-2 per slide. Use large fonts for the x and y axes and legend labels.
+    * If you use color to distinguish data, use color-blind safe color palletes. Also, distinguish different data with different symbols or line types.
+    * Use consistent sizes, aspect ratios, labels, and colors for graphs. If red and blue mean female and male in one graph, don't use them to mean Condition 1 and Condition 2 in another graph.
+- Slides
+    * Consider color-coding different hypotheses/topics in your talk.
+    * If you are talking about your published work, put a citation of the work on the bottom of each slide that refers to the work.
+
+
+### The presenter {-}
+*Audience*
+
+- Typically, you want to assume your audience is smart people who know nothing about your topic.
+- Face your audience!
+- Talk slowly and clearly and maintain a consistent volume that people in the back of the room can hear.
+- Do not read your slide text.
+
+*Kick-off*
+
+- Do not start your talk by reading your title. Feel free to summarize what you're covering in different words, though (e.g., "Today, I'll talk about...").
+- Practice what you'll say on your first slide. Otherwise, it can sometimes be awkward.
+
+*Slides*
+
+- Every time you have a new set of x and y axes on graphs, explain the axes. Consider starting with a blank graph to describe the axes and explain predictions before revealing the data.
+- Do not put massive tables or graphs on a slide and say "I know you can't read this, but...". If the audience cannot read a table or graph, don't use it.
+
+*Extras*
+
+- If you're nervous and are using a laser pointer, use two hands to point the laser---it will steady the laser.
+- If you're using a slide advancer, do not repeatedly apologize for pushing the wrong button. One apology is more than sufficient.
+- Have a glass or bottle of water at the podium and don't be afraid to take a moment to take a drink.
+- If you have technical difficulties and a video does not play or the presentation freezes. Do not apologize and get flustered. We've all experienced this. Simply work on trying to fix the technical problem.
+
+*Questions*
+
+- Defer to your host as to whether you field the questions or someone else does.
+- Do not interrupt when someone is asking a question. Let them finish speaking before you start to answer.
+- Repeat the question back to the questioner to make sure that you understood it and to ensure that others have heard it. If they ask multiple questions, feel free to ask them to repeat questions that you may have forgotten.
+- Try to answer succinctly and pay attention if you start to ramble. Pay attention to how much time you have and shorten answers as you get closer to the end of your time.
+- Feel free to ask if you have answered their question. 
+
+
+### Resources {-}
+- [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373)
+- [Ten simple rules for making good oral presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077)
+- [How to give a great scientific talk](https://www.nature.com/articles/d41586-018-07780-5)
+- [How to give a good talk](https://www.sciencedirect.com/science/article/pii/S1097276509007424)
+- [Ten secrets to giving a good scientific talk](http://www.cgd.ucar.edu/cms/agu/scientific_talk.html)
+
+
+## How to give a poster 
+
+I prefer to use the [#BetterPoster](https://astrobites.org/2020/02/28/fixing-academic-posters-the-betterposter-approach/) approach to posters, which greatly minimizes text and provides a single-sentence take-home message in huge font.
+
+### Things to think about before starting {-}
+- What will be the scope of this poster?
+- Who is your audience?
+- How much space do you have?
+- Will posters be available for viewing when you are not there?
+
+### The structure {-}
+
+*Title*
+
+- Write attention grabbing title.
+- Use ENORMOUS, easy-to-read font.
+
+*Introduction*
+
+- Just a few bullet points offering the *essential* information needed to motivate your poster.
+- If you want to include references, make them small.
+- End with the Research Question or Hypothesis clearly labeled and set off in its own box.
+
+*Methods*
+
+- Just a few bullet points offering the *essential* information on your methods.
+- Do not give details.
+- Give examples when possible.
+- Use images/graphics as much as possible.
+
+*Results* 
+
+- This should primarily be large graphs.
+- Add test statistics to graphs if desired.
+- Use simple labels for axes.
+- Use *HUGE* fonts for axes.
+- Use large symbols and line widths.
+- Consider including a summary statement of results for each graph or overall.
+
+*Discussion/Conclusion*
+
+- Just a few bullet points summarizing finds and giving implications, limitations, and/or future directions.
+
+*References cited*
+
+- Make this small font and out of the way.
+
+*Acknowledgments*
+
+- Acknowledge funders.
+
+*Contact info*
+
+- Make sure your email address is on the poster somewhere.
+- Add a QR code for the paper or lab website.
+
+*Presenting the poster*
+
+- Practice a 1-minute elevator pitch that quickly describes what you've done. Don't be too detailed unless people ask questions.
+- Assume people know nothing about your topic unless they say otherwise. You can ask if they know about your topic to start with, but don't assume any knowledge.
+- Watch for feedback that people are getting bored or don't understand. If they're bored, get straight to the conclusions. If they don't understand, ask them if they're following what you're saying.
+- Don't use jargon or abbreviations/acronyms. Speak simply using words everyone (i.e., non-experts) know.
+- Make eye contact with your visitors. Don't just stare at the poster while talking. Use it as a reference rather than a crutch.
+- Speak loudly and clearly, facing your visitors. It can be loud in a poster session, making it hard to hear presenters.
+- Bring something to take notes on in case visitors have good questions/points that you want to remember. Also, they can write down their contact information if they want you to reach out or send a copy of the poster.
+- Take breaks if you need to. Grab a drink or ask a peer to get you something if you don't have any breaks in visitors.
+- Take some time at the end to go see other posters.
+- Have fun!
+
+
+### Pro tips {-}
+- Keep presentation of hypotheses/research questions consistent throughout Methods, Results, and Discussion.
+- Make sure your institution or lab names are clearly visible.
+- Print a few color copies to hand out.
+
+### Resources {-}
+- [Ten simple rules for a good poster presentation](http://dx.plos.org/10.1371/journal.pcbi.0030102)
+- [#BetterPoster approach](https://astrobites.org/2020/02/28/fixing-academic-posters-the-betterposter-approach/)

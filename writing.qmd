@@ -1,13 +1,8 @@
-# Writing and presenting {#dissemination}
-
-**Under construction**
-
- 
-## Writing
+# Writing
 
 Writing is a key part of academia. We communicate our ideas via manuscripts, books, reports, grant proposals, and blogs. We also make presentations and poster to disseminate our findings. Here we review some tools and tips for writing and presenting our work.
 
-### Writing software
+## Software for writing
 
 Though Microsoft Word/PowerPoint and Google Docs/Slides can be convenient, they do not make reproducible outputs. A reproducible alternative is [Markdown](https://daringfireball.net/projects/markdown/), which is a markup language that allows you to write [plain-text](https://en.wikipedia.org/wiki/Plain_text) in a [text editor](https://en.wikipedia.org/wiki/Text_editor) and include special syntax to control formatting. Markdown files get passed to Pandoc, which can process the syntax and convert the file to a formatted output file such as HTML, PDF, or DOCX. This contrasts with Word/PowerPoint where the formatting is shown to you in the app (What You See Is What You Get or WYSIWYG).
 
@@ -33,21 +28,21 @@ Check out the [Markdown Guide](https://www.markdownguide.org/) for a full refere
 
 Citing our sources requires keeping track of all of the articles, books, websites, and dissertations that we use as resources. [Zotero](https://zotero.org) is a "free, easy-to-use tool to help you collect, organize, annotate, cite, and share research". There are two key functions of Zotero.
 
-#### Source organization {-}
+### Source organization {-}
 First, Zotero organizes all of your sources. It keeps track of authors, titles, DOI, URLs, etc. so you can search through your "collection" to find sources. Critically, it also stores PDFs of each source, so it is a great way to organize PDFs.
 
 How do you get sources into Zotero? It's easy. There are extensions for all of the major web browsers. When installed, there is a little button that, if you press it while on a source's webpage, will automatically extract the relevant meta-information (author, year, title, publisher, DOI) from the page and save a PDF (if available). You can also import meta-information either from other bibliography software (e.g., EndNote, Mendeley) or from a file with that information formatted appropriately.
 
 Within Zotero, you can create 'collections' or subfolders that include specific sources relevant to a particular topic. So instead of sorting through my 10,000 (!) sources, I can go straight to the `dog_inhibition` collection to see the relevant sources. In addition, you can share collections with other Zotero users either directly via their usernames or you can create [Zotero Groups](https://www.zotero.org/groups/) to share and collaborate on collections of sources.
 
-#### Formatting bibliographies {-}
+### Formatting bibliographies {-}
 
 Another key feature of Zotero is that it can automatically format references to your sources. For instance, if you have a collection full of sources for a paper, you can export those references, choose a formatting style, and Zotero will create a completely formatted bibliography for you. So you don't have to remember if APA style italicizes the volume number or uses a colon or comma after the issue number. There are thousands of [style files](https://www.zotero.org/styles) already created for most journal styles. This is especially useful if you need to quickly change styles---it just takes selecting a different style type.
 
 What's more, you can even use special code to enter sources directly in your document as in-text citation. When you do this and compile the document the in-text citations and the bibliography are automatically formatted to the style you choose. If you add or remove sources, the bibliography is automatically update. It's amazing! No more typing out bibliographies. Use Zotero.
 
 
-### Writing lots and well
+## Writing lots and well
 
 Before we get to specific types of writing, it's important to remember that writing isn't easy for most of us. Writing is hard. Which means that we need to write a lot (meaning often) and revise a lot (meaning much of the writing). Motivating writing can be difficult, so folks often use strategies such as scheduling a certain amount of time each day to write. Or require yourself to write a certain number of words each day. Find a good time of day that works for you, and reward yourself after writing with something that you enjoy.
 
@@ -69,17 +64,26 @@ Writing _concisely_ means using as few words as possible to convey your meaning.
 * Avoid passive voice when possible. Active voice tends to use fewer words and is clearer.
 * Read each sentence separately and check whether each word is necessary. Be brutal and cut anything that is not necessary to convey your meaning.
 
-## Publications
+## Journal articles
 
-<!-- ### Authorship -->
+The primary currency of productivity in the behavioral sciences is publications, with a strong emphasis on peer-reviewed journal articles. The expectation of the lab is that most of the work that we do should be published in journals. Even if the results don't turn out as we expect, if we don't have methodological errors, we will aim to publish our results in journals. So the expectation is that people who take the lead in projects will write up the work in journal article form. Publishing journal articles can take months or years, so even after you leave the lab, we need your help in writing, revising, and responding to reviewer questions.
+
+There are two ways that lab members' contributions to projects are signaled in journal articles: authorship and acknowledgments. Authorship signals a substantial contribution to the project (see [Authorship](#authorship) section). Assistants who contribute less substantially are highly valued and appreciated and included in the Acknowledgment section of the paper. If you are interested in being an author on a paper, contact Jeff early to discuss ways that you can contribute to the paper in way to merit authorship.
+
 
 ### Journals
 
+Before the writing process gets started, it is useful to think about what potential journals we would want to submit to. We want to think about this early because it can greatly shape the scope, direction, and length of the paper (especially the Introduction and Discussion). Talk to Jeff about potential journal venues. In general, Jeff has a preference for [diamond open access journals](https://en.wikipedia.org/wiki/Diamond_open_access), which are journals that publish papers without charging authors to publish or readers to access. These are often society-governed journals run by academics instead of for-profit publishing companies that have [higher profit margins than the major tech companies](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science) and are built on the free labor that academics provide through peer review. Other journals may be appropriate for some papers, but Jeff has a strong preference for open access options and [not to publish in Elsevier journals](https://science.thewire.in/the-sciences/why-i-wont-review-or-write-for-elsevier-and-other-commercial-scientific-journals/).
 
+Some of our favorite diamond open access journals include:
+
+* [Animal Behavior & Cognition](https://www.animalbehaviorandcognition.org/)
+* [Comparative Cognition and Behavior Reviews](https://comparative-cognition-and-behavior-reviews.org/)
+* [Human-Animal Interactions](https://www.human-animal-interaction.org/human-animal-interaction-bulletin/)
 
 ### How to write a journal article
 
-
+Here are some tips for writing journal articles.
 
 #### Things to think about before writing {-} 
 
@@ -124,9 +128,18 @@ Introductions should be relatively short---they do not need to be full literatur
     * Describe the source and demographics of your participants.
     * Describe *when* your data were collected.
     * Describe why and how many participants/subject were excluded.
+    * Give information on IACUC/IRB approval for the project.
 - Materials
+    * Describe the materials, apparatus, location.
+    * Often including a diagram of the experimental set-up is useful here. This can be either an image (remember, images of animal experiments must be vetted by the IACP before being made public) or a graphic you create (e.g., preferably an SVG graphic created in [Inkscape](https://inkscape.org)).
 - Procedure
+    * It is usually best to describe the full procedure in detail here. It is easier to cut extraneous details than have to go back later and remember details to add.
+    * This will likely be the longest section of the Methods.
+    * Don't forget to include information on training/warm-ups, etc.
 - Experimental conditions
+    * Sometimes it's nice to have a separate section describing the experimental conditions, especially if they are detailed. But sometimes it makes sense just to move this as a subsection of Procedure.
+    * Again, illustrations (either images or graphics) of experimental conditions are very helpful. I recommend adding them whenever possible.
+    * Use good, descriptive names for experimental conditions (such as ostensive and non-ostensive rather than treatment and control) and use them consistently through the paper
 - Data analysis
     * Cite R and the R packages that you use (this is done easily in R Markdown with the `{papaja}`).
     * Describe where data, code, and supplementary materials can be found (e.g., [Open Science Framework](https://osf.io))
@@ -136,7 +149,7 @@ Introductions should be relatively short---they do not need to be full literatur
 
 *Results*
 
-- Each major result/hypothesis should have its own section. Start with building the figure for the section, then write a paragraph about it.
+- Each major result/hypothesis should have its own section (or at least paragraph). Start with building the figure for the section, then write a paragraph about it.
 - Within each section, start with a reminder of what the hypothesis/aim is, followed by a very brief description of how the data were analyzed.
 - Then move into describing the results, using objective descriptions of what the statistical test show. Do not draw inferences or discuss conclusions from the data. Describe it in terms of your dependent and independent variables rather than the broader concepts that you are inferring from those variables.
 - If using frequentist statistics, give the test statistic, p-value, and effect size. Describe the effects, but **do not use the word _significant_**. 
@@ -146,7 +159,7 @@ Introductions should be relatively short---they do not need to be full literatur
 
 - Start with a paragraph giving a quick summary of the results.
 - Next, spell out the implications of each of your results (in the order presented). This is where you relate the results to your hypotheses, connect them to previous literature, and give conclusions about what they mean and why they are important.
-- It is important to include limitations of your study. But don't go overboard here, and don't waste time with sample size as a limitation.
+- It is important to include limitations of your study. But don't go overboard here, and don't waste time with sample size as a limitation. It's almost always a limitation.
 - Sometimes this is integrated with limitations, but it is nice to point to future directions. What are the next questions/projects that logically follow from this one?
 - Finally, it is usually nice to end with a conclusion. This summarizes the findings, highlights the key implications, and ends with a strong conclusion that can be drawn from the study.
 
@@ -156,177 +169,12 @@ Introductions should be relatively short---they do not need to be full literatur
 
 #### Pro tips {-} 
 - Keep the presentation of hypotheses/research questions consistent throughout Methods, Results, and Discussion
+- To minimize passive voice, read your paper backwards looking specifically for passive voice.
 
 
+### Before submitting journal articles
 
-### Submitting journal articles
-how the lab deals with authorship, including the differences between listing in acknowledgments & co-authors; checklist of everything to do before a paper is published; policies on preprints, postprints, and open access; preferences about journals
-
-## Presentations
-how to give a talk; which conferences do lab members usually attend and why; technology considerations surrounding visualizations; data considerations for work-in-progress; discussion of #betterposter or #worseposter, etc
-
-### Conferences
-
-### Talk vs. poster
-
-### How to give a talk
-#### Things to think about before starting {-}
-- What will be the aim of this talk? Are you giving a tutorial, job talk, research overview, or a deep dive into a particular study or set of studyies? Or do you want feedback on an upcoming project?
-- Who is your audience?
-- How much time do you have? How much time do you have/want for questions?
-
-#### The slides {-}
-
-*Presentation files*
-
-- If you don't need to embed videos, consider using PDFs instead of PowerPoint slides. Even if you do use PowerPoint, save a PDF version and have your video files available just in case.
-- Find out if your projector/screen is 4x3 or 16x9, and set up your presentation to match (use 16x9 if possible)
-- Have your presentation on a USB but also email it to yourself to have an easily accessible copy. Don't rely on Box or other cloud services because logging in may be tricky.
-- Embed your fonts in your PowerPoint file.
-    
-*Structure and content*
-
-- General
-    * Outline your talk into sections before you start making slides.
-    * For study-based talks, organize them into Introduction, Methods, Results, Discussion/Summary.
-    * Use consistent ordering of content throughout your presentation. If you introduce topic/hypothesis A, B, and C in the introduction, present them in order A, B, C in the methods, results, and discussion. 
-- Preliminaries
-    * Title slides should not be too cluttered but should have the title, your name (possibly co-authors, but they can be on another slide), affiliation, and social media handles (especially Twitter---to allow the audience to tag you in any tweets during the talk)
-    * Consider having your acknowledgments slide next. This (1) makes clear from the start that it is a group endeavor (2) gets this item out of the way early so if you run out of time, you've been able to acknowledge the group, and (3) prevents the gap from your conclusions to questions that would occur if you have them at the end. **Note:** Do not belabor the acknowledgments and read off every person and/or funding agency unless there are just a few. Use funding agency icons rather than writing out their names.
-    * Consider having an outline slide, though this may not be necessary for short talks.
-- Introduction
-    * The introduction to your presentation should **briefly** cover the basic background of your topic. Just give the audience the *minimal introduction* needed to understand the motivation for your talk. And focus on why the audience should care about your talk rather than exhaustively reviewing previous literature. Your introduction should be about 15% of your total talk time. 
-    * Citing literature in your introduction is acceptable, but keep it to a minimum and consider putting citations at the bottom of the slide instead of embedded in sentences (footnotes work well for this).
-    * Include one or more slides with the research question and the specific hypotheses explicitly written out.
-- Methods
-    * The methods section also does not need to be exhaustive. The audience does not need to be able to replicate your work, just understand what you've done. 
-    * Include images or videos of the procedure.
-- Results
-    * The bulk of your presentation should focus on your results. Take your time carefully explaining your results. 
-    * Use graphs rather than tables when possible.
-    * End subsections with summary slide.
-- Discussion
-    * Keep discussion relatively short. Start with overall summary of results. Next, discuss implications. Limitations are usually not necessary in a presentation, but they can be useful sometimes. Consider describing future directions. End the discussion with a *Take Away* slide that reiterates the 1-3 points that you want the audience to walk away with.
-    * On the final slide, include all of your contact info: name, email address, social media handles. This is the slide that you leave on the screen when answering questions. You don't need a slide that says Thanks! or Questions?
-    
-
-*Style*
-
-- Text
-    * Limit the amount of text on a slide. There is no need to write in full sentences.
-    * Use **LARGE**, readable fonts. All text should be at least 18 point and anything you actually want people to read should be at least 24 point. 
-    * Don't use red fonts. Ever.
-    * Use abbreviations sparingly. People forget what abbreviations mean unless they are standard (e.g., DNA). Almost all abbreviations you might use **are not standard**, so don't use them. Unlike in a paper, if an audience member misses when you define an abbreviation, they cannot go back to find what it means.
-    * Use consistent labels/words throughout the presentation.
-- Figures
-    * Make your graphs large, preferably 1-2 per slide. Use large fonts for the x and y axes and legend labels.
-    * If you use color to distinguish data, use color-blind safe color palletes. Also, distinguish different data with different symbols or line types.
-    * Use consistent sizes, aspect ratios, labels, and colors for graphs. If red and blue mean female and male in one graph, don't use them to mean Condition 1 and Condition 2 in another graph.
-- Slides
-    * Consider color-coding different hypotheses/topics in your talk.
-    * If you are talking about your published work, put a citation of the work on the bottom of each slide that refers to the work.
-
-
-#### The presenter {-}
-*Audience*
-
-- Typically, you want to assume your audience is smart people who know nothing about your topic.
-- Face your audience!
-- Talk slowly and clearly and maintain a consistent volume that people in the back of the room can hear.
-- Do not read your slide text.
-
-*Kick-off*
-
-- Do not start your talk by reading your title. Feel free to summarize what you're covering in different words, though (e.g., "Today, I'll talk about...").
-- Practice what you'll say on your first slide. Otherwise, it can sometimes be awkward.
-
-*Slides*
-
-- Every time you have a new set of x and y axes on graphs, explain the axes. Consider starting with a blank graph to describe the axes and explain predictions before revealing the data.
-- Do not put massive tables or graphs on a slide and say "I know you can't read this, but...". If the audience cannot read a table or graph, don't use it.
-
-*Extras*
-
-- If you're nervous and are using a laser pointer, use two hands to point the laser---it will steady the laser.
-- If you're using a slide advancer, do not repeatedly apologize for pushing the wrong button. One apology is more than sufficient.
-- Have a glass or bottle of water at the podium and don't be afraid to take a moment to take a drink.
-- If you have technical difficulties and a video does not play or the presentation freezes. Do not apologize and get flustered. We've all experienced this. Simply work on trying to fix the technical problem.
-
-*Questions*
-
-- Defer to your host as to whether you field the questions or someone else does.
-- Do not interrupt when someone is asking a question. Let them finish speaking before you start to answer.
-- Repeat the question back to the questioner to make sure that you understood it and to ensure that others have heard it. If they ask multiple questions, feel free to ask them to repeat questions that you may have forgotten.
-- Try to answer succinctly and pay attention if you start to ramble. Pay attention to how much time you have and shorten answers as you get closer to the end of your time.
-- Feel free to ask if you have answered their question. 
-
-
-#### Resources {-}
-- [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373)
-- [Ten simple rules for making good oral presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077)
-- [How to give a great scientific talk](https://www.nature.com/articles/d41586-018-07780-5)
-- [How to give a good talk](https://www.sciencedirect.com/science/article/pii/S1097276509007424)
-- [Ten secrets to giving a good scientific talk](http://www.cgd.ucar.edu/cms/agu/scientific_talk.html)
-
-
-### How to give a poster 
-
-#### Things to think about before starting {-}
-- What will be the scope of this poster?
-- Who is your audience?
-- How much space do you have?
-- Will posters be available for viewing when you are not there?
-
-#### The structure {-}
-
-*Title*
-
-- Write attention grabbing title
-- Use ENORMOUS, easy-to-read font
-
-*Introduction*
-
-- Just a few bullet points offering the *essential* information needed to motivate your poster
-- Include references, but make them small
-- End with the Research Question clearly labeled and set off in its own box
-
-*Methods*
-
-- Just a few bullet points offering the *essential* information on your methods
-- Do not give details
-- Give examples when possible
-- Use images as much as possible
-
-*Results* 
-
-- This should primarily be large graphs
-- Add test statistics to graphs when possible
-- Use simple labels for axes
-- Use huge fonts for axes
-- Use large symbols and line widths
-- Include a summary statement of results for each graph or overall
-
-*Discussion/Conclusion*
-
-- Just a few bullet points summarizing finds and giving implications, limitations, and/or future directions
-
-*References cited*
-
-- Make this small font and out of the way
-
-*Acknowledgments*
-
-- Acknowledge funders
-
-*Contact info*
-
-- Make sure your email address is on the poster somewhere
-
-#### Pro tips {-}
-- Keep presentation of hypotheses/research questions consistent throughout Methods, Results, and Discussion
-- Make sure your institution or lab names are clearly visible
-- Print a few color copies to hand out
-- Consider a [completely different way to do posters](https://www.youtube.com/watch?v=1RwJbhkCA58)
+There are a few things to consider and do before submitting our papers. We will want to post all data and analysis scripts to publicly via [Open Science Framework](https://osf.io) and/or [GitHub](https://github.com) and include links in our papers. Also, in most cases, Jeff will want to submit a preprint of the article to a preprint server (e.g., [PsyArXiv](https://osf.io/preprints/psyarxiv), [bioRxiv](https://www.biorxiv.org), or [OSF Preprints](https://osf.io/preprints)) before submit the article to a journal. We also need to write a short cover letter and think about potential reviewers to suggest (going through the bibliography is often useful for generating reviewer ideas).
 
 
 ## Grant proposals

@@ -23,6 +23,8 @@ book:
         - version_control.qmd
     - part: "Resources"
       chapters:
+        - writing.qmd
+        - presenting.qmd
         - references.qmd
 
 bibliography: references.bib
