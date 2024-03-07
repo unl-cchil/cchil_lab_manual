@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.537">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -207,6 +207,18 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./presenting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Presenting</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -290,8 +302,8 @@ div.csl-indent {
 <blockquote class="blockquote">
 <p>Authorship credit should reflect the individual’s contribution to the study. An author is considered anyone involved with initial research design, data collection and analysis, manuscript drafting, and final approval. However, the following do not necessarily qualify for authorship: providing funding or resources, mentorship, or contributing research but not helping with the publication itself. The primary author assumes responsibility for the publication, making sure that the data are accurate, that all deserving authors have been credited, that all authors have given their approval to the final draft; and handles responses to inquiries after the manuscript is published.</p>
 </blockquote>
-<p>Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. In general, I expect that graduate students will be first authors on publications on which they are the primary lead, and I will be the last author. Talk to Jeff right away if you aren’t sure if you are first author. Students who help over the course of the project may be added to the author list depending on their contribution, and their placement will be discussed with all parties involved in the paper. These discussions and decisions will be spearheaded by the first author, in consultation with Jeff. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. For example, if a student hands a project off to another lab member, they will most likely lose first-authorship to the new project leader. If a student collects a dataset but does not completely analyze it and write it up, Jeff will re-assign the project (if appropriate) to another person (who will become first author) to expedite publication.</p>
-<p>All of these issues will be discussed openly, and you should feel free to bring them up if you are not sure of your authorship status or want to challenge it. Again, these discussions should be addressed with the first author, but Jeff is always happy to help with negotiations should the need arise.</p>
+<p>We use the <a href="https://credit.niso.org/">CRediT system</a> to specify various types of contributions to a project (e.g., conceptualization, project administration, supervision, data analysis, writing). Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. In general, I expect that graduate students will be first authors on publications on which they are the primary lead, and I will be the last author. Talk to Jeff right away if you aren’t sure if you are first author. Our lab has a pretty liberal policy for including undergraduate assistants as authors. Assistants who take the lead in running projects or contributing above and beyond data collection are often invited to be authors. These discussions and decisions will be spearheaded by the first author, in consultation with Jeff. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. For example, if a student hands a project off to another lab member, they will most likely lose first-authorship to the new project leader. If a student collects a dataset but does not completely analyze it and write it up, Jeff will re-assign the project (if appropriate) to another person (who will become first author) to expedite publication.</p>
+<p>All of these issues will be discussed openly, and you should feel free to bring them up if you are not sure of your authorship status or want to discuss it. Again, these discussions should be addressed with the first author, but Jeff is always happy to help with negotiations should the need arise.</p>
 </section>
 <section id="human-subjects-and-animal-research" class="level3" data-number="2.1.3">
 <h3 data-number="2.1.3" class="anchored" data-anchor-id="human-subjects-and-animal-research"><span class="header-section-number">2.1.3</span> Human subjects and animal research</h3>
@@ -543,7 +555,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -766,12 +783,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./roles.html" class="pagination-link  aria-label=" &lt;span="" and="" expectations&lt;="" span&gt;"="">
+      <a href="./roles.html" class="pagination-link" aria-label="Roles and expectations">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Roles and expectations</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./onboarding.html" class="pagination-link" aria-label="<span class='chapter-number'>3</span>&nbsp; <span class='chapter-title'>Onboarding and offboarding</span>">
+      <a href="./onboarding.html" class="pagination-link" aria-label="Onboarding and offboarding">
         <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onboarding and offboarding</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
