@@ -18,6 +18,7 @@ Congratulations for joining the lab! Now there are a number of steps you must ta
 4. Send Jeff a photo and a short blurb about yourself for the [CCHIL website](https://dogcog.unl.edu/people).
 5. Send Jeff your NUID number for lab keycard access. NOTE: If you are new to UNL and do not have your physical NCard yet, you will need to pick it up at the NCard office and activate it (instructions for activation come with the new card) before you can be given keycard access to buildings/rooms.
 6. Read over this lab manual (at least chapters 1-4).
+7. Read any IACUC protocols and IRB protocols associated with the projects you'll be working on. Jeff will attach those to an email.
 
 ## Training
 
