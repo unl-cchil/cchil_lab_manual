@@ -6,4 +6,4 @@ The aim of this lab manual is to spell out expectations, policies, and resources
 
 This lab manual is licensed under a [Creative Commons Attribution - NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you’re a PI or trainee in a different lab and want to write your own lab manual, feel free to take inspiration from this one (and cite us!).
 
-Stevens, J.R. (2023). Canine Cognition and Human Interaction Lab Manual. https://github.com/unl-cchil/cchil_lab_manual.
+Stevens, J.R. (2024). Canine Cognition and Human Interaction Lab Manual. https://github.com/unl-cchil/cchil_lab_manual.
