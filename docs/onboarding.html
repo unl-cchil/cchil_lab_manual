@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-327cd4b67da1e63d793174deaa20b6cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -251,7 +251,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Install Microsoft Teams on your phone and computer and log in via your UNL credentials. Turn on notifications for the <code>#cchil</code> channel straight away. Add your photo to your Teams profile.</li>
 <li>Go to the <a href="https://research.unl.edu/researchresponsibility/required-and-optional-training-2/">IACUC training page</a> to:
 <ol type="a">
-<li>Complete online CITI IACUC General Regulation Training (GRT) (<strong>Working with the IACUC- Investigators, Staff, and Students- 1 Basic Course</strong>) and send Jeff a PDF of the certification when completed. NOTE: If you have previously completed a CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on “Add Affiliation.” This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.</li>
+<li>Complete online CITI IACUC General Regulation Training (GRT) (<strong>Working with the IACUC- Investigators, Staff, and Students- 1 Basic Course</strong>).
+<ul>
+<li>Send Jeff a PDF of the Completion Certificate when completed.</li>
+<li>If you have already completed IACUC training at UNL, go to My Records and save a PDF of the Completion Certificate.</li>
+<li>If you have previously completed IACUC CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on “Add Affiliation.” This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.</li>
+</ul></li>
 <li>Complete the OHS form.
 <ul>
 <li>For “campus mail address, supervisor, department, building or facility”, enter “B83 East Stadium, Jeffrey Stevens, Psychology, CB3”</li>
@@ -262,7 +267,12 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>If you receive an email from the IACP folks about the General Regulation Training (GRT), Occupational Health and Safety (OHS) form, and the Facility Orientation, you can ignore it. This email goes out if I add you to the IACUC protocol before you complete the online version of the GRT or before you submit your OHS form. And there is no facility orientation for the dog lab.</li>
 </ol></li>
-<li>Complete <a href="https://research.unl.edu/researchcompliance/required-human-subjects-training/">CITI IRB training</a> for <strong>Social/Behavioral Research Investigators</strong> and send Jeff a PDF of the certification when completed.</li>
+<li>Complete <a href="https://research.unl.edu/researchcompliance/required-human-subjects-training/">CITI IRB training</a> for <strong>Social/Behavioral Research Investigators</strong>.
+<ul>
+<li>Send Jeff a PDF of the Completion Certificate when completed.</li>
+<li>If you have already completed IRB training at UNL, go to My Records and save a PDF of the Completion Certificate.</li>
+<li>If you have previously completed IRB CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on “Add Affiliation.” This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.</li>
+</ul></li>
 <li>Send Jeff a photo and a short blurb about yourself for the <a href="https://dogcog.unl.edu/people">CCHIL website</a>.</li>
 <li>Send Jeff your NUID number for lab keycard access. NOTE: If you are new to UNL and do not have your physical NCard yet, you will need to pick it up at the NCard office and activate it (instructions for activation come with the new card) before you can be given keycard access to buildings/rooms.</li>
 <li>Read over this lab manual (at least chapters 1-4).</li>
@@ -371,8 +381,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -483,7 +491,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
