@@ -7,7 +7,7 @@ Welcome to the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.e
 This lab is led by [Jeff Stevens](https://jeffreyrstevens.quarto.pub/), Susan J. Rosowski Professor in the [Department of Psychology](https://psychology.unl.edu/) and the [Center for Brain, Biology & Behavior](https://cb3.unl.edu/) at the [University of Nebraska-Lincoln](http://www.unl.edu/).
 
 ## Mission statement  {-}
-**The mission of CCHIL is to understand how dogs behave and process information in their world as well as how interacting with dogs influences human behavior and psychology.** 
+**The mission of CCHIL is to use biological and psychological approaches to understand dog behavior with the aim of improving how owners and handlers train, work with, and live with dogs.** 
 
 CCHIL is committed to robust, transparent, and open science in all of our research endeavors and to disseminating our work to the general public via outreach activities.
 
