@@ -7,6 +7,7 @@ Congratulations for joining the lab! Now there are a number of steps you must ta
 2. Install Microsoft Teams on your phone and computer and log in via your UNL credentials. Turn on notifications for the `#cchil` channel straight away. Add your photo to your Teams profile.
 3. Go to the [IACUC training page](https://research.unl.edu/researchresponsibility/required-and-optional-training-2/) to:
     a. Complete online CITI IACUC General Regulation Training (GRT) (**Working with the IACUC- Investigators, Staff, and Students- 1 Basic Course**).
+        - Make sure to select Basic Course not Refresher Course
         - Send Jeff a PDF of the Completion Certificate when completed. 
         - If you have already completed IACUC training at UNL, go to My Records and save a PDF of the Completion Certificate.
         - If you have previously completed IACUC CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on "Add Affiliation." This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.
@@ -17,7 +18,8 @@ Congratulations for joining the lab! Now there are a number of steps you must ta
         - Page 3, Part A, Section II, “Hazards Associated with Animal Contact”, there is a list of agents with a column of check boxes. Answer “no” for all of them.
         - Submit the form electronically (do not send it to Jeff, as it has personal health information).
     c. If you receive an email from the IACP folks about the General Regulation Training (GRT), Occupational Health and Safety (OHS) form, and the Facility Orientation, you can ignore it. This email goes out if I add you to the IACUC protocol before you complete the online version of the GRT or before you submit your OHS form. And there is no facility orientation for the dog lab.
-5. Complete [CITI IRB training](https://research.unl.edu/researchcompliance/required-human-subjects-training/) for **Social/Behavioral Research Investigators**.
+5. Complete [CITI IRB training](https://research.unl.edu/researchcompliance/required-human-subjects-training/) for **Basic Course for Social/Behavioral Research Investigators and Key Personnel**.
+    - Make sure to select Basic Course not Refresher Course
     - Send Jeff a PDF of the Completion Certificate when completed.
     - If you have already completed IRB training at UNL, go to My Records and save a PDF of the Completion Certificate.
     - If you have previously completed IRB CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on "Add Affiliation." This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.
