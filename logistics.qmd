@@ -100,7 +100,7 @@ The lab uses [Microsoft Teams](https://teams.microsoft.com) for all lab communic
 #### Literature and bibliographies {-}
 To keep track of literature and to build bibliographies for papers, the lab uses [Zotero](https://zotero.org). [Better BibTeX](https://retorque.re/zotero-better-bibtex/) is a useful plug-in that helps integrate Zotero with R Markdown documents.
 
-#### Other {-}
+#### Other software {-}
 We use other open source software as well:
 
 * [GIMP](https://www.gimp.org/)---image editing (free version of Adobe Photoshop)
@@ -108,6 +108,8 @@ We use other open source software as well:
 * [VLC](https://www.videolan.org/vlc/)---media player
 * [OpenShot](https://www.openshot.org/)---video editing
 
+#### AI use {-}
+Our lab does not use generative artificial intelligence to generate research ideas, conduct literature reviews, design experiments, analyze data, generate images, or write/edit text for manuscripts. **Never** upload data or sensitive information to a generative AI system.
 
 
 ### Passwords
