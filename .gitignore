@@ -6,3 +6,6 @@
 /.quarto/
 
 /old/
+.positai
+
+**/*.quarto_ipynb

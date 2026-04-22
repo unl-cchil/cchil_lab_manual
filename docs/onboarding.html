@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>3&nbsp; Onboarding and offboarding – CCHIL Lab Manual</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9586ff6fce481591d5df716c2aa5024f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a527d3f7b52e65fbdda23b0415f46a01.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -249,12 +252,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Congratulations for joining the lab! Now there are a number of steps you must take to actively participate in the lab.</p>
 <ol type="1">
 <li>Send Jeff a CV/resume. It doesn’t need to be thorough or up-to-date. It must be submitted to IACUC when adding you to the protocol, so it just needs to be something that we can upload.</li>
-<li>Install Microsoft Teams on your phone and computer and log in via your UNL credentials. Turn on notifications for the <code>#cchil</code> channel straight away. Add your photo to your Teams profile.</li>
+<li>Install Microsoft Teams on your phone and computer and log in via your UNL credentials. Make sure you have notifications turned on in Settings. Add your photo to your Teams profile.</li>
 <li>Go to the <a href="https://research.unl.edu/researchresponsibility/required-and-optional-training-2/">IACUC training page</a> to:
 <ol type="a">
 <li>Complete online CITI IACUC General Regulation Training (GRT) (<strong>Working with the IACUC- Investigators, Staff, and Students- 1 Basic Course</strong>).
 <ul>
-<li>Make sure to select Basic Course not Refresher Course</li>
+<li>Make sure to select Basic Course <em>not</em> Refresher Course</li>
 <li>Send Jeff a PDF of the Completion Certificate when completed.</li>
 <li>If you have already completed IACUC training at UNL, go to My Records and save a PDF of the Completion Certificate.</li>
 <li>If you have previously completed IACUC CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on “Add Affiliation.” This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.</li>
@@ -265,13 +268,13 @@ ul.task-list li input[type="checkbox"] {
 <li>On page 1 (Part A- Occupational and Environmental Risk Factors- Animal Contact), check “I have contact with animals in teaching or research through a university approved animal care and use protocol.”</li>
 <li>Under Species and Type, check column 4 (Research/Teaching) for Dog</li>
 <li>Page 3, Part A, Section II, “Hazards Associated with Animal Contact”, there is a list of agents with a column of check boxes. Answer “no” for all of them.</li>
-<li>Submit the form electronically (do not send it to Jeff, as it has personal health information).</li>
+<li>Submit the form electronically (<strong>do not send it to Jeff</strong>, as it has personal health information).</li>
 </ul></li>
 <li>If you receive an email from the IACP folks about the General Regulation Training (GRT), Occupational Health and Safety (OHS) form, and the Facility Orientation, you can ignore it. This email goes out if I add you to the IACUC protocol before you complete the online version of the GRT or before you submit your OHS form. And there is no facility orientation for the dog lab.</li>
 </ol></li>
 <li>Complete <a href="https://research.unl.edu/researchcompliance/required-human-subjects-training/">CITI IRB training</a> for <strong>Basic Course for Social/Behavioral Research Investigators and Key Personnel</strong>.
 <ul>
-<li>Make sure to select Basic Course not Refresher Course</li>
+<li>Make sure to select Basic Course <em>not</em> Refresher Course</li>
 <li>Send Jeff a PDF of the Completion Certificate when completed.</li>
 <li>If you have already completed IRB training at UNL, go to My Records and save a PDF of the Completion Certificate.</li>
 <li>If you have previously completed IRB CITI training through another (not UNL) institution, you should log into your existing account on the CITI website and click on “Add Affiliation.” This will allow CITI to link your completed courses across institutions and ensure that you do not repeat trainings unnecessarily.</li>
@@ -353,13 +356,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

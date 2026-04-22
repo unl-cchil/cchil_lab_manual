@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>References – CCHIL Lab Manual</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -56,10 +59,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9586ff6fce481591d5df716c2aa5024f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a527d3f7b52e65fbdda23b0415f46a01.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -254,7 +257,7 @@ div.csl-indent {
 </header>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-Hartley.2004" class="csl-entry" role="listitem">
 Hartley, James. 2004. <span>“Current Findings from Research on
 Structured Abstracts.”</span> <em>Journal of the Medical Library
@@ -275,10 +278,9 @@ Mehr, Samuel. 2020. <span>“How to... Write a Lab Handbook.”</span>
 <em>Biologist</em> 67 (2): 26–28.
 </div>
 <div id="ref-Nosek.etal.2019" class="csl-entry" role="listitem">
-Nosek, Brian A., Emorie D. Beck, Lorne Campbell, Jessica K. Flake, Tom
-E. Hardwicke, David T. Mellor, Anna E. van ’t Veer, and Simine Vazire.
-2019. <span>“Preregistration Is Hard, and Worthwhile.”</span> <em>Trends
-in Cognitive Sciences</em> 23 (10): 815–18. <a href="https://doi.org/10.1016/j.tics.2019.07.009">https://doi.org/10.1016/j.tics.2019.07.009</a>.
+<span class="nocase">Nosek, Brian A., Emorie D. Beck, Lorne Campbell, et
+al.</span> 2019. <span>“Preregistration Is Hard, and Worthwhile.”</span>
+<em>Trends in Cognitive Sciences</em> 23 (10): 815–18. <a href="https://doi.org/10.1016/j.tics.2019.07.009">https://doi.org/10.1016/j.tics.2019.07.009</a>.
 </div>
 <div id="ref-Wagenmakers.2007" class="csl-entry" role="listitem">
 Wagenmakers, Eric-Jan. 2007. <span>“A Practical Solution to the
@@ -286,11 +288,10 @@ Pervasive Problems of p Values.”</span> <em>Psychonomic Bulletin &amp;
 Review</em> 14 (5): 779–804. <a href="https://doi.org/10.3758/BF03194105">https://doi.org/10.3758/BF03194105</a>.
 </div>
 <div id="ref-Wagenmakers.etal.2018" class="csl-entry" role="listitem">
-Wagenmakers, Eric-Jan, Jonathon Love, Maarten Marsman, Tahira Jamil,
-Alexander Ly, Josine Verhagen, Ravi Selker, et al. 2018. <span>“Bayesian
-Inference for Psychology. <span>Part II</span>: <span>Example</span>
-Applications with <span>JASP</span>.”</span> <em>Psychonomic Bulletin
-&amp; Review</em> 25 (1): 58–76. <a href="https://doi.org/10.3758/s13423-017-1323-7">https://doi.org/10.3758/s13423-017-1323-7</a>.
+Wagenmakers, Eric-Jan, Jonathon Love, Maarten Marsman, et al. 2018.
+<span>“Bayesian Inference for Psychology. <span>Part II</span>:
+<span>Example</span> Applications with <span>JASP</span>.”</span>
+<em>Psychonomic Bulletin &amp; Review</em> 25 (1): 58–76. <a href="https://doi.org/10.3758/s13423-017-1323-7">https://doi.org/10.3758/s13423-017-1323-7</a>.
 </div>
 <div id="ref-Wickham.Grolemund.2017" class="csl-entry" role="listitem">
 Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for <span>Data
@@ -356,13 +357,14 @@ Xie, Y, J J Allaire, and G Grolemund. 2018. <em>R <span>Markdown</span>:
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

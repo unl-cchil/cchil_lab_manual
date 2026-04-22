@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>6&nbsp; Project and data management – CCHIL Lab Manual</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -58,10 +60,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9586ff6fce481591d5df716c2aa5024f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a527d3f7b52e65fbdda23b0415f46a01.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -91,7 +93,7 @@ div.csl-indent {
 }</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -104,7 +106,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -369,7 +371,7 @@ window.Quarto = {
 <p>This workflow needs to be in place for all CCHIL lab members. However, the workflow is not immutable—if you have suggestions on ways to improve it, let Jeff know. Though imposing our structure on collaborators is not feasible, we will try to maintain our project workflow as much as possible with people outside of the lab.</p>
 <section id="pre-registration" class="level3" data-number="6.2.1">
 <h3 data-number="6.2.1" class="anchored" data-anchor-id="pre-registration"><span class="header-section-number">6.2.1</span> Pre-registration</h3>
-<p>One way to improve replicability of our studies is to <a href="https://www.cos.io/prereg">pre-register</a> them <span class="citation" data-cites="Nosek.etal.2019">(<a href="references.html#ref-Nosek.etal.2019" role="doc-biblioref">Nosek et al. 2019</a>)</span>. Pre-registration means that you write down and post your plan for methods, data collection, data processing, and analysis <strong>before starting data collection</strong>. Pre-registration forces you to think about how you will analyze your data before you have any. This both helps in designing your data collection tools and limits the degrees of freedom available for <a href="https://psychology.wikia.org/wiki/P-hacking">p-hacking</a> at the analysis step.</p>
+<p>One way to improve replicability of our studies is to <a href="https://www.cos.io/prereg">pre-register</a> them <span class="citation" data-cites="Nosek.etal.2019">(<a href="references.html#ref-Nosek.etal.2019" role="doc-biblioref"><span class="nocase">Nosek et al.</span> 2019</a>)</span>. Pre-registration means that you write down and post your plan for methods, data collection, data processing, and analysis <strong>before starting data collection</strong>. Pre-registration forces you to think about how you will analyze your data before you have any. This both helps in designing your data collection tools and limits the degrees of freedom available for <a href="https://psychology.wikia.org/wiki/P-hacking">p-hacking</a> at the analysis step.</p>
 <p>There are a number of different ways to pre-register a study. This simplest is to complete the nine-question form at <a href="https://aspredicted.org/">AsPredicted.org</a>. Alternatively, the <a href="https://osf.io/prereg/">Open Science Framework pre-registration system</a> provides a more thorough avenue to pre-register your study. I highly recommend using the <a href="https://github.com/crsh/prereg"><code>{prereg}</code></a> package to create your pre-registration in R Markdown before submitting. However you choose to do so, you will need to pre-register your studies before starting data collection.</p>
 </section>
 <section id="data-collection" class="level3" data-number="6.2.2">
@@ -489,7 +491,7 @@ window.Quarto = {
 <section id="r-markdownquarto" class="level3" data-number="6.3.3">
 <h3 data-number="6.3.3" class="anchored" data-anchor-id="r-markdownquarto"><span class="header-section-number">6.3.3</span> R Markdown/Quarto</h3>
 <p>Though it is the worldwide standard and it has some advantages such as track changes, Microsoft Word has limitations for reproducible research because you cannot embed R code into the text to show how statistics are calculated. <a href="https://rmarkdown.rstudio.com/">R Markdown</a> allows the inclusion of R code into manuscripts and can produce beautiful documents. A key benefit of this is that, if your statistics change (because you have altered the R script), you do not have to change them by hand in the document. R Markdown will automatically update them. <strong>The standard for the lab is to use R Markdown for all publications</strong>. There may be cases in which we do not use R Markdown (e.g., working with collaborators outside of the lab), but it should be the default method for writing manuscripts. And I highly recommend using <a href="https://github.com/crsh/papaja"><code>{papaja}</code></a> to format APA style manuscripts.</p>
-<p>To use R Markdown, you will edit a plain-text <code>.Rmd</code> file that uses <a href="https://daringfireball.net/projects/markdown/">Markdown</a> syntax to format text and R code chunks to embed R calculations. In RStudio, you can then compile this file using the <code>{knitr}</code> package to generate a PDF of your document. It takes a bit of time to learn Markdown and R Markdown syntax, but the time invested is worth it to generate elegant, reproducible, updatable manuscripts. You can find <a href="https://decisionslab.unl.edu/data/duque_etal_2020_rr.zip">example R Markdown files</a> on the <a href="https://jeffreyrstevens.quarto.pub/publications.html">lab’s publications page</a> and check out <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> <span class="citation" data-cites="Xie.etal.2018">(<a href="references.html#ref-Xie.etal.2018" role="doc-biblioref">Xie, Allaire, and Grolemund 2018</a>)</span>.</p>
+<p>To use R Markdown, you will edit a plain-text <code>.Rmd</code> file that uses <a href="https://daringfireball.net/projects/markdown/">Markdown</a> syntax to format text and R code chunks to embed R calculations. In RStudio, you can then compile this file using the <code>{knitr}</code> package to generate a PDF of your document. It takes a bit of time to learn Markdown and R Markdown syntax, but the time invested is worth it to generate elegant, reproducible, updatable manuscripts. You can find <a href="https://decisionslab.unl.edu/data/duque_etal_2020_rr.zip">example R Markdown files</a> on the <a href="https://jeffreyrstevens.quarto.pub/publications.html">lab’s publications page</a> and check out <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> <span class="citation" data-cites="Xie.etal.2018">(<a href="references.html#ref-Xie.etal.2018" role="doc-biblioref">Xie et al. 2018</a>)</span>.</p>
 <p><a href="https://quarto.org">Quarto</a> is the next generation of R Markdown. While it’s great for presentation and websites, there currently isn’t a robust template for making APA-formatted journal articles, so I don’t recommend using it for manuscripts just yet.</p>
 </section>
 <section id="dissemination" class="level3" data-number="6.3.4">
@@ -517,9 +519,9 @@ window.Quarto = {
 <p>For our purposes, there are two primary preprint servers. <a href="https://psyarxiv.com/">PsyArXiv</a> focuses on psychology-related content and is associated with the OSF. In fact, you can import files directly from your OSF projects. <a href="https://www.biorxiv.org/">BioRxiv</a> focuses on biology-related content and has direct connections to many biology journals.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-Nosek.etal.2019" class="csl-entry" role="listitem">
-Nosek, Brian A., Emorie D. Beck, Lorne Campbell, Jessica K. Flake, Tom E. Hardwicke, David T. Mellor, Anna E. van ’t Veer, and Simine Vazire. 2019. <span>“Preregistration Is Hard, and Worthwhile.”</span> <em>Trends in Cognitive Sciences</em> 23 (10): 815–18. <a href="https://doi.org/10.1016/j.tics.2019.07.009">https://doi.org/10.1016/j.tics.2019.07.009</a>.
+<span class="nocase">Nosek, Brian A., Emorie D. Beck, Lorne Campbell, et al.</span> 2019. <span>“Preregistration Is Hard, and Worthwhile.”</span> <em>Trends in Cognitive Sciences</em> 23 (10): 815–18. <a href="https://doi.org/10.1016/j.tics.2019.07.009">https://doi.org/10.1016/j.tics.2019.07.009</a>.
 </div>
 <div id="ref-Wickham.Grolemund.2017" class="csl-entry" role="listitem">
 Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for <span>Data Science</span></em>. <span>O’Reilly Media</span>.
@@ -584,13 +586,14 @@ Xie, Y, J J Allaire, and G Grolemund. 2018. <em>R <span>Markdown</span>: <span>T
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
