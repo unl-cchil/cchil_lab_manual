@@ -6,3 +6,5 @@
 /.quarto/
 
 /old/
+
+**/*.quarto_ipynb

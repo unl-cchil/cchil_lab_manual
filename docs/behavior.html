@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>2&nbsp; Behavior and communication – CCHIL Lab Manual</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -58,10 +60,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9586ff6fce481591d5df716c2aa5024f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f633aac4ced4f3378e07b5624bd7a84a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -386,7 +388,7 @@ div.csl-indent {
 <p>Open communication is the key to preventing or resolving problems in the lab. If you are having problems with other students or lab equipment/materials, contact Jeff or a grad student. If you are having problems with a grad student, contact Jeff. If you are having a problem with Jeff, contact Jeff. If you’re not comfortable contacting Jeff, you can contact other faculty (<a href="mailto:mdodd2@unl.edu">Mike Dodd</a> and <a href="maitalneta@unl.edu">Maital Neta</a> have agreed to be available for lab members to contact), the Department Chair (<a href="mailto:ddilillo2@unl.edu">David DiLillo</a>), or the Graduate Committee Chair (<a href="mailto:mdodd2@unl.edu">Mike Dodd</a>). If these parties cannot resolve the issue, a formal grievance can be submitted to the Department Chair or directly to a member of the department <a href="https://psychology.unl.edu/committees">Grievance Committee</a> (see instructions in <a href="https://psychology.unl.edu/Psych%20Dept%20Bylaws.pdf">Department Bylaws</a>). For sexual harassment or misconduct issues, contact the UNL <a href="https://www.unl.edu/equity/title-ix">Title IX Office</a>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-Maestre.2019" class="csl-entry" role="listitem">
 Maestre, Fernando T. 2019. <span>“Ten Simple Rules Towards Healthier Research Labs.”</span> <em>PLOS Computational Biology</em> 15 (4): e1006914. <a href="https://doi.org/10.1371/journal.pcbi.1006914">https://doi.org/10.1371/journal.pcbi.1006914</a>.
 </div>
@@ -446,13 +448,14 @@ Maestre, Fernando T. 2019. <span>“Ten Simple Rules Towards Healthier Research 
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

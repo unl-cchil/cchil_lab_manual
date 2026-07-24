@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>5&nbsp; Experimental protocols – CCHIL Lab Manual</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9586ff6fce481591d5df716c2aa5024f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f633aac4ced4f3378e07b5624bd7a84a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -234,23 +237,24 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#after-testing-sessions" id="toc-after-testing-sessions" class="nav-link" data-scroll-target="#after-testing-sessions"><span class="header-section-number">5.4</span> After testing sessions</a>
   <ul class="collapse">
   <li><a href="#shutting-down-cameras-and-backing-up-videos" id="toc-shutting-down-cameras-and-backing-up-videos" class="nav-link" data-scroll-target="#shutting-down-cameras-and-backing-up-videos"><span class="header-section-number">5.4.1</span> Shutting down cameras and backing up videos</a></li>
-  <li><a href="#cleaning" id="toc-cleaning" class="nav-link" data-scroll-target="#cleaning"><span class="header-section-number">5.4.2</span> Cleaning</a></li>
-  <li><a href="#updating-database" id="toc-updating-database" class="nav-link" data-scroll-target="#updating-database"><span class="header-section-number">5.4.3</span> Updating database</a></li>
+  <li><a href="#cleaning-sec-cleaning" id="toc-cleaning-sec-cleaning" class="nav-link" data-scroll-target="#cleaning-sec-cleaning"><span class="header-section-number">5.4.2</span> Cleaning {sec-cleaning}</a></li>
+  <li><a href="#updating-database-sec-update-database" id="toc-updating-database-sec-update-database" class="nav-link" data-scroll-target="#updating-database-sec-update-database"><span class="header-section-number">5.4.3</span> Updating database {sec-update-database}</a></li>
   <li><a href="#social-media-posts" id="toc-social-media-posts" class="nav-link" data-scroll-target="#social-media-posts"><span class="header-section-number">5.4.4</span> Social media posts</a></li>
   </ul></li>
   <li><a href="#separation" id="toc-separation" class="nav-link" data-scroll-target="#separation"><span class="header-section-number">5.5</span> Separation anxiety protocol</a></li>
   <li><a href="#cleaning-protocol" id="toc-cleaning-protocol" class="nav-link" data-scroll-target="#cleaning-protocol"><span class="header-section-number">5.6</span> Cleaning protocol</a></li>
-  <li><a href="#safety-protocol" id="toc-safety-protocol" class="nav-link" data-scroll-target="#safety-protocol"><span class="header-section-number">5.7</span> Safety protocol</a>
+  <li><a href="#experiment-wrap-up-checklist" id="toc-experiment-wrap-up-checklist" class="nav-link" data-scroll-target="#experiment-wrap-up-checklist"><span class="header-section-number">5.7</span> Experiment wrap up checklist</a></li>
+  <li><a href="#safety-protocol" id="toc-safety-protocol" class="nav-link" data-scroll-target="#safety-protocol"><span class="header-section-number">5.8</span> Safety protocol</a>
   <ul class="collapse">
-  <li><a href="#dog-bite" id="toc-dog-bite" class="nav-link" data-scroll-target="#dog-bite"><span class="header-section-number">5.7.1</span> Dog bite</a></li>
+  <li><a href="#dog-bite" id="toc-dog-bite" class="nav-link" data-scroll-target="#dog-bite"><span class="header-section-number">5.8.1</span> Dog bite</a></li>
   </ul></li>
-  <li><a href="#emergency-protocol" id="toc-emergency-protocol" class="nav-link" data-scroll-target="#emergency-protocol"><span class="header-section-number">5.8</span> Emergency protocol</a>
+  <li><a href="#emergency-protocol" id="toc-emergency-protocol" class="nav-link" data-scroll-target="#emergency-protocol"><span class="header-section-number">5.9</span> Emergency protocol</a>
   <ul class="collapse">
-  <li><a href="#smoke-or-fire-alarm" id="toc-smoke-or-fire-alarm" class="nav-link" data-scroll-target="#smoke-or-fire-alarm"><span class="header-section-number">5.8.1</span> Smoke or fire alarm</a></li>
-  <li><a href="#tornado-warning" id="toc-tornado-warning" class="nav-link" data-scroll-target="#tornado-warning"><span class="header-section-number">5.8.2</span> Tornado warning</a></li>
-  <li><a href="#shooting-or-violence" id="toc-shooting-or-violence" class="nav-link" data-scroll-target="#shooting-or-violence"><span class="header-section-number">5.8.3</span> Shooting or violence</a></li>
-  <li><a href="#gas-leak" id="toc-gas-leak" class="nav-link" data-scroll-target="#gas-leak"><span class="header-section-number">5.8.4</span> Gas leak</a></li>
-  <li><a href="#more-info" id="toc-more-info" class="nav-link" data-scroll-target="#more-info"><span class="header-section-number">5.8.5</span> More info</a></li>
+  <li><a href="#smoke-or-fire-alarm" id="toc-smoke-or-fire-alarm" class="nav-link" data-scroll-target="#smoke-or-fire-alarm"><span class="header-section-number">5.9.1</span> Smoke or fire alarm</a></li>
+  <li><a href="#tornado-warning" id="toc-tornado-warning" class="nav-link" data-scroll-target="#tornado-warning"><span class="header-section-number">5.9.2</span> Tornado warning</a></li>
+  <li><a href="#shooting-or-violence" id="toc-shooting-or-violence" class="nav-link" data-scroll-target="#shooting-or-violence"><span class="header-section-number">5.9.3</span> Shooting or violence</a></li>
+  <li><a href="#gas-leak" id="toc-gas-leak" class="nav-link" data-scroll-target="#gas-leak"><span class="header-section-number">5.9.4</span> Gas leak</a></li>
+  <li><a href="#more-info" id="toc-more-info" class="nav-link" data-scroll-target="#more-info"><span class="header-section-number">5.9.5</span> More info</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -519,8 +523,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Back up both the GoPro and room camera videos on the desktop computer in the project-specific folder. Make sure all videos are saved on the desktop computer hard drive before deleting them from the SD card or USB drive.</li>
 </ol>
 </section>
-<section id="cleaning" class="level3" data-number="5.4.2">
-<h3 data-number="5.4.2" class="anchored" data-anchor-id="cleaning"><span class="header-section-number">5.4.2</span> Cleaning</h3>
+<section id="cleaning-sec-cleaning" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="cleaning-sec-cleaning"><span class="header-section-number">5.4.2</span> Cleaning {sec-cleaning}</h3>
 <ol type="1">
 <li>Sweep the experimental room (including the mat) with the rubber broom and/or vacuum.</li>
 <li>Spray the experimental room with a light mist of disinfectant (PREempt) using the backpack container (be sure to hold the wand as high as possible to ensure a light layer of spray otherwise the floor will get sticky). If the backpack container is empty, refill it with the PREempt solution at full strength from the bottles in the supply closet. <!-- 3. Wipe all door handles and light switches down with a Clorox wipe (I wipe the keyboard down as well if participants used it to take a survey). --></li>
@@ -528,8 +532,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Make sure all treats are put away (open bags in the refrigerator) and turn all lights off when leaving.</li>
 </ol>
 </section>
-<section id="updating-database" class="level3" data-number="5.4.3">
-<h3 data-number="5.4.3" class="anchored" data-anchor-id="updating-database"><span class="header-section-number">5.4.3</span> Updating database</h3>
+<section id="updating-database-sec-update-database" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="updating-database-sec-update-database"><span class="header-section-number">5.4.3</span> Updating database {sec-update-database}</h3>
 <ol type="1">
 <li>Log into the <a href="https://decisionslab.unl.edu/doglab/researchers/">Dog Lab dashboard</a> and select <em>Continue to add study data to database</em>.</li>
 <li>In the drop down box, select <em>Record of dog participation in study</em>.</li>
@@ -592,10 +596,23 @@ ul.task-list li input[type="checkbox"] {
 <li>Be sure that the dog does not mess with the sprayed area while it sits!</li>
 </ul>
 </section>
-<section id="safety-protocol" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="safety-protocol"><span class="header-section-number">5.7</span> Safety protocol</h2>
-<section id="dog-bite" class="level3" data-number="5.7.1">
-<h3 data-number="5.7.1" class="anchored" data-anchor-id="dog-bite"><span class="header-section-number">5.7.1</span> Dog bite</h3>
+<section id="experiment-wrap-up-checklist" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="experiment-wrap-up-checklist"><span class="header-section-number">5.7</span> Experiment wrap up checklist</h2>
+<p>When an experiment is complete, ensure everything is cleaned up and archived appropriately by completing this checklist:</p>
+<ul>
+<li>Conduct a thorough cleaning of the testing area. This involves the standard <a href="#sec-cleaning">end-of-session cleaning</a> but then a more thorough vacuuming and mopping of the floor.</li>
+<li>Remove all equipment and materials from the testing area and store elsewhere in the lab. Leftover treats must be labeled with the opening date. Disposable materials should be placed in the trash or recycling.</li>
+<li>Ensure all data are recorded in the appropriate spreadsheet(s) on OneDrive/SharePoint.</li>
+<li>Store all paper data files, signed consent forms, and media releases in labeled file folders in the file drawers in the office.</li>
+<li>Ensure all video recordings are uploaded to the appropriate OneDrive/SharePoint folder and labeled. Once all recordings are uploaded, store all SD cards in the office.</li>
+<li>Ensure all data are stored in the CCHIL office. No paper data files, SD cards, or other data storage system should be brought home or stored outside the lab.</li>
+<li>Ensure all subjects have been <a href="#sec-update-database">added to the database</a>.</li>
+</ul>
+</section>
+<section id="safety-protocol" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="safety-protocol"><span class="header-section-number">5.8</span> Safety protocol</h2>
+<section id="dog-bite" class="level3" data-number="5.8.1">
+<h3 data-number="5.8.1" class="anchored" data-anchor-id="dog-bite"><span class="header-section-number">5.8.1</span> Dog bite</h3>
 <p>IN CASE OF A DOG BITE OR AGGRESSIVE DOG:</p>
 <ol type="1">
 <li>Ask the owner/dog to leave the lab at this time.</li>
@@ -609,11 +626,11 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </section>
 </section>
-<section id="emergency-protocol" class="level2" data-number="5.8">
-<h2 data-number="5.8" class="anchored" data-anchor-id="emergency-protocol"><span class="header-section-number">5.8</span> Emergency protocol</h2>
+<section id="emergency-protocol" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="emergency-protocol"><span class="header-section-number">5.9</span> Emergency protocol</h2>
 <p>Report all emergencies: UNL Police 402-472-2222 or 911</p>
-<section id="smoke-or-fire-alarm" class="level3" data-number="5.8.1">
-<h3 data-number="5.8.1" class="anchored" data-anchor-id="smoke-or-fire-alarm"><span class="header-section-number">5.8.1</span> Smoke or fire alarm</h3>
+<section id="smoke-or-fire-alarm" class="level3" data-number="5.9.1">
+<h3 data-number="5.9.1" class="anchored" data-anchor-id="smoke-or-fire-alarm"><span class="header-section-number">5.9.1</span> Smoke or fire alarm</h3>
 <p><strong>EVACUATE</strong></p>
 <ul>
 <li>Pull nearest fire alarm</li>
@@ -626,8 +643,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Re-enter only if directed</li>
 </ul>
 </section>
-<section id="tornado-warning" class="level3" data-number="5.8.2">
-<h3 data-number="5.8.2" class="anchored" data-anchor-id="tornado-warning"><span class="header-section-number">5.8.2</span> Tornado warning</h3>
+<section id="tornado-warning" class="level3" data-number="5.9.2">
+<h3 data-number="5.9.2" class="anchored" data-anchor-id="tornado-warning"><span class="header-section-number">5.9.2</span> Tornado warning</h3>
 <p><strong>SHELTER</strong></p>
 <ul>
 <li>Stay in basement, including participants and dogs</li>
@@ -637,8 +654,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Stay in shelter until warning expires</li>
 </ul>
 </section>
-<section id="shooting-or-violence" class="level3" data-number="5.8.3">
-<h3 data-number="5.8.3" class="anchored" data-anchor-id="shooting-or-violence"><span class="header-section-number">5.8.3</span> Shooting or violence</h3>
+<section id="shooting-or-violence" class="level3" data-number="5.9.3">
+<h3 data-number="5.9.3" class="anchored" data-anchor-id="shooting-or-violence"><span class="header-section-number">5.9.3</span> Shooting or violence</h3>
 <p><strong>RUN, HIDE, FIGHT</strong></p>
 <ul>
 <li>RUN - if you know where the danger is and it is safe to go</li>
@@ -646,12 +663,12 @@ ul.task-list li input[type="checkbox"] {
 <li>FIGHT - if hiding is not an option, fight as if your life depends on it</li>
 </ul>
 </section>
-<section id="gas-leak" class="level3" data-number="5.8.4">
-<h3 data-number="5.8.4" class="anchored" data-anchor-id="gas-leak"><span class="header-section-number">5.8.4</span> Gas leak</h3>
+<section id="gas-leak" class="level3" data-number="5.9.4">
+<h3 data-number="5.9.4" class="anchored" data-anchor-id="gas-leak"><span class="header-section-number">5.9.4</span> Gas leak</h3>
 <p>Follow instructions to EVACUATE or SHELTER.</p>
 </section>
-<section id="more-info" class="level3" data-number="5.8.5">
-<h3 data-number="5.8.5" class="anchored" data-anchor-id="more-info"><span class="header-section-number">5.8.5</span> More info</h3>
+<section id="more-info" class="level3" data-number="5.9.5">
+<h3 data-number="5.9.5" class="anchored" data-anchor-id="more-info"><span class="header-section-number">5.9.5</span> More info</h3>
 <ul>
 <li><a href="https://emergency.unl.edu" class="uri">https://emergency.unl.edu</a></li>
 <li>911</li>
@@ -714,13 +731,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

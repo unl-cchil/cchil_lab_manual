@@ -1,0 +1,112 @@
+# Ethics and safety {#ethics}
+
+
+**Under constructions**
+
+## Working with human subjects
+irb procedures; safety procedures; what to do when something goes wrong; what to do/who to call in an emergency
+how to handle data protection and security
+
+## Working with nonhuman subjects
+
+
+## Emergency situations
+
+<!-- ## COVID response -->
+<!-- This protocol is based on and drawn from [guidelines](https://www.cdc.gov/coronavirus/2019-ncov/community/guidance-business-response.html) published by the [Center for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/community/guidance-business-response.html). -->
+
+<!-- ### Prevention -->
+<!-- To prevent contracting COVID-19 when outside the lab, follow CDC guidelines for How to Protect Yourself and Others. -->
+
+<!-- #### Wash your hands often {-} -->
+
+<!-- - [Wash your hands](https://www.cdc.gov/handwashing/when-how-handwashing.html) often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.  -->
+<!-- - If soap and water are not readily available, **use a hand sanitizer that contains at least 60% alcohol**. Cover all surfaces of your hands and rub them together until they feel dry.  -->
+<!-- - **Avoid touching your eyes, nose, and mouth with unwashed hands.**  -->
+
+<!-- #### Avoid close contact {-} -->
+<!-- - *Avoid close contact with people who are sick, even inside your home.** If possible, maintain 6 feet between the person who is sick and other household members.  -->
+<!-- - **Put distance between yourself and other people outside of your home.**  -->
+<!--     * Remember that some people without symptoms may be able to spread virus.  -->
+<!--     * [Stay at least 6 feet (about 2 arms’ length) from other people](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html).  -->
+<!--     * Do not gather in groups.  -->
+<!--     * Stay out of crowded places and avoid mass gatherings.  -->
+<!--     * Keeping distance from others is especially important for [people who are at higher risk of getting very sick](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html).  -->
+
+<!-- #### Cover your mouth and nose with a cloth face cover when around others {-} -->
+<!-- - You could spread COVID-19 to others even if you do not feel sick.  -->
+<!-- - Everyone should [wear a cloth face cover](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html) when they have to go out in public, for example to the grocery store or to pick up other necessities.  -->
+<!--     * Cloth face coverings should not be placed on young children under age 2, anyone who has trouble breathing, or is unconscious, incapacitated or otherwise unable to remove the mask without assistance.  -->
+<!-- - The cloth face cover is meant to protect other people in case you are infected.  -->
+<!-- - Do NOT use a facemask meant for a healthcare worker.  -->
+<!-- - Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing.  -->
+
+<!-- #### Cover coughs and sneezes {-} -->
+<!-- - **If you are in a private setting and do not have on your cloth face covering, remember to always cover your mouth and nose** with a tissue when you cough or sneeze or use the inside of your elbow.  -->
+<!-- - **Throw used tissues in the trash**.  -->
+<!-- - Immediately **wash your hands** with soap and water for at least 20 seconds. If soap and water are not readily available, clean your hands with a hand sanitizer that contains at least 60% alcohol.  -->
+
+<!-- #### Clean and disinfect  {-} -->
+<!-- - **Clean AND disinfect [frequently touched surfaces](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/disinfecting-your-home.html) daily**. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.  -->
+<!-- - **If surfaces are dirty, clean them.** Use detergent or soap and water prior to disinfection.  -->
+<!-- - **Then, use a household disinfectant.** Most common [EPA-registered household disinfectants will work](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2).  -->
+
+<!-- ### Exposure -->
+<!-- There is no problem or stigma associated with exposure or potential exposure to COVID-19. But we do need to know in order to plan appropriately. To protect the health and safety of all lab members, please contact the PI and your immediate supervisor (e.g., graduate student) as soon as you think you might be exposed to or have been diagnosed with COVID-19.  -->
+
+<!-- #### Quarantine -->
+<!-- If you think that you might have been *exposed* to COVID-19, you should **quarantine** by staying home, separating yourself from others, monitoring your health, and following directions from your state or local health department. -->
+
+<!-- If you think that you might have been exposed to COVID-19 but you feel healthy, follow the [CDC recommendations](https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/quarantine-isolation.html): -->
+
+<!-- - Stay home until 14 days after your last exposure. -->
+<!-- - Check your temperature twice a day and watch for symptoms of COVID-19.  -->
+<!-- - If possible, stay away from people who are at [higher-risk](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html) for getting very sick from COVID-19.  -->
+
+<!-- If the person who potentially exposed you to COVID-19 has tested negative for the virus: -->
+
+<!-- - Stay home until 10 days after your potential exposure. -->
+
+<!-- **Contact your supervisor before returning to the lab.** -->
+
+<!-- #### Isolation -->
+<!-- If you were *diagnosed* with COVID-19, are waiting for test results, or have cough, fever, or shortness of breath, or [other symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) of COVID-19, you should go into **isolation** by staying home until [it’s safe to be around others](https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html#discontinue-isolation). In the home, anyone sick or infected should separate themselves from others by staying in a specific “sick room” or area and using a separate bathroom (if available). -->
+
+<!-- If you have had COVID-19 and have stayed home (home isolated), you can leave home under the following conditions: -->
+
+<!-- - If you have not had a test to determine if you are still contagious, you can leave home after these three things have happened:  -->
+<!--     * You have had no fever for at least 72 hours (that is three full days of no fever without the use of medicine that reduces fevers) -->
+<!-- **AND**  -->
+<!--     * other symptoms have improved (for example, when your cough or shortness of breath have improved) -->
+<!-- **AND**  -->
+<!--     * at least 10 days have passed since your symptoms first appeared  -->
+<!-- - If you have had a test to determine if you are still contagious, you can leave home after these three things have happened:  -->
+<!--     * You no longer have a fever (without the use of medicine that reduces fevers) -->
+<!-- **AND**  -->
+<!--     * other symptoms have improved (for example, when your cough or shortness of breath have improved) -->
+<!-- **AND**  -->
+<!--     * you received two negative tests in a row, at least 24 hours apart. Your doctor will follow [CDC guidelines](https://www.cdc.gov/coronavirus/2019-ncov/hcp/disposition-in-home-patients.html).  -->
+<!-- People who DID NOT have COVID-19 symptoms, but tested positive and have stayed home (home isolated) can leave home under the following conditions: -->
+<!-- - If you have not had a test to determine if you are still contagious, you can leave home after these two things have happened:  -->
+<!--     * At least 10 days have passed since the date of your first positive test -->
+<!-- **AND**  -->
+<!--     * you continue to have no symptoms (no cough or shortness of breath) since the test.  -->
+<!-- - If you have had a test to determine if you are still contagious, you can leave home after:  -->
+<!--     * You received two negative tests in a row, at least 24 hours apart. Your doctor will follow [CDC guidelines](https://www.cdc.gov/coronavirus/2019-ncov/hcp/disposition-in-home-patients.html).  -->
+<!-- Please wait at least an additional week before returning to the lab. **Contact your supervisor before returning to the lab.** -->
+
+
+<!-- ### Lab Procedures -->
+
+<!-- <!-- - In addition to wearing pants and closed-toed shoes, personal protection equipment required for the lab includes wearing masks, gloves, and lab coats. Masks are now required at all times in the animal facility. Put on your mask as soon as you enter the facility, and keep it on the entire time that you are in the facility, even if no one else is in the facility. --> -->
+<!-- - Wash your hands thoroughly upon entering the lab, and put on gloves immediately. Keep gloves on at all times, and change them as necessary. Wash your hands thoroughly before leaving the lab. -->
+<!-- - Do not touch or use your cell phone unless **absolutely necessary** when you have gloves on. Routine text, email, Slack, and browser usage are not considered necessary and should not occur when wearing gloves. If you do need to use  your phone for lab-related purposes, wipe it down with a disinfectant wipe. -->
+<!-- - Avoid social contact by staying at least six feet away from research participants and others in the lab when possible. Set up the lab environment to ensure this distance is maintained (e.g., placing tape on the ground marking appropriate distances). -->
+<!-- - If maintaining a distance of six feet is impossible, take extra precautions to  -->
+<!--     * only be closer than six feed when absolutely required and for the shortest possible time, -->
+<!--     * ensure that the people involved have and are properly using masks and gloves, -->
+<!--     * avoid sharing objects that others have touched, -->
+<!--     * avoid coughing, sneezing, and breathing toward others. -->
+<!-- - Clean and disinfect equipment and surfaces as needed. If equipment or surfaces are dirty, first clean them with soap and water. Then, disinfect with either a 10% bleach solution or disinfectant wipes. Let the bleach solution stand for 1 minute before wiping down. Objects and surfaces contacted by research participants (e.g., keyboards, computer mice, pens, countertops near computers) should be cleaned and disinfected after each participant contacts them. Objects and surfaces used frequently (e.g., door knobs/handles, tablets) should be disinfected daily. Objects and surfaces used less frequently should be disinfected weekly or after each use. -->
+
+<!-- Above all, we are interested in maintaining the health and safety of our staff, participants, and animals. So please act in accordance with these priorities. If you have any questions, problems, or suggestions, please contact the PI. -->
