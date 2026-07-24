@@ -159,7 +159,7 @@ need is in frame.
 
 3. Back up both the GoPro and room camera videos on the desktop computer in the project-specific folder. Make sure all videos are saved on the desktop computer hard drive before deleting them from the SD card or USB drive.
 
-### Cleaning {sec-cleaning}
+### Cleaning {#sec-cleaning}
 1. Sweep the experimental room (including the mat) with the rubber broom and/or vacuum.
 1. Spray the experimental room with a light mist of disinfectant (PREempt) using the backpack container (be sure to hold the wand as high as possible to ensure a light layer of spray otherwise the floor will get sticky). If the backpack container is empty, refill it with the PREempt solution at full strength from the bottles in the supply closet.
 <!-- 3. Wipe all door handles and light switches down with a Clorox wipe (I wipe the keyboard down as well if participants used it to take a survey). -->
@@ -167,7 +167,7 @@ need is in frame.
 1. Make sure all treats are put away (open bags in the refrigerator) and turn all lights off when leaving.
 
 
-### Updating database {sec-update-database}
+### Updating database {#sec-update-database}
 1. Log into the [Dog Lab dashboard](https://decisionslab.unl.edu/doglab/researchers/) and select _Continue to add study data to database_.
 3. In the drop down box, select _Record of dog participation in study_.
 4. Fill in the required information (Dog’s name, Owner's Phone Number, Study Name, and Date) and click _Submit_.
